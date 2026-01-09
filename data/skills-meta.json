@@ -1,0 +1,23 @@
+{
+  "algorithmic-art": {
+    "useCases": [
+      "Generate procedural art previews for creative reviews",
+      "Create variations for social and editorial assets"
+    ],
+    "tags": ["generative", "canvas", "visual"]
+  },
+  "docx": {
+    "useCases": [
+      "Draft professional documents with tracked changes",
+      "Extract or update content while preserving formatting"
+    ],
+    "tags": ["document", "editing", "office"]
+  },
+  "mcp-builder": {
+    "useCases": [
+      "Bootstrap MCP servers with best practices",
+      "Evaluate tool reliability before shipping"
+    ],
+    "tags": ["mcp", "server", "tooling"]
+  }
+}

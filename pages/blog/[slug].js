@@ -1,0 +1,52 @@
+import { useRouter } from "next/router";
+import SeoHead from "../../components/SeoHead";
+import { getAllPosts, getPostBySlug } from "../../lib/blog";
+import { markdownToHtml } from "../../lib/markdown";
+import { getLocaleFromPath } from "../../lib/paths";
+
+export default function BlogDetail({ post, html, forcedLocale }) {
+  const router = useRouter();
+  const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
+
+  return (
+    <>
+      <SeoHead
+        title={post.title}
+        description={post.description}
+        path={locale === "zh" ? `/blog/${post.slug}` : `/en/blog/${post.slug}`}
+      />
+      <section className="detail-hero">
+        <div>
+          <p className="eyebrow">{post.date}</p>
+          <h1>{post.title}</h1>
+          <p className="lead">{post.description}</p>
+        </div>
+      </section>
+      <section className="section detail-body">
+        <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
+      </section>
+    </>
+  );
+}
+
+export async function getStaticProps({ params }) {
+  const post = getPostBySlug(params.slug);
+  const html = markdownToHtml(post.body);
+
+  return {
+    props: {
+      post,
+      html
+    }
+  };
+}
+
+export async function getStaticPaths() {
+  const posts = getAllPosts();
+  const paths = posts.map((post) => ({ params: { slug: post.slug } }));
+
+  return {
+    paths,
+    fallback: false
+  };
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://allskills.cn/sitemap.xml
