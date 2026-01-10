@@ -14,6 +14,7 @@ export default function BlogDetail({ post, html, forcedLocale }) {
         title={post.title}
         description={post.description}
         path={locale === "zh" ? `/blog/${post.slug}` : `/en/blog/${post.slug}`}
+        ogType="article"
       />
       <section className="detail-hero">
         <div>
@@ -30,7 +31,7 @@ export default function BlogDetail({ post, html, forcedLocale }) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug);
+  const post = getPostBySlug(params.slug, "zh");
   const html = markdownToHtml(post.body);
 
   return {
@@ -42,7 +43,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts();
+  const posts = getAllPosts("zh");
   const paths = posts.map((post) => ({ params: { slug: post.slug } }));
 
   return {

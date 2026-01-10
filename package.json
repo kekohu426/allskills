@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev -H 127.0.0.1 -p 8000",
     "build": "next build",
+    "postbuild": "node scripts/generate-sitemap.js",
     "export": "next export",
     "start": "next start",
     "sitemap": "node scripts/generate-sitemap.js"

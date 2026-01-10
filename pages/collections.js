@@ -8,6 +8,7 @@ import { getLocaleFromPath, toAnchorId } from "../lib/paths";
 export default function CollectionsPage({ categories, forcedLocale }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
+  const sorted = [...categories].sort((a, b) => b.items.length - a.items.length);
 
   return (
     <>
@@ -23,7 +24,7 @@ export default function CollectionsPage({ categories, forcedLocale }) {
         </div>
       </section>
       <section className="section">
-        {categories.map((category) => (
+        {sorted.map((category) => (
           <div key={category.name} className="collection" id={toAnchorId(category.name)}>
             <div className="collection__header">
               <h2>{category.name}</h2>

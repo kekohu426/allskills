@@ -35,18 +35,18 @@ export default function About({ forcedLocale }) {
               致力于为中文用户提供便捷的 AI Skills 浏览和使用体验。
             </p>
 
-            <h2>📦 我们做了什么？</h2>
+            <h2>我们做了什么？</h2>
             <ul>
-              <li>从 Anthropic 官方 GitHub 仓库同步最新 Skills</li>
+              <li>从官方与社区仓库同步最新 Skills</li>
               <li>提供中文翻译与使用说明</li>
               <li>按分类整理，支持搜索与筛选</li>
               <li>优化移动端体验，随时随地访问</li>
               <li>编写教程和案例，降低使用门槛</li>
             </ul>
 
-            <h2>⚖️ 版权与协议</h2>
+            <h2>版权与协议</h2>
             <p>
-              所有 Skills 的原始内容版权归 <strong>Anthropic</strong> 所有，
+              Skills 的原始内容来自官方与社区仓库，
               遵循各 Skill 标注的开源协议（Apache 2.0 或 Source-available）。
             </p>
             <p>
@@ -55,13 +55,14 @@ export default function About({ forcedLocale }) {
               <a href="mailto:contact@allskills.cn"> contact@allskills.cn</a>。
             </p>
 
-            <h2>🔗 有用的链接</h2>
+            <h2>有用的链接</h2>
             <ul>
               <li>
                 <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">
                   Anthropic Skills 官方仓库
                 </a>
               </li>
+              <li>社区镜像/衍生仓库（不同来源）</li>
               <li>
                 <a href="https://www.anthropic.com" target="_blank" rel="noopener">
                   Anthropic 官网
@@ -82,8 +83,8 @@ export default function About({ forcedLocale }) {
             </p>
             <h2>Data Sources</h2>
             <p>
-              The original skills are sourced from the official Anthropic Skills repository and
-              follow their declared licenses.
+              Skills are sourced from official and community repositories and follow the declared
+              licenses in each skill.
             </p>
             <h2>Contact</h2>
             <p>

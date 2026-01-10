@@ -37,8 +37,8 @@ export default function BlogPage({ posts, forcedLocale }) {
   );
 }
 
-export async function getStaticProps() {
-  const posts = getAllPosts();
+export async function getStaticProps({ params }) {
+  const posts = getAllPosts("zh");
 
   return {
     props: {
