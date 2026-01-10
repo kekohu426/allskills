@@ -78,9 +78,14 @@ export default function Home({ skills, categories, forcedLocale }) {
   const featuredSlugs = [
     "canvas-design",
     "algorithmic-art",
-    "awesome-content-research-writer",
     "brand-guidelines",
-    "doc-coauthoring"
+    "doc-coauthoring",
+    "frontend-design",
+    "mcp-builder",
+    "webapp-testing",
+    "pdf",
+    "slack-gif-creator",
+    "internal-comms"
   ];
 
   const featuredSkills = featuredSlugs
