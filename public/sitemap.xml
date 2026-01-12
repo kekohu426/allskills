@@ -43,10 +43,16 @@
     <loc>https://allskills.cn/en/skills/skills-main-algorithmic-art</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-artifacts-builder</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-artifacts-builder</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-brainstorming</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-brainstorming</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/brand-guidelines</loc>
@@ -55,10 +61,10 @@
     <loc>https://allskills.cn/en/skills/brand-guidelines</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-brand-guidelines</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-brand-guidelines</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-brand-guidelines</loc>
@@ -73,10 +79,10 @@
     <loc>https://allskills.cn/en/skills/canvas-design</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-canvas-design</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-canvas-design</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-canvas-design</loc>
@@ -85,28 +91,34 @@
     <loc>https://allskills.cn/en/skills/skills-main-canvas-design</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-changelog-generator</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-changelog-generator</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-competitive-ads-extractor</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-competitive-ads-extractor</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-content-research-writer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-content-research-writer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-developer-growth-analysis</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-developer-growth-analysis</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-dispatching-parallel-agents</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-dispatching-parallel-agents</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/doc-coauthoring</loc>
@@ -127,10 +139,10 @@
     <loc>https://allskills.cn/en/skills/docx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-docx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-docx</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-docx</loc>
@@ -139,16 +151,28 @@
     <loc>https://allskills.cn/en/skills/skills-main-docx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-domain-name-brainstormer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-domain-name-brainstormer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/superpowers-executing-plans</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/superpowers-executing-plans</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/awesome-file-organizer</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/awesome-file-organizer</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-finishing-a-development-branch</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-finishing-a-development-branch</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/frontend-design</loc>
@@ -163,10 +187,10 @@
     <loc>https://allskills.cn/en/skills/skills-main-frontend-design</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-image-enhancer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-image-enhancer</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/internal-comms</loc>
@@ -175,10 +199,10 @@
     <loc>https://allskills.cn/en/skills/internal-comms</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-internal-comms</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-internal-comms</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-internal-comms</loc>
@@ -187,16 +211,22 @@
     <loc>https://allskills.cn/en/skills/skills-main-internal-comms</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-invoice-organizer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-invoice-organizer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/json-canvas</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/json-canvas</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/awesome-lead-research-assistant</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/awesome-lead-research-assistant</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/mcp-builder</loc>
@@ -205,10 +235,10 @@
     <loc>https://allskills.cn/en/skills/mcp-builder</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-mcp-builder</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-mcp-builder</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-mcp-builder</loc>
@@ -217,10 +247,22 @@
     <loc>https://allskills.cn/en/skills/skills-main-mcp-builder</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-meeting-insights-analyzer</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-meeting-insights-analyzer</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/obsidian-bases</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/obsidian-bases</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/obsidian-markdown</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/obsidian-markdown</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/pdf</loc>
@@ -229,10 +271,10 @@
     <loc>https://allskills.cn/en/skills/pdf</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-pdf</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-pdf</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-pdf</loc>
@@ -241,16 +283,22 @@
     <loc>https://allskills.cn/en/skills/skills-main-pdf</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/planning-with-files</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/planning-with-files</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/pptx</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/pptx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-pptx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-pptx</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-pptx</loc>
@@ -259,10 +307,22 @@
     <loc>https://allskills.cn/en/skills/skills-main-pptx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-raffle-winner-picker</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-raffle-winner-picker</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-receiving-code-review</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-receiving-code-review</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-requesting-code-review</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-requesting-code-review</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skill-creator</loc>
@@ -271,10 +331,10 @@
     <loc>https://allskills.cn/en/skills/skill-creator</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-skill-creator</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-skill-creator</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-skill-creator</loc>
@@ -283,10 +343,10 @@
     <loc>https://allskills.cn/en/skills/skills-main-skill-creator</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-skill-share</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-skill-share</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/slack-gif-creator</loc>
@@ -295,10 +355,10 @@
     <loc>https://allskills.cn/en/skills/slack-gif-creator</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-slack-gif-creator</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-slack-gif-creator</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-slack-gif-creator</loc>
@@ -307,22 +367,58 @@
     <loc>https://allskills.cn/en/skills/skills-main-slack-gif-creator</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/superpowers-subagent-driven-development</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-subagent-driven-development</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-systematic-debugging</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-systematic-debugging</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-test-driven-development</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-test-driven-development</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/theme-factory</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/theme-factory</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-theme-factory</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-theme-factory</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-theme-factory</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-theme-factory</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-using-git-worktrees</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-using-git-worktrees</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-using-superpowers</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-using-superpowers</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-verification-before-completion</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-verification-before-completion</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/web-artifacts-builder</loc>
@@ -343,10 +439,10 @@
     <loc>https://allskills.cn/en/skills/webapp-testing</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-webapp-testing</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-webapp-testing</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-webapp-testing</loc>
@@ -355,16 +451,28 @@
     <loc>https://allskills.cn/en/skills/skills-main-webapp-testing</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/superpowers-writing-plans</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-writing-plans</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-writing-skills</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-writing-skills</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/xlsx</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/xlsx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-xlsx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-xlsx</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/skills-main-xlsx</loc>
@@ -373,10 +481,10 @@
     <loc>https://allskills.cn/en/skills/skills-main-xlsx</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/skills/awesome-external</loc>
+    <loc>https://allskills.cn/skills/awesome-video-downloader</loc>
   </url>
   <url>
-    <loc>https://allskills.cn/en/skills/awesome-external</loc>
+    <loc>https://allskills.cn/en/skills/awesome-video-downloader</loc>
   </url>
   <url>
     <loc>https://allskills.cn/blog/skill-usage-quickstart</loc>
@@ -401,5 +509,65 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/blog/hello-skills</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/anthropic-skills-zh</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/anthropic-skills-zh</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/claude-prompts</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/claude-prompts</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/brand-guidelines</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/brand-guidelines</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/canvas-design</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/canvas-design</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/planning-with-files</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/planning-with-files</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/webapp-testing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/webapp-testing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/pdf-toolkit</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/pdf-toolkit</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/office-docs</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/office-docs</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/content-writing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/content-writing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/obsidian-skills</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/obsidian-skills</loc>
   </url>
 </urlset>

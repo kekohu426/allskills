@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import SeoHead from "../components/SeoHead";
-import { getAllSkills, getCategories } from "../lib/skills";
+import { compactSkill, getAllSkills, getCategories } from "../lib/skills";
 import { t } from "../lib/i18n";
 import { getLocaleFromPath, toAnchorId, withLocale } from "../lib/paths";
 
@@ -371,25 +371,32 @@ export default function Home({ skills, categories, forcedLocale }) {
               <Link href={withLocale("/skills", locale)}>{isZh ? "查看更多" : "View all"}</Link>
             </div>
             <div className="featured-grid">
-              {featuredSkills.map((skill) => (
-                <div key={skill.slug} className="featured-card">
-                  <div className="featured-card__title">
-                    <h3>{skill.name}</h3>
-                    <span className="badge">{isZh ? "开源" : "Open Source"}</span>
+              {featuredSkills.map((skill) => {
+                const displayName = isZh && skill.nameZh ? skill.nameZh : skill.name;
+                const displayDesc = isZh && skill.descriptionZh ? skill.descriptionZh : skill.description;
+                const displayUseCases = isZh && skill.useCasesZh && skill.useCasesZh.length > 0
+                  ? skill.useCasesZh
+                  : (skill.useCases || []);
+                return (
+                  <div key={skill.slug} className="featured-card">
+                    <div className="featured-card__title">
+                      <h3>{displayName}</h3>
+                      <span className="badge">{isZh ? "开源" : "Open Source"}</span>
+                    </div>
+                    <p>{displayDesc}</p>
+                    <div className="featured-card__uses">
+                      <strong>{isZh ? "适用场景：" : "Use cases:"}</strong>
+                      {displayUseCases.slice(0, 3).map((useCase) => (
+                        <span key={useCase}>{useCase}</span>
+                      ))}
+                    </div>
+                    <div className="featured-card__actions">
+                      <Link href={withLocale(`/skills/${skill.slug}`, locale)}>{isZh ? "查看详情" : "Details"}</Link>
+                      <Link href={withLocale(`/skills/${skill.slug}`, locale)}>{isZh ? "复制" : "Copy"}</Link>
+                    </div>
                   </div>
-                  <p>{skill.description}</p>
-                  <div className="featured-card__uses">
-                    <strong>{isZh ? "适用场景：" : "Use cases:"}</strong>
-                    {(skill.useCases || []).slice(0, 3).map((useCase) => (
-                      <span key={useCase}>{useCase}</span>
-                    ))}
-                  </div>
-                  <div className="featured-card__actions">
-                    <Link href={withLocale(`/skills/${skill.slug}`, locale)}>{isZh ? "查看详情" : "Details"}</Link>
-                    <Link href={withLocale(`/skills/${skill.slug}`, locale)}>{isZh ? "复制" : "Copy"}</Link>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         </div>
@@ -399,7 +406,8 @@ export default function Home({ skills, categories, forcedLocale }) {
 }
 
 export async function getStaticProps() {
-  const skills = getAllSkills();
+  const allSkills = getAllSkills();
+  const skills = allSkills.map(compactSkill);
   const categories = getCategories(skills);
 
   return {

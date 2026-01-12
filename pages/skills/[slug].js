@@ -5,11 +5,47 @@ import { getAllSkills, getSkillBySlug } from "../../lib/skills";
 import { markdownToHtml } from "../../lib/markdown";
 import { t } from "../../lib/i18n";
 import { getLocaleFromPath } from "../../lib/paths";
+import site from "../../data/site.json";
 
 export default function SkillDetail({ skill, html, forcedLocale }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
   const [copied, setCopied] = useState(false);
+  const isZh = locale === "zh";
+
+  const displayName = isZh && skill.nameZh ? skill.nameZh : skill.name;
+  const displayDesc = isZh && skill.descriptionZh ? skill.descriptionZh : skill.description;
+  const displayUseCases = isZh && skill.useCasesZh && skill.useCasesZh.length > 0
+    ? skill.useCasesZh
+    : skill.useCases;
+  const canonicalPath = locale === "zh" ? `/skills/${skill.slug}` : `/en/skills/${skill.slug}`;
+  const canonicalUrl = `${site.domain}${canonicalPath}`;
+  const keywords = Array.from(
+    new Set([skill.category, ...(skill.tags || [])].filter(Boolean))
+  ).join(", ");
+
+  const rawJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: displayName,
+    name: displayName,
+    description: displayDesc,
+    inLanguage: locale === "zh" ? "zh-CN" : "en",
+    keywords,
+    genre: skill.category,
+    mainEntityOfPage: canonicalUrl,
+    url: canonicalUrl,
+    license: skill.license || undefined,
+    publisher: {
+      "@type": "Organization",
+      name: "AllSkills",
+      url: site.domain
+    },
+    sameAs: skill.sourceUrl ? [skill.sourceUrl] : undefined,
+    alternateName: isZh ? skill.name : skill.nameZh,
+    about: displayUseCases && displayUseCases.length ? displayUseCases : undefined
+  };
+  const jsonLd = JSON.parse(JSON.stringify(rawJsonLd));
 
   const handleCopy = async () => {
     const text = `# ${skill.name}\n\n${skill.description}\n\n${skill.body}`;
@@ -21,15 +57,18 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
   return (
     <>
       <SeoHead
-        title={skill.name}
-        description={skill.description}
-        path={locale === "zh" ? `/skills/${skill.slug}` : `/en/skills/${skill.slug}`}
+        title={displayName}
+        description={displayDesc}
+        path={canonicalPath}
+        keywords={keywords}
+        jsonLd={jsonLd}
+        ogType="article"
       />
       <section className="detail-hero">
         <div>
           <p className="eyebrow">{skill.category}</p>
-          <h1>{skill.name}</h1>
-          <p className="lead">{skill.description}</p>
+          <h1>{displayName}</h1>
+          <p className="lead">{displayDesc}</p>
           <div className="detail-actions">
             <button className="btn" type="button" onClick={handleCopy}>
               {copied ? t(locale, "detailCopied") : t(locale, "detailCopy")}
@@ -40,11 +79,11 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
       </section>
 
       <section className="section detail-body">
-        {skill.useCases.length > 0 && (
+        {displayUseCases.length > 0 && (
           <div className="use-cases">
             <h2>{t(locale, "detailUseCases")}</h2>
             <ul>
-              {skill.useCases.map((useCase) => (
+              {displayUseCases.map((useCase) => (
                 <li key={useCase}>{useCase}</li>
               ))}
             </ul>

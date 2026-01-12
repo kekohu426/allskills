@@ -483,6 +483,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
+  align-items: stretch;
 }
 
 .grid--dense {
@@ -496,7 +497,7 @@ main {
   border: 1px solid rgba(85, 96, 140, 0.3);
   box-shadow: 0 20px 40px rgba(4, 6, 18, 0.45);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
-  min-height: 200px;
+  min-height: 240px;
   display: flex;
   flex-direction: column;
 }
@@ -533,6 +534,10 @@ main {
   line-height: 1.5;
   margin-top: 10px;
   flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .card__tags {
@@ -541,6 +546,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  max-height: 64px;
+  overflow: hidden;
 }
 
 .tag {
@@ -957,6 +964,33 @@ main {
 
 .source-note a {
   color: var(--accent);
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-list li {
+  background: var(--card);
+  border: 1px solid rgba(85, 96, 140, 0.3);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.faq-list strong {
+  display: block;
+  margin-bottom: 6px;
 }
 
 .about-section .about-content {
