@@ -24,18 +24,25 @@ function urlEntry(loc) {
 
 function build() {
   const base = site.domain.replace(/\/$/, "");
-  const pages = ["/", "/skills", "/collections", "/blog", "/about"];
+  const basePages = ["/", "/skills", "/collections", "/blog", "/about"];
 
   const skills = getAllSkills().map((skill) => `/skills/${skill.slug}`);
-  const posts = getAllPosts().map((post) => `/blog/${post.slug}`);
+  const postsZh = getAllPosts().map((post) => `/blog/${post.slug}`);
+  const postsEn = getAllPosts("en").map((post) => `/en/blog/${post.slug}`);
 
-  const allPaths = [...pages, ...skills, ...posts, ...LANDING_PAGES];
-  const localized = allPaths.flatMap((pathName) => [
-    pathName,
-    pathName === "/" ? "/en" : `/en${pathName}`
-  ]);
+  const seen = new Set();
 
-  const urls = localized
+  function addWithLocale(pathName) {
+    seen.add(pathName);
+    seen.add(pathName === "/" ? "/en" : `/en${pathName}`);
+  }
+
+  [...basePages, ...LANDING_PAGES].forEach(addWithLocale);
+  skills.forEach(addWithLocale);
+  postsZh.forEach(addWithLocale);
+  postsEn.forEach((pathName) => seen.add(pathName));
+
+  const urls = Array.from(seen)
     .map((pathName) => urlEntry(`${base}${pathName}`))
     .join("\n");
 

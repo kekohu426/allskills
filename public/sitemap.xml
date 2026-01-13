@@ -31,6 +31,66 @@
     <loc>https://allskills.cn/en/about</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/landing/anthropic-skills-zh</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/anthropic-skills-zh</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/claude-prompts</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/claude-prompts</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/brand-guidelines</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/brand-guidelines</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/canvas-design</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/canvas-design</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/planning-with-files</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/planning-with-files</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/webapp-testing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/webapp-testing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/pdf-toolkit</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/pdf-toolkit</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/office-docs</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/office-docs</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/content-writing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/content-writing</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/obsidian-skills</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/obsidian-skills</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/algorithmic-art</loc>
   </url>
   <url>
@@ -509,65 +569,5 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/blog/hello-skills</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/anthropic-skills-zh</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/anthropic-skills-zh</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/claude-prompts</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/claude-prompts</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/brand-guidelines</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/brand-guidelines</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/canvas-design</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/canvas-design</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/planning-with-files</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/planning-with-files</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/webapp-testing</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/webapp-testing</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/pdf-toolkit</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/pdf-toolkit</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/office-docs</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/office-docs</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/content-writing</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/content-writing</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/landing/obsidian-skills</loc>
-  </url>
-  <url>
-    <loc>https://allskills.cn/en/landing/obsidian-skills</loc>
   </url>
 </urlset>
