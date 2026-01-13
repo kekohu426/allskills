@@ -1211,5 +1211,26 @@
       "mindmap",
       "diagram"
     ]
+  },
+  "document-driven-development": {
+    "nameZh": "文档驱动开发",
+    "descriptionZh": "使用文档驱动开发方法论，在生成代码前先创建 intent.md、spec.md、plan.md 文档，让 AI 编程从「失控」到「可控」。",
+    "category": "Development",
+    "useCases": [
+      "Build new projects from scratch with clear documentation",
+      "Add features to existing projects systematically",
+      "Reduce AI coding drift and rework"
+    ],
+    "useCasesZh": [
+      "从零开始构建新项目，文档清晰",
+      "系统性地为现有项目添加功能",
+      "减少 AI 编程漂移和返工"
+    ],
+    "tags": [
+      "workflow",
+      "documentation",
+      "methodology",
+      "ai-coding"
+    ]
   }
 }

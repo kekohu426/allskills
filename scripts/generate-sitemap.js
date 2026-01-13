@@ -15,7 +15,8 @@ const LANDING_PAGES = [
   "/landing/pdf-toolkit",
   "/landing/office-docs",
   "/landing/content-writing",
-  "/landing/obsidian-skills"
+  "/landing/obsidian-skills",
+  "/landing/document-driven-development"
 ];
 
 function urlEntry(loc) {

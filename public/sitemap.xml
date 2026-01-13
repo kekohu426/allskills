@@ -91,6 +91,12 @@
     <loc>https://allskills.cn/en/landing/obsidian-skills</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/landing/document-driven-development</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/document-driven-development</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/algorithmic-art</loc>
   </url>
   <url>
@@ -191,6 +197,12 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-doc-coauthoring</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/document-driven-development</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/document-driven-development</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/docx</loc>
