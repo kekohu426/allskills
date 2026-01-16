@@ -175,10 +175,22 @@
     <loc>https://allskills.cn/en/skills/awesome-competitive-ads-extractor</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/codex-connect</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-connect</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/awesome-content-research-writer</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-content-research-writer</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-create-plan</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-create-plan</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/awesome-developer-growth-analysis</loc>
@@ -235,6 +247,12 @@
     <loc>https://allskills.cn/en/skills/awesome-domain-name-brainstormer</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/codex-email-draft-polish</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-email-draft-polish</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-executing-plans</loc>
   </url>
   <url>
@@ -263,6 +281,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-frontend-design</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-gh-address-comments</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-gh-address-comments</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-gh-fix-ci</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-gh-fix-ci</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/awesome-image-enhancer</loc>
@@ -301,10 +331,22 @@
     <loc>https://allskills.cn/en/skills/json-canvas</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/codex-langsmith-fetch</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-langsmith-fetch</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/awesome-lead-research-assistant</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-lead-research-assistant</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-linear</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-linear</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/mcp-builder</loc>
@@ -329,6 +371,36 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-meeting-insights-analyzer</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-meeting-notes-and-actions</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-meeting-notes-and-actions</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-notion-knowledge-capture</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-notion-knowledge-capture</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-notion-meeting-intelligence</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-notion-meeting-intelligence</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-notion-research-documentation</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-notion-research-documentation</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-notion-spec-to-implementation</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-notion-spec-to-implementation</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/obsidian-bases</loc>
@@ -445,16 +517,34 @@
     <loc>https://allskills.cn/en/skills/skills-main-slack-gif-creator</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/codex-spreadsheet-formula-helper</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-spreadsheet-formula-helper</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-subagent-driven-development</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/superpowers-subagent-driven-development</loc>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/codex-support-ticket-triage</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-support-ticket-triage</loc>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-systematic-debugging</loc>
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/superpowers-systematic-debugging</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/codex-tailored-resume-generator</loc>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/codex-tailored-resume-generator</loc>
   </url>
   <url>
     <loc>https://allskills.cn/skills/superpowers-test-driven-development</loc>

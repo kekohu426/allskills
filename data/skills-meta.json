@@ -1238,5 +1238,140 @@
     "descriptionZh": "自动收集 Reddit/YouTube AI 热点，生成中文日报和专业配图",
     "category": "Automation",
     "tags": []
+  },
+  "codex-create-plan": {
+    "nameZh": "创建计划",
+    "descriptionZh": "创建简洁的编码任务计划。当用户明确要求制定编码任务计划时使用。",
+    "tags": [
+      "planning",
+      "coding",
+      "workflow"
+    ]
+  },
+  "codex-email-draft-polish": {
+    "nameZh": "邮件起草润色",
+    "descriptionZh": "根据目标语气、长度和受众起草、重写或精简邮件；适用于冷启动外联、回复、状态更新或需要清晰简洁的升级邮件。",
+    "tags": [
+      "email",
+      "writing",
+      "communication"
+    ]
+  },
+  "codex-gh-address-comments": {
+    "nameZh": "处理 GitHub PR 评论",
+    "descriptionZh": "使用 gh CLI 帮助处理当前分支 GitHub PR 上的审查/问题评论；首先验证 gh 认证状态。",
+    "tags": [
+      "github",
+      "pr",
+      "code-review"
+    ]
+  },
+  "codex-gh-fix-ci": {
+    "nameZh": "修复 GitHub CI",
+    "descriptionZh": "使用 gh 检查 GitHub PR 检查项，拉取失败的 GitHub Actions 日志，总结失败上下文，然后创建修复计划并在用户批准后实施。",
+    "tags": [
+      "github",
+      "ci",
+      "debugging"
+    ]
+  },
+  "codex-linear": {
+    "nameZh": "Linear 项目管理",
+    "descriptionZh": "在 Linear 中管理问题、项目和团队工作流。当用户想要读取、创建或更新 Linear 工单时使用。",
+    "tags": [
+      "linear",
+      "project-management",
+      "issues"
+    ]
+  },
+  "codex-spreadsheet-formula-helper": {
+    "nameZh": "电子表格公式助手",
+    "descriptionZh": "编写和调试电子表格公式（Excel/Google Sheets）、数据透视表和数组公式；在不同方言之间转换。",
+    "tags": [
+      "excel",
+      "sheets",
+      "formulas"
+    ]
+  },
+  "codex-support-ticket-triage": {
+    "nameZh": "支持工单分类",
+    "descriptionZh": "将客户支持工单/邮件/聊天分类为类别、优先级和下一步行动；起草回复并创建可重现步骤。",
+    "tags": [
+      "support",
+      "triage",
+      "customer-service"
+    ]
+  },
+  "codex-tailored-resume-generator": {
+    "nameZh": "定制简历生成器",
+    "descriptionZh": "分析职位描述并生成定制简历，突出相关经验、技能和成就，最大化面试机会。",
+    "tags": [
+      "resume",
+      "job",
+      "career"
+    ]
+  },
+  "codex-connect": {
+    "nameZh": "连接应用",
+    "descriptionZh": "将 Codex 连接到任何应用。发送邮件、创建问题、发布消息、更新数据库 - 在 Gmail、Slack、GitHub、Notion 等 1000+ 服务中执行真实操作。",
+    "tags": [
+      "integration",
+      "automation",
+      "api"
+    ]
+  },
+  "codex-meeting-notes-and-actions": {
+    "nameZh": "会议记录与行动项",
+    "descriptionZh": "将会议记录或粗略笔记转换为清晰的摘要，包含决策、风险和带负责人标签的行动项。",
+    "tags": [
+      "meeting",
+      "notes",
+      "actions"
+    ]
+  },
+  "codex-notion-knowledge-capture": {
+    "nameZh": "Notion 知识捕获",
+    "descriptionZh": "将对话和决策捕获到结构化的 Notion 页面；用于将聊天/笔记转换为 wiki 条目、操作指南、决策或 FAQ。",
+    "tags": [
+      "notion",
+      "knowledge",
+      "documentation"
+    ]
+  },
+  "codex-notion-meeting-intelligence": {
+    "nameZh": "Notion 会议智能",
+    "descriptionZh": "使用 Notion 上下文和 Codex 研究准备会议材料；用于收集上下文、起草议程/预读材料，并根据与会者定制材料。",
+    "tags": [
+      "notion",
+      "meeting",
+      "preparation"
+    ]
+  },
+  "codex-notion-research-documentation": {
+    "nameZh": "Notion 研究文档",
+    "descriptionZh": "跨 Notion 研究并综合成结构化文档；用于从多个 Notion 来源收集信息以生成简报、比较或带引用的报告。",
+    "tags": [
+      "notion",
+      "research",
+      "documentation"
+    ]
+  },
+  "codex-notion-spec-to-implementation": {
+    "nameZh": "Notion 规格转实现",
+    "descriptionZh": "将 Notion 规格转换为实施计划、任务和进度跟踪；用于实施 PRD/功能规格并从中创建 Notion 计划和任务。",
+    "tags": [
+      "notion",
+      "implementation",
+      "planning"
+    ]
+  },
+  "codex-langsmith-fetch": {
+    "nameZh": "LangSmith 调试",
+    "descriptionZh": "通过从 LangSmith Studio 获取执行跟踪来调试 LangChain 和 LangGraph 代理。用于调试代理行为、调查错误、分析工具调用。",
+    "tags": [
+      "langsmith",
+      "langchain",
+      "debugging"
+    ]
   }
 }
