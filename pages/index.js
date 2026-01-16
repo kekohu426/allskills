@@ -157,26 +157,14 @@ export default function Home({ skills, categories, forcedLocale }) {
                   <span>{isZh ? "免费开源" : "Free & Open"}</span>
                 </div>
               </div>
-              <form
-                className="home-search"
-                onSubmit={(event) => {
-                  event.preventDefault();
-                  const query = event.currentTarget.query.value.trim();
-                  if (query) {
-                    router.push(withLocale(`/skills?q=${encodeURIComponent(query)}`, locale));
-                  }
-                }}
-              >
-                <input
-                  name="query"
-                  placeholder={
-                    isZh
-                      ? "搜索 Skill 名称或用途"
-                      : "Search skills by name or use case"
-                  }
-                />
-                <button type="submit">{isZh ? "搜索" : "Search"}</button>
-              </form>
+              <div className="home-hero__cta">
+                <Link href={withLocale("/skills", locale)} className="btn btn--primary">
+                  {isZh ? "浏览全部 Skills" : "Browse All Skills"}
+                </Link>
+                <Link href={withLocale("/collections", locale)} className="btn btn--ghost">
+                  {isZh ? "按分类浏览" : "Browse by Category"}
+                </Link>
+              </div>
             </div>
           </div>
         </section>

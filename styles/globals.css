@@ -135,6 +135,18 @@ body {
   margin: 14px 0 16px;
 }
 
+.home-hero__cta {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.home-hero__cta .btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+}
+
 .home-search {
   display: flex;
   align-items: center;
