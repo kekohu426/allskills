@@ -1232,5 +1232,11 @@
       "methodology",
       "ai-coding"
     ]
+  },
+  "ai-hotspot-dailyreport-skill": {
+    "nameZh": "AI热点日报生成器",
+    "descriptionZh": "自动收集 Reddit/YouTube AI 热点，生成中文日报和专业配图",
+    "category": "Automation",
+    "tags": []
   }
 }
