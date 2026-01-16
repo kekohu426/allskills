@@ -125,7 +125,7 @@ export default function Home({ skills, categories, forcedLocale }) {
         title={isZh ? "Anthropic Skills 完整目录" : "Anthropic Skills Directory"}
         description={
           isZh
-            ? "探索 50+ 个 Anthropic 官方 Claude Skills，覆盖设计、开发、内容创作。一键复制，免费使用。"
+            ? "探索 90+ 个 Anthropic 官方 Claude Skills，覆盖设计、开发、内容创作。一键复制，免费使用。"
             : "Explore Anthropic Skills with categories, guides, and copy-ready prompts."
         }
         path={isZh ? "/" : "/en"}
@@ -140,12 +140,12 @@ export default function Home({ skills, categories, forcedLocale }) {
               <h1>{t(locale, "heroTitle")}</h1>
               <p className="home-hero__subtitle">
                 {isZh
-                  ? "50+ 个 Claude AI 官方技能，覆盖设计、开发、内容创作场景。"
-                  : "50+ official Claude AI skills for design, development, and content creation."}
+                  ? "90+ 个 Claude AI 官方技能，覆盖设计、开发、内容创作场景。"
+                  : "90+ official Claude AI skills for design, development, and content creation."}
               </p>
               <div className="home-hero__stats">
                 <div className="stat-card">
-                  <strong>50+</strong>
+                  <strong>90+</strong>
                   <span>{isZh ? "官方 Skills" : "Official Skills"}</span>
                 </div>
                 <div className="stat-card">
@@ -191,7 +191,7 @@ export default function Home({ skills, categories, forcedLocale }) {
                 {isZh ? (
                   <>
                     <p>
-                      Anthropic Skills 是 Claude AI 的官方技能库，包含 50+ 个提示词模板和系统指令。
+                      Anthropic Skills 是 Claude AI 的官方技能库，包含 90+ 个提示词模板和系统指令。
                       每个 Skill 是一个专业的能力单元，让 Claude 在特定领域发挥更好的效果。
                     </p>
                     <p>
@@ -210,7 +210,7 @@ export default function Home({ skills, categories, forcedLocale }) {
                 ) : (
                   <>
                     <p>
-                      Anthropic Skills is the official skill library for Claude AI, containing 50+ prompt templates and system instructions.
+                      Anthropic Skills is the official skill library for Claude AI, containing 90+ prompt templates and system instructions.
                       Each Skill is a specialized capability unit that helps Claude perform better in specific domains.
                     </p>
                     <p>
@@ -291,7 +291,7 @@ export default function Home({ skills, categories, forcedLocale }) {
               <div className="step-card">
                 <div className="step-num">1</div>
                 <h3>{isZh ? "选择 Skill" : "Choose a Skill"}</h3>
-                <p>{isZh ? "浏览 50+ 官方 Skills，通过分类或搜索找到适合的技能。" : "Browse 50+ official Skills, find what you need by category or search."}</p>
+                <p>{isZh ? "浏览 90+ 官方 Skills，通过分类或搜索找到适合的技能。" : "Browse 90+ official Skills, find what you need by category or search."}</p>
               </div>
               <div className="step-card">
                 <div className="step-num">2</div>

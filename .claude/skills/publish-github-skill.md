@@ -44,7 +44,7 @@
    - category: Automation / Development / Content / Design / Productivity
    - tags: 3-5 个相关标签
 
-### 第 2 步：添加 Skill 数��
+### 第 2 步：添加 Skill 数据
 
 1. **更新 `data/skills-content.json`**
    ```json
@@ -71,6 +71,29 @@
      }
    }
    ```
+
+3. **更新 `data/categories.json`**
+   ```json
+   {
+     "{slug}": "Category Name"
+   }
+   ```
+
+4. **更新首页统计数据**（如果 Skill 总数跨越整十）
+
+   文件：`pages/index.js`
+
+   需要更新的位置（搜索 "50+" 或当前数字）：
+   - 第 128 行：meta description 中文
+   - 第 143-144 行：副标题
+   - 第 148 行：统计数字显示
+   - 第 194 行：FAQ 中文
+   - 第 213 行：FAQ 英文
+   - 第 294 行：使用说明
+
+   **更新规则**：
+   - 当 Skill 总数达到新的整十（如 60、70、80...），更新为 "60+"、"70+"、"80+"
+   - 可通过 `Object.keys(require('./data/skills-content.json')).length` 获取当前总数
 
 ### 第 3 步：SEO 关键词研究
 
@@ -202,7 +225,9 @@ git push origin main
 ### 数据层
 - [ ] skills-content.json 已更新
 - [ ] skills-meta.json 已更新
+- [ ] categories.json 已更新
 - [ ] slug 命名规范（小写、连字符）
+- [ ] 首页统计数据已检查（如需更新）
 
 ### SEO 层
 - [ ] 核心关键词已确定
