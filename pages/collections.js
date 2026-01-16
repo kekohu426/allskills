@@ -46,7 +46,7 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
       />
       <section className="page-hero">
         <div>
-          <h1>{t(locale, "collectionsTitle")}</h1>
+          <h1>{t(locale, "collectionsH1")}</h1>
           <p>{t(locale, "collectionsSubtitle")}</p>
         </div>
       </section>

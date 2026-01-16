@@ -1,6 +1,7 @@
 import SeoHead from "../components/SeoHead";
 import { useRouter } from "next/router";
 import { getLocaleFromPath } from "../lib/paths";
+import { t } from "../lib/i18n";
 
 export default function About({ forcedLocale }) {
   const router = useRouter();
@@ -9,22 +10,14 @@ export default function About({ forcedLocale }) {
   return (
     <>
       <SeoHead
-        title={locale === "zh" ? "关于 AllSkills.cn" : "About AllSkills.cn"}
-        description={
-          locale === "zh"
-            ? "了解 AllSkills.cn 的数据来源、整理流程与版权声明。"
-            : "Learn about data sources, curation workflow, and licensing."
-        }
+        title={t(locale, "aboutTitle")}
+        description={t(locale, "aboutSubtitle")}
         path={locale === "zh" ? "/about" : "/en/about"}
       />
       <section className="page-hero">
         <div>
-          <h1>{locale === "zh" ? "关于 AllSkills.cn" : "About AllSkills.cn"}</h1>
-          <p>
-            {locale === "zh"
-              ? "专注 Anthropic Skills 的中文导航站。"
-              : "A curated directory for Anthropic Skills."}
-          </p>
+          <h1>{t(locale, "aboutH1")}</h1>
+          <p>{t(locale, "aboutSubtitle")}</p>
         </div>
       </section>
       <section className="section about-section">

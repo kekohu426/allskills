@@ -82,7 +82,7 @@ export default function SkillsPage({ skills, categories, forcedLocale, totalCoun
       />
       <section className="page-hero">
         <div>
-          <h1>{t(locale, "skillsTitle")}</h1>
+          <h1>{t(locale, "skillsH1")}</h1>
           <p>{t(locale, "skillsSubtitle")}</p>
         </div>
         {query && (

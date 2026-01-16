@@ -18,7 +18,7 @@ export default function BlogPage({ posts, forcedLocale }) {
       />
       <section className="page-hero">
         <div>
-          <h1>{t(locale, "blogTitle")}</h1>
+          <h1>{t(locale, "blogH1")}</h1>
           <p>{t(locale, "blogSubtitle")}</p>
         </div>
       </section>
