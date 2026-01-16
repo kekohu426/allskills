@@ -4,9 +4,29 @@ import { getSkillBySlug } from "../../lib/skills";
 import site from "../../data/site.json";
 
 const VALUE_PROPS = [
-  { icon: "🚀", text: "15 分钟生成日报" },
-  { icon: "📊", text: "241+ AI 热点自动收集" },
-  { icon: "🎨", text: "10 张专业配图" }
+  { icon: "🚀", text: "15 分钟自动生成 AI 日报" },
+  { icon: "📊", text: "200+ Reddit/YouTube AI 热点" },
+  { icon: "🎨", text: "10 张 8K 专业配图" }
+];
+
+// 痛点场景 - 融入长尾词
+const PAIN_POINTS = [
+  {
+    problem: "如何自动收集 AI 新闻？",
+    solution: "一键从 15 个 Reddit 子版块和 YouTube 频道采集，无需手动浏览"
+  },
+  {
+    problem: "Reddit AI 热点汇总太耗时？",
+    solution: "自动抓取 r/MachineLearning、r/LocalLLaMA 等热门社区，Claude 智能分析"
+  },
+  {
+    problem: "AI 资讯自动整理有什么工具？",
+    solution: "这个 Claude Skill 自动分类、生成摘要、输出 Obsidian 格式日报"
+  },
+  {
+    problem: "每日 AI 新闻汇总怎么做？",
+    solution: "2 条命令完成全流程：数据采集 + 配图生成，100% 自动化"
+  }
 ];
 
 const QUICK_STEPS = [
@@ -20,33 +40,33 @@ const QUICK_STEPS = [
 const FEATURES = [
   {
     icon: "📡",
-    title: "多源数据采集",
-    desc: "自动从 15 个 AI 相关 Reddit 子版块和 YouTube 频道收集热点"
+    title: "Reddit/YouTube AI 热点采集",
+    desc: "自动从 r/MachineLearning、r/LocalLLaMA 等 15 个 AI 社区收集热点新闻"
   },
   {
     icon: "🤖",
-    title: "Claude AI 分析",
-    desc: "智能生成中文摘要、关键要点和情感分析"
+    title: "Claude 智能分析生成日报",
+    desc: "AI 自动生成中文摘要、关键要点提取、情感分析，告别手动整理"
   },
   {
     icon: "📝",
-    title: "Obsidian 格式",
-    desc: "自动分类、结构化的 Markdown 日报，完美适配 Obsidian"
+    title: "Obsidian AI 笔记格式",
+    desc: "输出结构化 Markdown 日报，完美适配 Obsidian 知识库管理"
   },
   {
     icon: "🖼️",
-    title: "专业配图生成",
-    desc: "使用智能提示词生成器 v2.0，输出 8K 质量 16:9 配图"
+    title: "AI 配图自动生成",
+    desc: "智能提示词生成器 v2.0，输出 8K 质量 16:9 专业配图"
   },
   {
     icon: "⚡",
-    title: "100% 自动化",
-    desc: "2 条命令完成全流程，无需手动干预"
+    title: "AI 行业动态追踪自动化",
+    desc: "2 条命令完成全流程，每日 AI 新闻汇总无需手动干预"
   },
   {
     icon: "✅",
-    title: "TDD 测试覆盖",
-    desc: "100% 行为改进验证，稳定可靠"
+    title: "Claude Skill 开箱即用",
+    desc: "TDD 测试覆盖，100% 行为验证，稳定可靠的自动化工具"
   }
 ];
 
@@ -64,24 +84,28 @@ const DATA_SOURCES = [
 
 const FAQ = [
   {
-    q: "需要哪些 API Key？",
-    a: "需要 Anthropic API Key（用于 Claude 分析）和 ModelScope API Key（用于图片生成）。两个都可以免费获取。"
+    q: "这个 AI 热点分析工具需要哪些 API Key？",
+    a: "需要 Anthropic API Key（用于 Claude 生成日报）和 ModelScope API Key（用于 AI 配图生成）。两个都可以免费获取。"
   },
   {
-    q: "每次运行大概花费多少？",
+    q: "自动收集 AI 新闻每次运行花费多少？",
     a: "约 $0.15-0.30 美元，主要是 Claude API 调用费用。图片生成使用 ModelScope 免费额度。"
   },
   {
-    q: "可以自定义数据源吗？",
-    a: "可以。编辑 config/config.yaml 添加更多 Reddit 子版块或 YouTube 频道。"
+    q: "可以自定义 Reddit AI 热点汇总的数据源吗？",
+    a: "可以。编辑 config/config.yaml 添加更多 Reddit 子版块或 YouTube 频道，灵活配置 AI 资讯自动整理范围。"
   },
   {
-    q: "支持哪些输出格式？",
-    a: "默认输出 Obsidian 兼容的 Markdown 格式，包含完整日报、Top10 总结和配图报告。"
+    q: "这个 Claude Skill 支持哪些输出格式？",
+    a: "默认输出 Obsidian 兼容的 Markdown 格式，包含完整日报、Top10 总结和配图报告，完美适配 Obsidian AI 笔记工作流。"
   },
   {
-    q: "图片质量如何？",
-    a: "使用智能提示词生成器 v2.0，输出 8K 质量、16:9 比例的专业配图，支持中英双语标题。"
+    q: "AI 配图生成质量如何？",
+    a: "使用智能提示词生成器 v2.0，输出 8K 质量、16:9 比例的专业配图，支持中英双语标题，适合社交媒体分享。"
+  },
+  {
+    q: "如何实现每日 AI 新闻汇总自动化？",
+    a: "配合 cron 定时任务，可以实现完全自动化的 AI 行业动态追踪，每天定时生成日报到 Obsidian Vault。"
   }
 ];
 
@@ -106,10 +130,11 @@ export default function AIHotspotLanding({ skill }) {
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      name: "AI Hotspot Daily Report Skill",
-      description: "自动收集 Reddit/YouTube AI 热点，生成中文日报和专业配图的 Claude Skill",
+      name: "AI 热点日报生成器 - Claude Skill",
+      description: "自动收集 Reddit/YouTube AI 热点新闻，Claude 智能分析生成中文日报和专业配图的自动化工具",
       applicationCategory: "DeveloperApplication",
       operatingSystem: "macOS, Linux, Windows",
+      keywords: "AI热点,AI新闻,日报生成,Claude Skill,Reddit AI,自动化,Obsidian",
       offers: {
         "@type": "Offer",
         price: "0",
@@ -128,7 +153,8 @@ export default function AIHotspotLanding({ skill }) {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      name: "如何使用 AI Hotspot Daily Report",
+      name: "如何使用 Claude Skill 自动收集 AI 新闻生成日报",
+      description: "5 步快速上手 AI 热点日报生成器，实现 Reddit/YouTube AI 资讯自动整理",
       step: QUICK_STEPS.map((s, i) => ({
         "@type": "HowToStep",
         position: i + 1,
@@ -141,10 +167,10 @@ export default function AIHotspotLanding({ skill }) {
   return (
     <>
       <SeoHead
-        title="AI 热点日报生成器 - 自动收集分析 AI 新闻"
-        description="15 分钟自动收集 200+ AI 热点，Claude 智能分析生成中文日报，配套 10 张专业配图。支持 Reddit、YouTube 多源采集。"
+        title="AI 热点日报生成器 | 自动收集 Reddit/YouTube AI 新闻 - Claude Skill"
+        description="如何自动收集 AI 新闻？这个 Claude Skill 15 分钟从 Reddit/YouTube 采集 200+ AI 热点，智能生成中文日报和 10 张专业配图。支持 Obsidian AI 笔记，实现每日 AI 新闻汇总自动化。"
         path="/landing/ai-hotspot-dailyreport"
-        keywords="AI热点, 日报生成, Claude, Reddit, YouTube, Obsidian, AI新闻, 自动化"
+        keywords="AI热点,AI新闻,日报生成,Claude Skill,Reddit AI热点汇总,自动收集AI新闻,AI资讯自动整理,Obsidian AI笔记,每日AI新闻汇总,AI行业动态追踪,AI热点分析工具,Claude生成日报"
         jsonLd={jsonLd}
         ogType="article"
       />
@@ -152,9 +178,9 @@ export default function AIHotspotLanding({ skill }) {
       {/* Hero Section */}
       <section className="ddd-hero">
         <div className="ddd-hero__inner">
-          <span className="ddd-badge">自动化工具</span>
-          <h1>AI 热点日报生成器</h1>
-          <p className="ddd-subtitle">15 分钟，从 200+ 热点到专业日报</p>
+          <span className="ddd-badge">Claude Skill · 自动化工具</span>
+          <h1>AI 热点日报生成器：自动收集 AI 新闻</h1>
+          <p className="ddd-subtitle">15 分钟，从 Reddit/YouTube 200+ AI 热点到专业中文日报</p>
 
           <div className="ddd-value-props">
             {VALUE_PROPS.map((prop) => (
@@ -181,10 +207,25 @@ export default function AIHotspotLanding({ skill }) {
         </div>
       </section>
 
+      {/* Pain Points - 长尾词场景 */}
+      <section className="section ddd-section">
+        <h2>你是否也有这些困扰？</h2>
+        <p className="lead">这个 Claude Skill 帮你解决 AI 资讯追踪难题</p>
+
+        <div className="ddd-docs-grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+          {PAIN_POINTS.map((item) => (
+            <div key={item.problem} className="ddd-doc-card">
+              <h4 style={{ color: "var(--accent)" }}>{item.problem}</h4>
+              <p>{item.solution}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Features */}
       <section className="section ddd-section">
-        <h2>核心功能</h2>
-        <p className="lead">全自动化的 AI 热点追踪和内容生成</p>
+        <h2>Claude Skill 核心功能</h2>
+        <p className="lead">全自动化的 AI 热点追踪和日报生成</p>
 
         <div className="ddd-docs-grid">
           {FEATURES.map((feature) => (
@@ -201,8 +242,8 @@ export default function AIHotspotLanding({ skill }) {
 
       {/* Quick Start */}
       <section id="quick-start" className="section ddd-section">
-        <h2>5 步快速上手</h2>
-        <p className="lead">从安装到生成第一份日报</p>
+        <h2>5 步快速上手 AI 日报生成</h2>
+        <p className="lead">从安装到生成第一份 AI 热点日报</p>
 
         <div className="ddd-steps">
           {QUICK_STEPS.map((item) => (
@@ -241,8 +282,8 @@ python3 generate_enhanced_top10.py`}
 
       {/* Data Sources */}
       <section className="section ddd-section">
-        <h2>数据来源</h2>
-        <p className="lead">覆盖主流 AI 社区和内容平台</p>
+        <h2>Reddit/YouTube AI 热点数据源</h2>
+        <p className="lead">覆盖主流 AI 社区，自动收集 AI 新闻</p>
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", justifyContent: "center" }}>
           {DATA_SOURCES.map((source) => (
@@ -263,8 +304,8 @@ python3 generate_enhanced_top10.py`}
 
       {/* Output */}
       <section className="section ddd-section">
-        <h2>输出文件</h2>
-        <p className="lead">自动生成到 Obsidian Vault</p>
+        <h2>Obsidian AI 笔记输出</h2>
+        <p className="lead">自动生成结构化日报到 Obsidian Vault</p>
 
         <div className="ddd-use-cases">
           <div className="ddd-use-case ddd-use-case--suitable" style={{ flex: 1 }}>
@@ -284,7 +325,7 @@ python3 generate_enhanced_top10.py`}
 
       {/* FAQ */}
       <section className="section ddd-section">
-        <h2>常见问题</h2>
+        <h2>AI 热点日报生成器常见问题</h2>
         <ul className="faq-list">
           {FAQ.map((item) => (
             <li key={item.q}>
@@ -297,7 +338,7 @@ python3 generate_enhanced_top10.py`}
 
       {/* Resources */}
       <section className="section ddd-section">
-        <h2>相关资源</h2>
+        <h2>相关 Claude Skills 资源</h2>
 
         <div className="ddd-resources">
           <a
@@ -306,7 +347,7 @@ python3 generate_enhanced_top10.py`}
           >
             <span className="ddd-resource-card__icon">📄</span>
             <h4>完整 SKILL.md</h4>
-            <p>查看完整的技能定义和详细说明</p>
+            <p>查看完整的 Claude Skill 定义和详细说明</p>
           </a>
 
           <a
@@ -327,6 +368,24 @@ python3 generate_enhanced_top10.py`}
             <span className="ddd-resource-card__icon">⚡</span>
             <h4>更多自动化 Skills</h4>
             <p>探索其他自动化相关的 Claude Skills</p>
+          </a>
+
+          <a
+            href="/skills"
+            className="ddd-resource-card"
+          >
+            <span className="ddd-resource-card__icon">🔍</span>
+            <h4>浏览全部 Skills</h4>
+            <p>发现更多实用的 Claude Skills 工具</p>
+          </a>
+
+          <a
+            href="/blog"
+            className="ddd-resource-card"
+          >
+            <span className="ddd-resource-card__icon">📚</span>
+            <h4>技术博客</h4>
+            <p>了解 Claude Skills 开发技巧和最佳实践</p>
           </a>
         </div>
       </section>
