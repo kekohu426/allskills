@@ -1373,5 +1373,25 @@
       "langchain",
       "debugging"
     ]
+  },
+  "openai-skill-creator": {
+    "nameZh": "Skill 创建器",
+    "descriptionZh": "创建有效 Skill 的指南。当用户想要创建新 Skill（或更新现有 Skill）以扩展 Codex 的能力时使用，包括专业知识、工作流程或工具集成。",
+    "tags": [
+      "skill",
+      "codex",
+      "creator",
+      "development"
+    ]
+  },
+  "openai-skill-installer": {
+    "nameZh": "Skill 安装器",
+    "descriptionZh": "从精选列表或 GitHub 仓库路径安装 Codex Skills。当用户要求列出可安装的 Skills、安装精选 Skill 或从其他仓库安装 Skill 时使用。",
+    "tags": [
+      "skill",
+      "codex",
+      "installer",
+      "github"
+    ]
   }
 }

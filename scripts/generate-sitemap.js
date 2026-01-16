@@ -24,7 +24,8 @@ const LANDING_PAGES = [
   "/landing/create-plan",
   "/landing/tailored-resume-generator",
   "/landing/spreadsheet-formula-helper",
-  "/landing/email-draft-polish"
+  "/landing/email-draft-polish",
+  "/landing/skill-creator"
 ];
 
 // Priority config

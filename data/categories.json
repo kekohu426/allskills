@@ -73,5 +73,7 @@
   "codex-notion-meeting-intelligence": "Productivity",
   "codex-notion-research-documentation": "Research",
   "codex-notion-spec-to-implementation": "Dev Tools",
-  "codex-langsmith-fetch": "Dev Tools"
+  "codex-langsmith-fetch": "Dev Tools",
+  "openai-skill-creator": "Dev Tools",
+  "openai-skill-installer": "Dev Tools"
 }
