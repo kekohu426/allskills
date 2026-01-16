@@ -13,6 +13,7 @@
   --border: rgba(150, 160, 200, 0.15);
   --glow: 0 0 24px rgba(17, 212, 255, 0.35);
   --radius: 18px;
+  --grid-line: rgba(148, 176, 226, 0.08);
 }
 
 * {
@@ -23,7 +24,12 @@ body {
   margin: 0;
   font-family: "IBM Plex Sans", sans-serif;
   color: var(--ink);
-  background: radial-gradient(circle at 10% 10%, #141427, var(--bg));
+  background-image:
+    radial-gradient(circle at 10% 10%, #141427, var(--bg)),
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 100% 100%, 72px 72px, 72px 72px;
+  background-position: 0 0, -1px -1px, -1px -1px;
   min-height: 100vh;
   position: relative;
 }
@@ -39,21 +45,24 @@ body {
 }
 
 .home-hero {
-  background: linear-gradient(135deg, #0d1f3f, #1c335d);
-  border-radius: 18px;
-  padding: 48px 32px 36px;
-  box-shadow: 0 22px 60px rgba(12, 20, 44, 0.4);
+  background: linear-gradient(135deg, rgba(9, 30, 46, 0.96), rgba(9, 15, 30, 0.96));
+  border-radius: 26px;
+  padding: 56px 36px 42px;
+  box-shadow: 0 30px 80px rgba(3, 10, 28, 0.6);
   color: #f6f8ff;
   text-align: center;
   position: relative;
   overflow: hidden;
+  border: 1px solid rgba(92, 125, 180, 0.3);
 }
 
 .home-hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 70% 10%, rgba(255, 255, 255, 0.18), transparent 45%);
+  background:
+    radial-gradient(circle at 70% 10%, rgba(255, 255, 255, 0.2), transparent 45%),
+    radial-gradient(circle at 20% 80%, rgba(17, 212, 255, 0.18), transparent 50%);
   pointer-events: none;
 }
 
@@ -834,7 +843,42 @@ main {
 }
 
 .page-hero {
-  padding: 40px 0 20px;
+  max-width: 1180px;
+  margin: 28px auto 36px;
+  padding: 48px 36px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(9, 30, 46, 0.92), rgba(9, 13, 26, 0.95));
+  border: 1px solid rgba(92, 125, 180, 0.3);
+  box-shadow: 0 26px 70px rgba(3, 10, 28, 0.55);
+  position: relative;
+  overflow: hidden;
+}
+
+.page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(17, 212, 255, 0.18), transparent 48%),
+    radial-gradient(circle at 80% 10%, rgba(255, 186, 92, 0.14), transparent 45%);
+  pointer-events: none;
+}
+
+.page-hero > div {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: clamp(2.2rem, 4vw, 3.1rem);
+  margin: 0 0 12px;
+}
+
+.page-hero p {
+  margin: 0;
+  color: var(--ink-soft);
+  max-width: 720px;
 }
 
 .pill-row {
@@ -871,7 +915,30 @@ main {
 }
 
 .detail-hero {
-  padding: 50px 0 20px;
+  max-width: 1180px;
+  margin: 28px auto 32px;
+  padding: 52px 36px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(9, 30, 46, 0.92), rgba(9, 13, 26, 0.95));
+  border: 1px solid rgba(92, 125, 180, 0.3);
+  box-shadow: 0 26px 70px rgba(3, 10, 28, 0.55);
+  position: relative;
+  overflow: hidden;
+}
+
+.detail-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 16% 18%, rgba(17, 212, 255, 0.18), transparent 48%),
+    radial-gradient(circle at 80% 15%, rgba(110, 107, 255, 0.18), transparent 48%);
+  pointer-events: none;
+}
+
+.detail-hero > div {
+  position: relative;
+  z-index: 1;
 }
 
 .detail-hero h1 {
@@ -1019,6 +1086,12 @@ main {
 
   .section-muted {
     padding: 40px 6vw;
+  }
+
+  .page-hero,
+  .detail-hero {
+    margin: 20px 16px 28px;
+    padding: 34px 22px;
   }
 }
 
