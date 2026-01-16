@@ -24,27 +24,54 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
     new Set([skill.category, ...(skill.tags || [])].filter(Boolean))
   ).join(", ");
 
-  const rawJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: displayName,
-    name: displayName,
-    description: displayDesc,
-    inLanguage: locale === "zh" ? "zh-CN" : "en",
-    keywords,
-    genre: skill.category,
-    mainEntityOfPage: canonicalUrl,
-    url: canonicalUrl,
-    license: skill.license || undefined,
-    publisher: {
-      "@type": "Organization",
-      name: "AllSkills",
-      url: site.domain
+  const rawJsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      name: displayName,
+      description: displayDesc,
+      applicationCategory: "AIApplication",
+      operatingSystem: "Web",
+      inLanguage: locale === "zh" ? "zh-CN" : "en",
+      keywords,
+      url: canonicalUrl,
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD"
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "AllSkills",
+        url: site.domain
+      },
+      sameAs: skill.sourceUrl ? [skill.sourceUrl] : undefined
     },
-    sameAs: skill.sourceUrl ? [skill.sourceUrl] : undefined,
-    alternateName: isZh ? skill.name : skill.nameZh,
-    about: displayUseCases && displayUseCases.length ? displayUseCases : undefined
-  };
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: isZh ? "首页" : "Home",
+          item: site.domain
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Skills",
+          item: `${site.domain}${isZh ? "/skills" : "/en/skills"}`
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: displayName,
+          item: canonicalUrl
+        }
+      ]
+    }
+  ];
   const jsonLd = JSON.parse(JSON.stringify(rawJsonLd));
 
   const handleCopy = async () => {

@@ -5,6 +5,8 @@ const { getAllPosts } = require("../lib/blog");
 const site = require("../data/site.json");
 
 const outPath = path.join(process.cwd(), "public", "sitemap.xml");
+const today = new Date().toISOString().split("T")[0];
+
 const LANDING_PAGES = [
   "/landing/anthropic-skills-zh",
   "/landing/claude-prompts",
@@ -16,41 +18,91 @@ const LANDING_PAGES = [
   "/landing/office-docs",
   "/landing/content-writing",
   "/landing/obsidian-skills",
-  "/landing/document-driven-development"
+  "/landing/document-driven-development",
+  "/landing/ai-hotspot-dailyreport",
+  "/landing/gh-fix-ci",
+  "/landing/create-plan",
+  "/landing/tailored-resume-generator",
+  "/landing/spreadsheet-formula-helper",
+  "/landing/email-draft-polish"
 ];
 
-function urlEntry(loc) {
-  return `  <url>\n    <loc>${loc}</loc>\n  </url>`;
+// Priority config
+const PRIORITY = {
+  home: "1.0",
+  skills: "0.9",
+  collections: "0.8",
+  landing: "0.8",
+  skillDetail: "0.7",
+  blog: "0.7",
+  blogPost: "0.6",
+  about: "0.5"
+};
+
+function urlEntry(loc, priority = "0.5", changefreq = "weekly") {
+  return `  <url>
+    <loc>${loc}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>`;
 }
 
 function build() {
   const base = site.domain.replace(/\/$/, "");
-  const basePages = ["/", "/skills", "/collections", "/blog", "/about"];
+  const urls = [];
 
-  const skills = getAllSkills().map((skill) => `/skills/${skill.slug}`);
-  const postsZh = getAllPosts().map((post) => `/blog/${post.slug}`);
-  const postsEn = getAllPosts("en").map((post) => `/en/blog/${post.slug}`);
+  // Home pages
+  urls.push(urlEntry(`${base}/`, PRIORITY.home, "daily"));
+  urls.push(urlEntry(`${base}/en`, PRIORITY.home, "daily"));
 
-  const seen = new Set();
+  // Skills list
+  urls.push(urlEntry(`${base}/skills`, PRIORITY.skills, "daily"));
+  urls.push(urlEntry(`${base}/en/skills`, PRIORITY.skills, "daily"));
 
-  function addWithLocale(pathName) {
-    seen.add(pathName);
-    seen.add(pathName === "/" ? "/en" : `/en${pathName}`);
-  }
+  // Collections
+  urls.push(urlEntry(`${base}/collections`, PRIORITY.collections, "weekly"));
+  urls.push(urlEntry(`${base}/en/collections`, PRIORITY.collections, "weekly"));
 
-  [...basePages, ...LANDING_PAGES].forEach(addWithLocale);
-  skills.forEach(addWithLocale);
-  postsZh.forEach(addWithLocale);
-  postsEn.forEach((pathName) => seen.add(pathName));
+  // Blog index
+  urls.push(urlEntry(`${base}/blog`, PRIORITY.blog, "weekly"));
+  urls.push(urlEntry(`${base}/en/blog`, PRIORITY.blog, "weekly"));
 
-  const urls = Array.from(seen)
-    .map((pathName) => urlEntry(`${base}${pathName}`))
-    .join("\n");
+  // About
+  urls.push(urlEntry(`${base}/about`, PRIORITY.about, "monthly"));
+  urls.push(urlEntry(`${base}/en/about`, PRIORITY.about, "monthly"));
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+  // Landing pages
+  LANDING_PAGES.forEach((p) => {
+    urls.push(urlEntry(`${base}${p}`, PRIORITY.landing, "weekly"));
+    urls.push(urlEntry(`${base}/en${p}`, PRIORITY.landing, "weekly"));
+  });
+
+  // Skill detail pages
+  const skills = getAllSkills();
+  skills.forEach((skill) => {
+    urls.push(urlEntry(`${base}/skills/${skill.slug}`, PRIORITY.skillDetail, "weekly"));
+    urls.push(urlEntry(`${base}/en/skills/${skill.slug}`, PRIORITY.skillDetail, "weekly"));
+  });
+
+  // Blog posts
+  const postsZh = getAllPosts("zh");
+  const postsEn = getAllPosts("en");
+  postsZh.forEach((post) => {
+    urls.push(urlEntry(`${base}/blog/${post.slug}`, PRIORITY.blogPost, "monthly"));
+  });
+  postsEn.forEach((post) => {
+    urls.push(urlEntry(`${base}/en/blog/${post.slug}`, PRIORITY.blogPost, "monthly"));
+  });
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.join("\n")}
+</urlset>
+`;
 
   fs.writeFileSync(outPath, xml, "utf8");
-  console.log(`Sitemap generated: ${outPath}`);
+  console.log(`Sitemap generated: ${outPath} (${urls.length} URLs)`);
 }
 
 build();
