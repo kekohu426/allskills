@@ -1393,5 +1393,72 @@
       "installer",
       "github"
     ]
+  },
+  "web-design-guidelines": {
+    "nameZh": "Web 设计指南",
+    "descriptionZh": "根据 Web 界面指南审查 UI 代码合规性。用于审查 UI、检查可访问性、审计设计、审查 UX 或检查网站最佳实践。",
+    "useCases": [
+      "Review UI code for accessibility compliance",
+      "Audit design against Web Interface Guidelines",
+      "Check UX best practices implementation"
+    ],
+    "useCasesZh": [
+      "审查 UI 代码的可访问性合规性",
+      "根据 Web 界面指南审计设计",
+      "检查 UX 最佳实践实施"
+    ],
+    "tags": [
+      "design",
+      "accessibility",
+      "audit",
+      "ux",
+      "guidelines"
+    ]
+  },
+  "vercel-react-best-practices": {
+    "nameZh": "Vercel React 最佳实践",
+    "descriptionZh": "来自 Vercel 工程团队的 React 和 Next.js 性能优化指南。包含 8 个类别的 45 条规则，用于优化性能模式。",
+    "useCases": [
+      "Optimize React component performance",
+      "Review Next.js code for best practices",
+      "Refactor code to eliminate waterfalls",
+      "Reduce bundle size and improve load times"
+    ],
+    "useCasesZh": [
+      "优化 React 组件性能",
+      "审查 Next.js 代码最佳实践",
+      "重构代码以消除瀑布流",
+      "减少包大小并提高加载时间"
+    ],
+    "tags": [
+      "react",
+      "nextjs",
+      "performance",
+      "optimization",
+      "vercel"
+    ]
+  },
+  "vercel-deploy": {
+    "nameZh": "Vercel 部署",
+    "descriptionZh": "即时将应用程序和网站部署到 Vercel。无需身份验证 - 返回预览 URL 和可认领的部署链接。",
+    "useCases": [
+      "Deploy app to production instantly",
+      "Create preview deployments for testing",
+      "Deploy static sites without authentication",
+      "Get shareable preview links quickly"
+    ],
+    "useCasesZh": [
+      "即时将应用部署到生产环境",
+      "创建预览部署进行测试",
+      "无需身份验证部署静态网站",
+      "快速获取可分享的预览链接"
+    ],
+    "tags": [
+      "deployment",
+      "vercel",
+      "hosting",
+      "preview",
+      "production"
+    ]
   }
 }
