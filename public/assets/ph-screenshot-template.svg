@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1270" height="760" viewBox="0 0 1270 760" role="img" aria-label="AllSkills Product Hunt screenshot template">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F3ED"/>
+      <stop offset="1" stop-color="#E7EEF3"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2A541"/>
+      <stop offset="1" stop-color="#F7B35E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1270" height="760" rx="48" fill="url(#bg)"/>
+  <rect x="86" y="86" width="1098" height="588" rx="32" fill="#FFFFFF" stroke="#DCE3EA"/>
+
+  <rect x="130" y="130" width="64" height="64" rx="16" fill="#143A52"/>
+  <path d="M148 176 L162 150 L180 168" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="148" cy="176" r="9" fill="#F2A541"/>
+  <circle cx="162" cy="150" r="9" fill="#F2A541"/>
+  <circle cx="180" cy="168" r="9" fill="#F2A541"/>
+
+  <text x="212" y="176" fill="#143A52" font-size="40" font-weight="700" font-family="Space Grotesk, Manrope, Arial, sans-serif">AllSkills</text>
+  <text x="130" y="230" fill="#5B6B75" font-size="22" font-weight="500" font-family="Space Grotesk, Manrope, Arial, sans-serif">Curated agent skills for real-world workflows</text>
+
+  <rect x="130" y="280" width="1010" height="120" rx="18" fill="#F6F8FA" stroke="#E2E8EF"/>
+  <rect x="150" y="300" width="220" height="24" rx="6" fill="#143A52" opacity="0.9"/>
+  <rect x="150" y="336" width="520" height="16" rx="4" fill="#9AA7B2"/>
+  <rect x="150" y="360" width="460" height="16" rx="4" fill="#B4C0CB"/>
+  <rect x="930" y="312" width="170" height="44" rx="12" fill="url(#accent)"/>
+
+  <rect x="130" y="430" width="320" height="200" rx="18" fill="#FFFFFF" stroke="#E2E8EF"/>
+  <rect x="470" y="430" width="320" height="200" rx="18" fill="#FFFFFF" stroke="#E2E8EF"/>
+  <rect x="810" y="430" width="320" height="200" rx="18" fill="#FFFFFF" stroke="#E2E8EF"/>
+
+  <rect x="150" y="454" width="140" height="16" rx="4" fill="#143A52" opacity="0.9"/>
+  <rect x="150" y="482" width="220" height="12" rx="3" fill="#9AA7B2"/>
+  <rect x="150" y="504" width="200" height="12" rx="3" fill="#B4C0CB"/>
+
+  <rect x="490" y="454" width="160" height="16" rx="4" fill="#143A52" opacity="0.9"/>
+  <rect x="490" y="482" width="220" height="12" rx="3" fill="#9AA7B2"/>
+  <rect x="490" y="504" width="200" height="12" rx="3" fill="#B4C0CB"/>
+
+  <rect x="830" y="454" width="150" height="16" rx="4" fill="#143A52" opacity="0.9"/>
+  <rect x="830" y="482" width="220" height="12" rx="3" fill="#9AA7B2"/>
+  <rect x="830" y="504" width="200" height="12" rx="3" fill="#B4C0CB"/>
+</svg>

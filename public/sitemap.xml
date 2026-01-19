@@ -421,6 +421,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-artifacts-builder</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-artifacts-builder</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-ask-questions-if-underspecified</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -589,6 +601,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-brand-guidelines</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-brand-guidelines</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-brenda-database</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -673,6 +697,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-canvas-design</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-canvas-design</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-cargo-fuzz</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -704,6 +740,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-changelog-generator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-changelog-generator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-changelog-generator</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -865,6 +913,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-competitive-ads-extractor</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-competitive-ads-extractor</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/codex-connect</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -872,6 +932,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/codex-connect</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-connect</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-connect</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-connect-apps</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-connect-apps</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -908,6 +992,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-content-research-writer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-content-research-writer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-content-research-writer</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1045,6 +1141,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-developer-growth-analysis</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-developer-growth-analysis</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-diffdock</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1165,6 +1273,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-docx</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-docx</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/awesome-domain-name-brainstormer</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1172,6 +1292,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-domain-name-brainstormer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-domain-name-brainstormer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-domain-name-brainstormer</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1316,6 +1448,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-file-organizer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-file-organizer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-file-organizer</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1645,6 +1789,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-image-enhancer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-image-enhancer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/internal-comms</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1681,6 +1837,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-internal-comms</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-internal-comms</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-interpreting-culture-index</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1700,6 +1868,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-invoice-organizer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-invoice-organizer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-invoice-organizer</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1789,6 +1969,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-langsmith-fetch</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-langsmith-fetch</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-latchbio-integration</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1820,6 +2012,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-lead-research-assistant</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-lead-research-assistant</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-lead-research-assistant</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1981,6 +2185,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-mcp-builder</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-mcp-builder</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-lab-mcp-cli</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -2012,6 +2228,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-meeting-insights-analyzer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-meeting-insights-analyzer</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-meeting-insights-analyzer</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2317,6 +2545,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-pdf</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-pdf</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-peer-review</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -2432,6 +2672,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-pptx</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-pptx</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-pptx</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2684,6 +2936,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-raffle-winner-picker</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-raffle-winner-picker</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-raffle-winner-picker</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3073,6 +3337,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-skill-creator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-skill-creator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/openai-skill-installer</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -3092,6 +3368,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-skill-share</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-skill-share</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-skill-share</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3128,6 +3416,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-slack-gif-creator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-slack-gif-creator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-slack-gif-creator</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3289,6 +3589,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-tailored-resume-generator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-tailored-resume-generator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-test-driven-development</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -3344,6 +3656,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-theme-factory</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-theme-factory</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-theme-factory</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3649,6 +3973,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-webapp-testing</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-webapp-testing</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-writing-plans</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -3721,6 +4057,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/composio-xlsx</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-xlsx</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/awesome-video-downloader</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -3728,6 +4076,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/awesome-video-downloader</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/composio-video-downloader</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/composio-video-downloader</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

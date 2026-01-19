@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AllSkills logo mark">
+  <defs>
+    <linearGradient id="as-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2A541"/>
+      <stop offset="1" stop-color="#F7B35E"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#143A52"/>
+  <path d="M150 330 L240 210 L330 290" fill="none" stroke="url(#as-accent)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="150" cy="330" r="30" fill="#F2A541"/>
+  <circle cx="240" cy="210" r="30" fill="#F2A541"/>
+  <circle cx="330" cy="290" r="30" fill="#F2A541"/>
+  <circle cx="240" cy="210" r="10" fill="#143A52"/>
+</svg>

@@ -17,7 +17,8 @@ const SOURCES = [
   { root: path.join(ROOT, "external", "superpowers-main", "skills"), prefix: "superpowers", sourceLabel: "superpowers", sourceUrl: "https://github.com/codeium/superpowers" },
   { root: path.join(ROOT, "planning-with-files-master", "skills"), prefix: "", sourceLabel: "planning-with-files", sourceUrl: "https://github.com/OthmanAdi/planning-with-files" },
   { root: path.join(ROOT, "obsidian-skills-main", "skills"), prefix: "", sourceLabel: "obsidian-skills", sourceUrl: "https://github.com/kepano/obsidian-skills" },
-  { root: path.join(ROOT, "document-driven-development-main", "skills"), prefix: "", sourceLabel: "document-driven-development", sourceUrl: "https://github.com/s87343472/document-driven-development" }
+  { root: path.join(ROOT, "document-driven-development-main", "skills"), prefix: "", sourceLabel: "document-driven-development", sourceUrl: "https://github.com/s87343472/document-driven-development" },
+  { root: path.join(ROOT, "external", "composio-awesome-claude-skills"), prefix: "composio", sourceLabel: "composio-awesome-claude-skills", sourceUrl: "https://github.com/ComposioHQ/awesome-claude-skills" }
 ];
 
 function parseFrontmatter(content) {
