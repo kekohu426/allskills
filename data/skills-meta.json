@@ -2850,5 +2850,511 @@
       "scientific",
       "research"
     ]
+  },
+  "security-ask-questions-if-underspecified": {
+    "nameZh": "Ask-Questions-If-Underspecified",
+    "descriptionZh": "Clarify requirements before implementing. Use when serious doubts araise.",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-audit-context-building": {
+    "nameZh": "Audit-Context-Building",
+    "descriptionZh": "Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-algorand-vulnerability-scanner": {
+    "nameZh": "Algorand-Vulnerability-Scanner",
+    "descriptionZh": "Scans Algorand smart contracts for 11 common vulnerabilities including rekeying attacks, unchecked transaction fees, missing field validations, and ac...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-ton-vulnerability-scanner": {
+    "nameZh": "Ton-Vulnerability-Scanner",
+    "descriptionZh": "Scans TON (The Open Network) smart contracts for 3 critical vulnerabilities including integer-as-boolean misuse, fake Jetton contracts, and forward TO...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-cairo-vulnerability-scanner": {
+    "nameZh": "Cairo-Vulnerability-Scanner",
+    "descriptionZh": "Scans Cairo/StarkNet smart contracts for 6 critical vulnerabilities including felt252 arithmetic overflow, L1-L2 messaging issues, address conversion ...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-solana-vulnerability-scanner": {
+    "nameZh": "Solana-Vulnerability-Scanner",
+    "descriptionZh": "Scans Solana programs for 6 critical vulnerabilities including arbitrary CPI, improper PDA validation, missing signer/ownership checks, and sysvar spo...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-cosmos-vulnerability-scanner": {
+    "nameZh": "Cosmos-Vulnerability-Scanner",
+    "descriptionZh": "Scans Cosmos SDK blockchains for 9 consensus-critical vulnerabilities including non-determinism, incorrect signers, ABCI panics, and rounding errors. ...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-substrate-vulnerability-scanner": {
+    "nameZh": "Substrate-Vulnerability-Scanner",
+    "descriptionZh": "Scans Substrate/Polkadot pallets for 7 critical vulnerabilities including arithmetic overflow, panic DoS, incorrect weights, and bad origin checks. Us...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-token-integration-analyzer": {
+    "nameZh": "Token-Integration-Analyzer",
+    "descriptionZh": "Comprehensive token integration and implementation analyzer based on Trail of Bits' token integration checklist. Analyzes token implementations for ER...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-audit-prep-assistant": {
+    "nameZh": "Audit-Prep-Assistant",
+    "descriptionZh": "Prepare your codebase for security review using Trail of Bits' checklist. Helps set review goals, runs static analysis tools, increases test coverage,...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-code-maturity-assessor": {
+    "nameZh": "Code-Maturity-Assessor",
+    "descriptionZh": "Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase for arithmetic safety, auditing practices, access con...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-secure-workflow-guide": {
+    "nameZh": "Secure-Workflow-Guide",
+    "descriptionZh": "Guide you through Trail of Bits' 5-step secure development workflow. Runs Slither scans, checks special features (upgradeability/ERC conformance/token...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-guidelines-advisor": {
+    "nameZh": "Guidelines-Advisor",
+    "descriptionZh": "Comprehensive smart contract development advisor based on Trail of Bits' best practices. Analyzes codebase to generate documentation/specifications, r...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-burpsuite-project-parser": {
+    "nameZh": "Burpsuite-Project-Parser",
+    "descriptionZh": "Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extra...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-constant-time-analysis": {
+    "nameZh": "Constant-Time-Analysis",
+    "descriptionZh": "Detects timing side-channel vulnerabilities in cryptographic code. Use when implementing or reviewing crypto code, encountering division on secrets, s...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-interpreting-culture-index": {
+    "nameZh": "Interpreting-Culture-Index",
+    "descriptionZh": "Use when interpreting Culture Index surveys, CI profiles, behavioral assessments, or personality data. Supports individual interpretation, team compos...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-differential-review": {
+    "nameZh": "Differential-Review",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-dwarf-expert": {
+    "nameZh": "Dwarf-Expert",
+    "descriptionZh": "Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF inform...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-entry-point-analyzer": {
+    "nameZh": "Entry-Point-Analyzer",
+    "descriptionZh": "Analyzes smart contract codebases to identify state-changing entry points for security auditing. Detects externally callable functions that modify sta...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-fix-review": {
+    "nameZh": "Fix-Review",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-property-based-testing": {
+    "nameZh": "Property-Based-Testing",
+    "descriptionZh": "Provides guidance for property-based testing across multiple languages and smart contracts. Use when writing tests, reviewing code with serialization/...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-semgrep-rule-creator": {
+    "nameZh": "Semgrep-Rule-Creator",
+    "descriptionZh": "Create custom Semgrep rules for detecting bug patterns and security vulnerabilities. This skill should be used when the user explicitly asks to create...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-sharp-edges": {
+    "nameZh": "Sharp-Edges",
+    "descriptionZh": "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuratio...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-spec-to-code-compliance": {
+    "nameZh": "Spec-To-Code-Compliance",
+    "descriptionZh": "Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-semgrep": {
+    "nameZh": "Semgrep",
+    "descriptionZh": "Run Semgrep static analysis for fast security scanning and pattern matching. Use when asked to scan code with Semgrep, write custom YAML rules, find v...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-sarif-parsing": {
+    "nameZh": "Sarif-Parsing",
+    "descriptionZh": "Parse, analyze, and process SARIF (Static Analysis Results Interchange Format) files. Use when reading security scan results, aggregating findings fro...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-codeql": {
+    "nameZh": "Codeql",
+    "descriptionZh": "Run CodeQL static analysis for security vulnerability detection, taint tracking, and data flow analysis. Use when asked to analyze code with CodeQL, c...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-address-sanitizer": {
+    "nameZh": "Address-Sanitizer",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-harness-writing": {
+    "nameZh": "Harness-Writing",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-aflpp": {
+    "nameZh": "Aflpp",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-libfuzzer": {
+    "nameZh": "Libfuzzer",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-constant-time-testing": {
+    "nameZh": "Constant-Time-Testing",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-libafl": {
+    "nameZh": "Libafl",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-coverage-analysis": {
+    "nameZh": "Coverage-Analysis",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-testing-handbook-generator": {
+    "nameZh": "Testing-Handbook-Generator",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-fuzzing-obstacles": {
+    "nameZh": "Fuzzing-Obstacles",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-ruzzy": {
+    "nameZh": "Ruzzy",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-burp-suite": {
+    "nameZh": "Burp-Suite",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-wycheproof": {
+    "nameZh": "Wycheproof",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-atheris": {
+    "nameZh": "Atheris",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-ossfuzz": {
+    "nameZh": "Ossfuzz",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-cargo-fuzz": {
+    "nameZh": "Cargo-Fuzz",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-fuzzing-dictionary": {
+    "nameZh": "Fuzzing-Dictionary",
+    "descriptionZh": ">",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "security-variant-analysis": {
+    "nameZh": "Variant-Analysis",
+    "descriptionZh": "Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, a...",
+    "useCases": [],
+    "useCasesZh": [],
+    "tags": [
+      "security",
+      "audit",
+      "analysis"
+    ]
+  },
+  "playwright-automation": {
+    "nameZh": "Playwright 浏览器自动化",
+    "descriptionZh": "使用 Playwright 进行完整的浏览器自动化。自动检测开发服务器，编写测试脚本。测试页面、填写表单、截图、检查响应式设计、验证 UX、测试登录流程等。",
+    "useCases": [
+      "Test web pages and validate functionality",
+      "Automate browser interactions and workflows",
+      "Take screenshots and check responsive design",
+      "Test login flows and form submissions"
+    ],
+    "useCasesZh": [
+      "测试网页并验证功能",
+      "自动化浏览器交互和工作流",
+      "截图并检查响应式设计",
+      "测试登录流程和表单提交"
+    ],
+    "tags": [
+      "playwright",
+      "testing",
+      "automation",
+      "browser"
+    ]
   }
 }
