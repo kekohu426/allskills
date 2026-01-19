@@ -709,6 +709,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/loki-checkpoint-mode</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/loki-checkpoint-mode</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-chembl-database</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1309,6 +1321,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/superpowers-lab-duplicate-functions</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-lab-duplicate-functions</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-finishing-a-development-branch</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1681,6 +1705,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/ios-simulator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/ios-simulator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-iso-13485-certification</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1837,6 +1873,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/loki-mode</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/loki-mode</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-market-research-reports</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1928,6 +1976,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-mcp-builder</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/superpowers-lab-mcp-cli</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-lab-mcp-cli</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2384,6 +2444,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-pptx-posters</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/loki-prompt-optimization</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/loki-prompt-optimization</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3397,6 +3469,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/superpowers-lab-tmux</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/superpowers-lab-tmux</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-uspto-database</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -3512,6 +3596,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/skills-main-web-artifacts-builder</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/web-asset-generator</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/web-asset-generator</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
