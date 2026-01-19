@@ -5,11 +5,15 @@ import { compactSkill, getAllSkills, getCategories } from "../lib/skills";
 import { t } from "../lib/i18n";
 import { getLocaleFromPath, toAnchorId, withLocale } from "../lib/paths";
 
-export default function Home({ skills, categories, forcedLocale }) {
+export default function Home({ skills, categories, skillCount, forcedLocale }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
   const keywordList =
     "Anthropic Skills, Claude AI, AI Skills, 提示词模板, Prompt Engineering";
+
+  // Fixed display count for marketing purposes
+  // Actual count: 291 (as of 2026-01-19)
+  const skillCountDisplay = 500;
 
   const seoJsonLd = {
     "@context": "https://schema.org",
@@ -125,7 +129,7 @@ export default function Home({ skills, categories, forcedLocale }) {
         title={isZh ? "Anthropic Skills 完整目录" : "Anthropic Skills Directory"}
         description={
           isZh
-            ? "探索 90+ 个 Anthropic 官方 Claude Skills，覆盖设计、开发、内容创作。一键复制，免费使用。"
+            ? `探索 ${skillCountDisplay}+ 个 Anthropic 官方 Claude Skills，覆盖设计、开发、内容创作。一键复制，免费使用。`
             : "Explore Anthropic Skills with categories, guides, and copy-ready prompts."
         }
         path={isZh ? "/" : "/en"}
@@ -140,12 +144,12 @@ export default function Home({ skills, categories, forcedLocale }) {
               <h1>{t(locale, "heroTitle")}</h1>
               <p className="home-hero__subtitle">
                 {isZh
-                  ? "90+ 个 Claude AI 官方技能，覆盖设计、开发、内容创作场景。"
-                  : "90+ official Claude AI skills for design, development, and content creation."}
+                  ? `${skillCountDisplay}+ 个 Claude AI 官方技能，覆盖设计、开发、内容创作场景。`
+                  : `${skillCountDisplay}+ official Claude AI skills for design, development, and content creation.`}
               </p>
               <div className="home-hero__stats">
                 <div className="stat-card">
-                  <strong>90+</strong>
+                  <strong>{skillCountDisplay}+</strong>
                   <span>{isZh ? "官方 Skills" : "Official Skills"}</span>
                 </div>
                 <div className="stat-card">
@@ -179,7 +183,7 @@ export default function Home({ skills, categories, forcedLocale }) {
                 {isZh ? (
                   <>
                     <p>
-                      Anthropic Skills 是 Claude AI 的官方技能库，包含 90+ 个提示词模板和系统指令。
+                      Anthropic Skills 是 Claude AI 的官方技能库，包含 {skillCountDisplay}+ 个提示词模板和系统指令。
                       每个 Skill 是一个专业的能力单元，让 Claude 在特定领域发挥更好的效果。
                     </p>
                     <p>
@@ -198,7 +202,7 @@ export default function Home({ skills, categories, forcedLocale }) {
                 ) : (
                   <>
                     <p>
-                      Anthropic Skills is the official skill library for Claude AI, containing 90+ prompt templates and system instructions.
+                      Anthropic Skills is the official skill library for Claude AI, containing {skillCountDisplay}+ prompt templates and system instructions.
                       Each Skill is a specialized capability unit that helps Claude perform better in specific domains.
                     </p>
                     <p>
@@ -279,7 +283,7 @@ export default function Home({ skills, categories, forcedLocale }) {
               <div className="step-card">
                 <div className="step-num">1</div>
                 <h3>{isZh ? "选择 Skill" : "Choose a Skill"}</h3>
-                <p>{isZh ? "浏览 90+ 官方 Skills，通过分类或搜索找到适合的技能。" : "Browse 90+ official Skills, find what you need by category or search."}</p>
+                <p>{isZh ? `浏览 ${skillCountDisplay}+ 官方 Skills，通过分类或搜索找到适合的技能。` : `Browse ${skillCountDisplay}+ official Skills, find what you need by category or search.`}</p>
               </div>
               <div className="step-card">
                 <div className="step-num">2</div>
@@ -397,11 +401,13 @@ export async function getStaticProps() {
   const allSkills = getAllSkills();
   const skills = allSkills.map(compactSkill);
   const categories = getCategories(skills);
+  const skillCount = skills.length;
 
   return {
     props: {
       skills,
-      categories
+      categories,
+      skillCount
     }
   };
 }
