@@ -649,6 +649,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/vercel-nextjs-cache-components</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/vercel-nextjs-cache-components</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-cairo-vulnerability-scanner</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>weekly</changefreq>

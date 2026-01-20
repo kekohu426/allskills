@@ -343,11 +343,21 @@ main {
   box-shadow: 0 12px 40px rgba(2, 8, 22, 0.45);
 }
 
-.nav__logo a {
+.nav__logo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-family: "Rajdhani", sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 600;
+}
+
+.nav__logo-mark {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
 
 .nav__links {

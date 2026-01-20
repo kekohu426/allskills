@@ -11,7 +11,10 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="nav__logo">
-        <Link href={withLocale("/", locale)}>AllSkills</Link>
+        <Link className="nav__logo-link" href={withLocale("/", locale)}>
+          <img className="nav__logo-mark" src="/allskills-logo.svg" alt="AllSkills logo" />
+          <span>AllSkills</span>
+        </Link>
       </div>
       <div className="nav__links">
         <Link href={withLocale("/", locale)}>{t(locale, "navHome")}</Link>

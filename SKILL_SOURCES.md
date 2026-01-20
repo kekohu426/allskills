@@ -86,6 +86,18 @@ Last Updated: 2026-01-19
   - Practical action-oriented skills (send emails, create issues, post to Slack)
 - **Notes**: High-quality curated collection with unique integration capabilities
 
+### ✅ Vercel Next.js Cache Components ⭐ NEW
+- **Repository**: [vercel/next.js](https://github.com/vercel/next.js/tree/canary/.claude-plugin/plugins/cache-components/skills/cache-components)
+- **Status**: ✅ Integrated
+- **Skills Count**: 1 skill (comprehensive)
+- **Last Sync**: 2026-01-20
+- **Categories**: Development, Next.js, Performance
+- **Unique Features**:
+  - Expert guidance for Next.js Cache Components and Partial Prerendering (PPR)
+  - Includes patterns, API reference, and troubleshooting
+  - Auto-activation for projects with cacheComponents enabled
+- **Notes**: Official Vercel skill for Next.js caching optimization
+
 ---
 
 ## 🔍 Discovered - Pending Review
@@ -123,11 +135,11 @@ Last Updated: 2026-01-19
 
 ## 📊 Statistics
 
-- **Total Integrated Sources**: 11
-- **Total Skills**: 320
+- **Total Integrated Sources**: 12
+- **Total Skills**: 321
 - **Pending Review**: 2 repositories
-- **Last Integration**: ComposioHQ (2026-01-19, +30 skills)
-- **Last Updated**: 2026-01-19
+- **Last Integration**: Vercel Next.js Cache Components (2026-01-20, +1 skill)
+- **Last Updated**: 2026-01-20
 
 ---
 

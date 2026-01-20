@@ -18,6 +18,8 @@ export default function SeoHead({ title, description, path, keywords, jsonLd, og
       <meta name="description" content={pageDescription} />
       {keywords && <meta name="keywords" content={keywords} />}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/allskills-logo.svg" type="image/svg+xml" />
+      <link rel="apple-touch-icon" href="/assets/allskills-logo-240.png" />
       <link rel="canonical" href={url} />
       <link rel="alternate" hrefLang="zh" href={zhUrl} />
       <link rel="alternate" hrefLang="en" href={enUrl} />
