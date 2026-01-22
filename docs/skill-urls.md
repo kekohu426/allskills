@@ -1,6 +1,7 @@
 ﻿# AllSkills.cn Skill URLs
 
 Last Updated: 2026-01-22
+Published: 2026-01-22
 
 Total Skills: 464
 
