@@ -198,7 +198,17 @@ Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
 git push origin main
 ```
 
-### 第 7 步：Sitemap 提交
+### 第 7 步：更新 Skill URL 文档
+
+在导入技能后，更新全站 skill URL 清单：
+
+```bash
+node -e "const fs=require('fs');const data=JSON.parse(fs.readFileSync('data/skills-content.json','utf8'));const slugs=Object.keys(data).sort();const lines=['# AllSkills.cn Skill URLs','','Last Updated: 2026-01-22','',`Total Skills: ${slugs.length}`,'','## URLs','',...slugs.map(s=>`- https://allskills.cn/skills/${s}`)];fs.writeFileSync('docs/skill-urls.md',lines.join('\\n'),'utf8');console.log('Updated docs/skill-urls.md');"
+```
+
+> 说明：日期请更新为当天实际日期。
+
+### 第 8 步：Sitemap 提交
 
 部署完成后，提交新页面到搜索引擎：
 
