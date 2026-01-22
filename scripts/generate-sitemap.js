@@ -25,8 +25,11 @@ const LANDING_PAGES = [
   "/landing/tailored-resume-generator",
   "/landing/spreadsheet-formula-helper",
   "/landing/email-draft-polish",
-  "/landing/skill-creator"
+  "/landing/skill-creator",
+  "/landing/skill-generator"
 ];
+
+const TOOL_PAGES = ["/tools/skill-generator"];
 
 // Priority config
 const PRIORITY = {
@@ -34,6 +37,7 @@ const PRIORITY = {
   skills: "0.9",
   collections: "0.8",
   landing: "0.8",
+  tools: "0.8",
   skillDetail: "0.7",
   blog: "0.7",
   blogPost: "0.6",
@@ -77,6 +81,12 @@ function build() {
   LANDING_PAGES.forEach((p) => {
     urls.push(urlEntry(`${base}${p}`, PRIORITY.landing, "weekly"));
     urls.push(urlEntry(`${base}/en${p}`, PRIORITY.landing, "weekly"));
+  });
+
+  // Tool pages
+  TOOL_PAGES.forEach((p) => {
+    urls.push(urlEntry(`${base}${p}`, PRIORITY.tools, "weekly"));
+    urls.push(urlEntry(`${base}/en${p}`, PRIORITY.tools, "weekly"));
   });
 
   // Skill detail pages

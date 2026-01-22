@@ -277,6 +277,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/landing/skill-generator</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/skill-generator</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/tools/skill-generator</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/tools/skill-generator</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/agents-accessibility-compliance</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
