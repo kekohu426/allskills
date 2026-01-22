@@ -277,6 +277,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-accessibility-compliance</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-accessibility-compliance</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-adaptyv</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -325,6 +337,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/claude-code-agent-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-agent-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/ai-hotspot-dailyreport-skill</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -332,6 +356,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/ai-hotspot-dailyreport-skill</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-airflow-dag-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-airflow-dag-patterns</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -385,6 +421,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/claude-cookbooks-analyzing-financial-statements</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-cookbooks-analyzing-financial-statements</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-angular-migration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-angular-migration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-anndata</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -397,6 +457,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-anti-reversing-techniques</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-anti-reversing-techniques</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-api-design-principles</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-api-design-principles</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-cookbooks-applying-brand-guidelines</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-cookbooks-applying-brand-guidelines</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-arboreto</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -404,6 +500,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-arboreto</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-architecture-decision-records</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-architecture-decision-records</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-architecture-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-architecture-patterns</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -457,6 +577,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-async-python-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-async-python-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-atheris</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -464,6 +596,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-atheris</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-attack-tree-construction</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-attack-tree-construction</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -493,6 +637,66 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-auth-implementation-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-auth-implementation-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-backtesting-frameworks</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-backtesting-frameworks</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-bash-defensive-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-bash-defensive-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-bats-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-bats-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-bazel-build-optimization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-bazel-build-optimization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-benchling-integration</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -500,6 +704,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-benchling-integration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-billing-automation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-billing-automation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-binary-analysis-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-binary-analysis-patterns</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -745,6 +973,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-changelog-automation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-changelog-automation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/awesome-changelog-generator</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -812,6 +1052,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-citation-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-code-claude-opus-4-5-migration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-claude-opus-4-5-migration</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -901,6 +1153,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-code-review-excellence</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-code-review-excellence</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-codeql</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -908,6 +1172,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-codeql</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-code-command-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-command-development</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -932,6 +1208,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/composio-competitive-ads-extractor</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-competitive-landscape</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-competitive-landscape</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1021,6 +1309,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-context-driven-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-context-driven-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-cookbooks-cookbook-audit</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-cookbooks-cookbook-audit</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-cosmic-database</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1045,6 +1357,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-cost-optimization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-cost-optimization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-coverage-analysis</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1052,6 +1376,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-coverage-analysis</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-cqrs-implementation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-cqrs-implementation</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1069,6 +1405,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/claude-cookbooks-creating-financial-models</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-cookbooks-creating-financial-models</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-dask</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1076,6 +1424,42 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-dask</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-data-quality-frameworks</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-data-quality-frameworks</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-data-storytelling</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-data-storytelling</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-database-migration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-database-migration</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1105,6 +1489,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-dbt-transformation-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-dbt-transformation-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-debugging-strategies</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-debugging-strategies</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-deepchem</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1129,6 +1537,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-defi-protocol-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-defi-protocol-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-denario</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1136,6 +1556,42 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-denario</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-dependency-upgrade</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-dependency-upgrade</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-deployment-pipeline-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-deployment-pipeline-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-design-system-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-design-system-patterns</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1196,6 +1652,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/superpowers-dispatching-parallel-agents</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-distributed-tracing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-distributed-tracing</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1321,6 +1789,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-dotnet-backend-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-dotnet-backend-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-drugbank-database</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1345,6 +1825,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-e2e-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-e2e-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/codex-email-draft-polish</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1352,6 +1844,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/codex-email-draft-polish</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-embedding-strategies</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-embedding-strategies</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-employment-contract-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-employment-contract-templates</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1393,6 +1909,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-error-handling-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-error-handling-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-esm</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1417,6 +1945,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-event-store-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-event-store-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-executing-plans</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1436,6 +1976,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-exploratory-data-analysis</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-fastapi-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-fastapi-templates</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1561,6 +2113,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/claude-code-frontend-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-frontend-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-fuzzing-dictionary</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1580,6 +2144,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-fuzzing-obstacles</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-gdpr-data-handling</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-gdpr-data-handling</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1693,6 +2269,90 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-git-advanced-workflows</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-git-advanced-workflows</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-github-actions-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-github-actions-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-gitlab-ci-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-gitlab-ci-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-gitops-workflow</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-gitops-workflow</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-go-concurrency-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-go-concurrency-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-godot-gdscript-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-godot-gdscript-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-grafana-dashboards</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-grafana-dashboards</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-gtars</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1741,6 +2401,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-helm-chart-scaffolding</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-helm-chart-scaffolding</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-histolab</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1760,6 +2432,42 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-hmdb-database</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-code-hook-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-hook-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-hybrid-cloud-networking</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-hybrid-cloud-networking</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-hybrid-search-implementation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-hybrid-search-implementation</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1808,6 +2516,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/composio-image-enhancer</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-incident-runbook-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-incident-runbook-templates</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-interaction-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-interaction-design</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1921,6 +2653,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-istio-traffic-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-istio-traffic-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-javascript-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-javascript-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/json-canvas</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1933,6 +2689,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-k8s-manifest-generator</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-k8s-manifest-generator</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-k8s-security-policies</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-k8s-security-policies</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-kegg-database</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -1940,6 +2720,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-kegg-database</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-kpi-dashboard-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-kpi-dashboard-design</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1964,6 +2756,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-lamindb</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-langchain-architecture</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-langchain-architecture</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2077,6 +2881,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-linkerd-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-linkerd-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-literature-review</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2084,6 +2900,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-literature-review</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-llm-evaluation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-llm-evaluation</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2108,6 +2936,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-market-research-reports</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-market-sizing-analysis</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-market-sizing-analysis</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2156,6 +2996,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-matplotlib</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-code-mcp-integration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-mcp-integration</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2269,6 +3121,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-memory-forensics</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-memory-forensics</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-memory-safety-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-memory-safety-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-metabolomics-workbench-database</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2276,6 +3152,54 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-metabolomics-workbench-database</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-microservices-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-microservices-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-ml-pipeline-workflow</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-ml-pipeline-workflow</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-mobile-android-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-mobile-android-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-mobile-ios-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-mobile-ios-design</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2293,6 +3217,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-modern-javascript-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-modern-javascript-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-molfeat</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2300,6 +3236,42 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-molfeat</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-monorepo-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-monorepo-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-mtls-configuration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-mtls-configuration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-multi-cloud-architecture</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-multi-cloud-architecture</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2336,6 +3308,42 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-neuropixels-analysis</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-nextjs-app-router-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-nextjs-app-router-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-nft-standards</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-nft-standards</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-nodejs-backend-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-nodejs-backend-patterns</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2389,6 +3397,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-nx-workspace-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-nx-workspace-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/obsidian-bases</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2437,6 +3457,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-on-call-handoff-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-on-call-handoff-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-openalex-database</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2444,6 +3476,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-openalex-database</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-openapi-spec-generation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-openapi-spec-generation</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2504,6 +3548,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-pathml</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-paypal-integration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-paypal-integration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-pci-compliance</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-pci-compliance</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2641,6 +3709,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/claude-code-plugin-settings</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-plugin-settings</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-code-plugin-structure</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-plugin-structure</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-polars</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2648,6 +3740,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-polars</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-postgresql</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-postgresql</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-postmortem-writing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-postmortem-writing</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2713,6 +3829,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-projection-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-projection-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-prometheus-configuration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-prometheus-configuration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-prompt-engineering-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-prompt-engineering-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/loki-prompt-optimization</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2732,6 +3884,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-property-based-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-protocol-reverse-engineering</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-protocol-reverse-engineering</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2905,6 +4069,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-python-packaging</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-python-packaging</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-python-performance-optimization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-python-performance-optimization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-python-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-python-testing-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-pytorch-lightning</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2965,6 +4165,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-rag-implementation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-rag-implementation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-rdkit</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -2972,6 +4184,54 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-rdkit</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-react-modernization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-react-modernization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-react-native-architecture</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-react-native-architecture</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-react-native-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-react-native-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-react-state-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-react-state-management</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3037,6 +4297,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-responsive-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-responsive-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-risk-metrics-calculation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-risk-metrics-calculation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-rowan</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3044,6 +4328,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-rowan</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-rust-async-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-rust-async-patterns</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3061,6 +4357,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-saga-orchestration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-saga-orchestration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-sarif-parsing</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3068,6 +4376,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-sarif-parsing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-sast-configuration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-sast-configuration</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3205,6 +4525,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-screen-reader-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-screen-reader-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-scvi-tools</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3229,6 +4561,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-secrets-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-secrets-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-secure-workflow-guide</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3236,6 +4580,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-secure-workflow-guide</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-security-requirement-extraction</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-security-requirement-extraction</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3265,6 +4621,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-service-mesh-observability</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-service-mesh-observability</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-shap</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3289,6 +4657,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-shellcheck-configuration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-shellcheck-configuration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-similarity-search-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-similarity-search-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-simpy</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3296,6 +4688,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-simpy</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-code-skill-development</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-skill-development</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3445,6 +4849,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-slo-implementation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-slo-implementation</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-solana-vulnerability-scanner</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3452,6 +4868,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-solana-vulnerability-scanner</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-solidity-security</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-solidity-security</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-spark-optimization</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-spark-optimization</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3481,6 +4921,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-sql-optimization-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-sql-optimization-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-stable-baselines3</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3488,6 +4940,30 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-stable-baselines3</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-startup-financial-modeling</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-startup-financial-modeling</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-startup-metrics-framework</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-startup-metrics-framework</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3517,6 +4993,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-stride-analysis-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-stride-analysis-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-string-database</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3524,6 +5012,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-string-database</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-stripe-integration</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-stripe-integration</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3613,6 +5113,54 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-tailwind-design-system</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-tailwind-design-system</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-team-composition-analysis</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-team-composition-analysis</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-temporal-python-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-temporal-python-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-terraform-module-library</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-terraform-module-library</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/superpowers-test-driven-development</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3685,6 +5233,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-threat-mitigation-mapping</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-threat-mitigation-mapping</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/security-token-integration-analyzer</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3733,6 +5293,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-track-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-track-management</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-transformers</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3757,6 +5329,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-turborepo-caching</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-turborepo-caching</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-typescript-advanced-types</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-typescript-advanced-types</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-umap-learn</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3776,6 +5372,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/scientific-uniprot-database</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-unity-ecs-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-unity-ecs-patterns</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3829,6 +5437,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-uv-package-manager</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-uv-package-manager</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/scientific-vaex</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3848,6 +5468,18 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/security-variant-analysis</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-vector-index-tuning</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-vector-index-tuning</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3901,6 +5533,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-visual-design-foundations</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-visual-design-foundations</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-wcag-audit-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-wcag-audit-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/web-design-guidelines</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3949,6 +5605,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/skills/agents-web-component-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-web-component-design</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-web3-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-web3-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/skills/webapp-testing</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3992,6 +5672,42 @@
   </url>
   <url>
     <loc>https://allskills.cn/en/skills/composio-webapp-testing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-workflow-orchestration-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-workflow-orchestration-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/agents-workflow-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/agents-workflow-patterns</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/skills/claude-code-writing-rules</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/skills/claude-code-writing-rules</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
