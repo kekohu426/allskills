@@ -73,6 +73,90 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/landing/anthropic-skills-library</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/anthropic-skills-library</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/anthropic-skills-directory</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/anthropic-skills-directory</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/anthropic-claude-skills-directory</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/anthropic-claude-skills-directory</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/anthropic-official-skills</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/anthropic-official-skills</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/skills-vs-mcp</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/skills-vs-mcp</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/how-to-use-claude-skills</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/how-to-use-claude-skills</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/landing/claude-skills-pricing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/claude-skills-pricing</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/landing/claude-prompts</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -289,13 +373,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://allskills.cn/landing/anthropic-skills-directory</loc>
+    <loc>https://allskills.cn/landing/anthropic-skills-algorithmic-art-javascript-library-package-json</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://allskills.cn/en/landing/anthropic-skills-directory</loc>
+    <loc>https://allskills.cn/en/landing/anthropic-skills-algorithmic-art-javascript-library-package-json</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

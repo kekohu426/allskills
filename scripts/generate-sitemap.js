@@ -9,6 +9,13 @@ const today = new Date().toISOString().split("T")[0];
 
 const LANDING_PAGES = [
   "/landing/anthropic-skills-zh",
+  "/landing/anthropic-skills-library",
+  "/landing/anthropic-skills-directory",
+  "/landing/anthropic-claude-skills-directory",
+  "/landing/anthropic-official-skills",
+  "/landing/skills-vs-mcp",
+  "/landing/how-to-use-claude-skills",
+  "/landing/claude-skills-pricing",
   "/landing/claude-prompts",
   "/landing/brand-guidelines",
   "/landing/canvas-design",
@@ -27,7 +34,7 @@ const LANDING_PAGES = [
   "/landing/email-draft-polish",
   "/landing/skill-creator",
   "/landing/skill-generator",
-  "/landing/anthropic-skills-directory"
+  "/landing/anthropic-skills-algorithmic-art-javascript-library-package-json"
 ];
 
 const TOOL_PAGES = ["/tools/skill-generator"];

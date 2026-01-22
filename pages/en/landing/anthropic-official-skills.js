@@ -1,68 +1,49 @@
 import SeoHead from "../../../components/SeoHead";
 import site from "../../../data/site.json";
 
-const FEATURES = [
-  {
-    title: "Directory-first browsing",
-    desc: "Navigate the Anthropic skills directory by category and tags."
-  },
-  {
-    title: "Source labels",
-    desc: "Each skill page shows its source and repository link."
-  },
-  {
-    title: "Clear structure",
-    desc: "Consistent SKILL.md structure for easy reuse."
-  },
-  {
-    title: "Fresh updates",
-    desc: "The directory is updated as new skills appear."
-  }
-];
-
 const STEPS = [
   {
     step: "01",
-    title: "Search the directory",
-    desc: "Filter by category and tags to find relevant skills."
+    title: "Check the source label",
+    desc: "Skill pages show a source label that indicates origin."
   },
   {
     step: "02",
-    title: "Review details",
-    desc: "Read the description, use cases, and source info."
+    title: "Open the repo link",
+    desc: "The source URL points to the original repository."
   },
   {
     step: "03",
-    title: "Copy and use",
-    desc: "Copy SKILL.md and load resources if needed."
+    title: "Review the structure",
+    desc: "Official skills typically include SKILL.md and resources."
   }
 ];
 
 const FAQ = [
   {
-    q: "What is the Anthropic skills directory?",
-    a: "A single place to browse and reuse Claude skills with clear sources."
+    q: "What are Anthropic official skills?",
+    a: "Skills maintained by Anthropic's official repositories."
   },
   {
-    q: "How do I verify sources?",
-    a: "The skill detail page lists source labels and repository links."
+    q: "How do I identify official skills?",
+    a: "Check the source label and repository link on the skill page."
   },
   {
-    q: "Can I use skills directly?",
-    a: "Yes—most skills can be copied and used as-is."
+    q: "Can I use official skills directly?",
+    a: "Yes. Copy SKILL.md and load resources as needed."
   }
 ];
 
-export default function AnthropicSkillsDirectoryLandingEn() {
+export default function AnthropicOfficialSkillsLandingEn() {
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "Anthropic Skills Directory",
-      description: "Anthropic skills directory for browsing and reusing Claude skills.",
-      url: `${site.domain}/en/landing/anthropic-skills-directory`,
+      name: "Anthropic Official Skills",
+      description: "How to identify and use Anthropic official skills.",
+      url: `${site.domain}/en/landing/anthropic-official-skills`,
       inLanguage: "en",
-      keywords: ["anthropic skills directory"]
+      keywords: ["anthropic official skills"]
     },
     {
       "@context": "https://schema.org",
@@ -78,40 +59,28 @@ export default function AnthropicSkillsDirectoryLandingEn() {
   return (
     <>
       <SeoHead
-        title="Anthropic Skills Directory"
-        description="Anthropic skills directory for browsing and reusing Claude skills."
-        path="/en/landing/anthropic-skills-directory"
-        keywords="anthropic skills directory"
+        title="Anthropic Official Skills"
+        description="How to identify and use Anthropic official skills."
+        path="/en/landing/anthropic-official-skills"
+        keywords="anthropic official skills"
         jsonLd={jsonLd}
         ogType="website"
       />
 
       <section className="page-hero">
         <div>
-          <p className="eyebrow">Anthropic Skills Directory</p>
-          <h1>Anthropic Skills Directory</h1>
-          <p>Find and reuse Claude skills from a single directory.</p>
+          <p className="eyebrow">Anthropic Official Skills</p>
+          <h1>Anthropic Official Skills</h1>
+          <p>Verify official sources and use Claude skills with confidence.</p>
           <div className="hero-cta">
-            <a className="btn btn--primary" href="/en/skills">Open Directory</a>
+            <a className="btn btn--primary" href="/en/skills">Open directory</a>
             <a className="btn btn--secondary" href="/en/tools/skill-generator">Generate a Skill</a>
           </div>
         </div>
       </section>
 
       <section className="section">
-        <h2>Why this directory</h2>
-        <div className="features-grid">
-          {FEATURES.map((item) => (
-            <div key={item.title} className="feature-item">
-              <h3>{item.title}</h3>
-              <p>{item.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="section">
-        <h2>How it works</h2>
+        <h2>How to identify official skills</h2>
         <div className="steps-grid">
           {STEPS.map((item) => (
             <div key={item.step} className="step-card">
@@ -136,21 +105,12 @@ export default function AnthropicSkillsDirectoryLandingEn() {
       </section>
 
       <section className="section cta-section">
-        <h2>Start browsing the Anthropic skills directory</h2>
-        <p>Pick a skill and put it to work.</p>
+        <h2>Start with official skills</h2>
+        <p>Filter by source and pick official Claude skills.</p>
         <a className="btn btn--primary" href="/en/skills">Browse Skills</a>
       </section>
 
       <style jsx>{`
-        .features-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-          gap: 1.5rem;
-          margin-top: 1.5rem;
-        }
-        .feature-item h3 {
-          margin-bottom: 0.5rem;
-        }
         .hero-cta {
           display: flex;
           gap: 12px;
