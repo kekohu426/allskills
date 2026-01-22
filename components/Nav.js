@@ -21,7 +21,9 @@ export default function Nav() {
         <Link href={withLocale("/skills", locale)}>{t(locale, "navSkills")}</Link>
         <Link href={withLocale("/collections", locale)}>{t(locale, "navCollections")}</Link>
         <Link href={withLocale("/blog", locale)}>{t(locale, "navBlog")}</Link>
-        <Link href="/tools/skill-generator">{t(locale, "navTools") || "工具"}</Link>
+        <Link href={withLocale("/tools/skill-generator", locale)}>
+          {t(locale, "navTools") || "工具"}
+        </Link>
       </div>
       <LocaleSwitch />
     </nav>

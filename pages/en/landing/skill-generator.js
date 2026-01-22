@@ -126,7 +126,7 @@ export default function SkillGeneratorLandingEn({ featured }) {
           <h1>Generate a standardized SKILL.md in seconds</h1>
           <p>Built for teams and marketplaces. Describe your needs, get a ready-to-use Skill file.</p>
           <div className="hero-cta">
-            <a className="btn btn--primary" href="/tools/skill-generator">Generate Now</a>
+            <a className="btn btn--primary" href="/en/tools/skill-generator">Generate Now</a>
             <a className="btn btn--secondary" href="/en/landing/skills-marketplace">Browse Skills Marketplace</a>
           </div>
         </div>
@@ -196,7 +196,7 @@ export default function SkillGeneratorLandingEn({ featured }) {
       <section className="section cta-section">
         <h2>Start generating your skill</h2>
         <p>Turn your idea into a structured skill and ship it fast.</p>
-        <a className="btn btn--primary" href="/tools/skill-generator">Open Skill Generator</a>
+        <a className="btn btn--primary" href="/en/tools/skill-generator">Open Skill Generator</a>
       </section>
 
       <style jsx>{`
