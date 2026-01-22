@@ -289,6 +289,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/landing/anthropic-skills-directory</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/landing/anthropic-skills-directory</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/tools/skill-generator</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>

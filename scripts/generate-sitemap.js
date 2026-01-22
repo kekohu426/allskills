@@ -26,7 +26,8 @@ const LANDING_PAGES = [
   "/landing/spreadsheet-formula-helper",
   "/landing/email-draft-polish",
   "/landing/skill-creator",
-  "/landing/skill-generator"
+  "/landing/skill-generator",
+  "/landing/anthropic-skills-directory"
 ];
 
 const TOOL_PAGES = ["/tools/skill-generator"];
