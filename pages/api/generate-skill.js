@@ -8,10 +8,12 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "缺少技能描述" });
   }
 
-  const key = apiKey || process.env.DEEPSEEK_API_KEY;
+  const key = apiKey || process.env.GLM_API_KEY;
   if (!key) {
     return res.status(500).json({ error: "API Key 未配置" });
   }
+  const apiUrl = process.env.GLM_API_URL || "https://open.bigmodel.cn/api/paas/v4";
+  const model = process.env.GLM_MODEL || "glm-4-flash";
 
   const systemPrompt = `You are an expert at creating Claude Code skills. Generate a complete SKILL.md file following Anthropic's official format.
 
@@ -39,14 +41,14 @@ ${description}
 Generate a complete, production-ready SKILL.md file.`;
 
   try {
-    const response = await fetch("https://api.deepseek.com/chat/completions", {
+    const response = await fetch(`${apiUrl}/chat/completions`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${key}`,
       },
       body: JSON.stringify({
-        model: "deepseek-chat",
+        model,
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: userPrompt },
@@ -58,7 +60,7 @@ Generate a complete, production-ready SKILL.md file.`;
 
     if (!response.ok) {
       const err = await response.text();
-      console.error("DeepSeek API error:", err);
+      console.error("GLM API error:", err);
       return res.status(500).json({ error: "AI 服务暂时不可用，请稍后重试" });
     }
 
