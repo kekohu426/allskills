@@ -1,6 +1,6 @@
 # Skill Sources Tracking
 
-Last Updated: 2026-01-19
+Last Updated: 2026-01-22
 
 ## Currently Integrated Sources
 
@@ -10,6 +10,30 @@ Last Updated: 2026-01-19
 - **Skills Count**: ~20 official skills
 - **Last Sync**: 2026-01-19
 - **Notes**: Official Anthropic skills repository
+
+### ✅ Anthropic Claude Code Plugins
+- **Repository**: [anthropics/claude-code](https://github.com/anthropics/claude-code)
+- **Status**: ✅ Integrated
+- **Skills Count**: 10 skills
+- **Last Sync**: 2026-01-22
+- **Categories**: Plugin Development, Hooks, Migration, Frontend
+- **Notes**: Claude Code plugin development and migration skills
+
+### ✅ Anthropic Claude Cookbooks
+- **Repository**: [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
+- **Status**: ✅ Integrated
+- **Skills Count**: 4 skills
+- **Last Sync**: 2026-01-22
+- **Categories**: Brand, Finance
+- **Notes**: Cookbook-based custom skills
+
+### ✅ Wshobson Agents
+- **Repository**: [wshobson/agents](https://github.com/wshobson/agents)
+- **Status**: ✅ Integrated
+- **Skills Count**: 129 skills
+- **Last Sync**: 2026-01-22
+- **Categories**: Engineering, Security, Data, Infrastructure, Design, Biz Ops
+- **Notes**: Large multi-domain skill library organized by plugins
 
 ### ✅ Awesome Claude Skills
 - **Repository**: [awesome-claude-skills](https://github.com/awesome-claude-skills/awesome-claude-skills)
@@ -135,11 +159,11 @@ Last Updated: 2026-01-19
 
 ## 📊 Statistics
 
-- **Total Integrated Sources**: 12
-- **Total Skills**: 321
+- **Total Integrated Sources**: 15
+- **Total Skills**: 464
 - **Pending Review**: 2 repositories
-- **Last Integration**: Vercel Next.js Cache Components (2026-01-20, +1 skill)
-- **Last Updated**: 2026-01-20
+- **Last Integration**: Wshobson Agents (2026-01-22, +129 skills)
+- **Last Updated**: 2026-01-22
 
 ---
 
