@@ -8,8 +8,15 @@ import { getLocaleFromPath, toAnchorId, withLocale } from "../lib/paths";
 export default function Home({ skills, categories, skillCount, forcedLocale }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
+  const isZh = locale === "zh";
+  const seoTitle = isZh
+    ? "Anthropic Skills Directory - 发现、浏览与创建 Claude Skills"
+    : "Anthropic Skills Directory - Discover, Browse & Create Claude Skills";
+  const seoDescription = isZh
+    ? "精选的 Anthropic Skills directory，帮助你发现、浏览并创建 Claude skills。探索真实案例、社区工具与实用指南。"
+    : "A curated Anthropic Skills directory to discover, browse, and create Claude skills. Explore real-world examples, community tools, and practical guides.";
   const keywordList =
-    "Anthropic Skills, Claude AI, AI Skills, 提示词模板, Prompt Engineering";
+    "Anthropic Skills Directory, Anthropic Skills Library, Claude Skills, Claude Skills Directory, Claude Skills Library, Anthropic Skills, Claude AI, AI Skills, Prompt Engineering, Skills vs MCP, how to use Claude Skills, Anthropic Skills 目录, Claude Skills 目录, Claude Skills Library";
 
   // Fixed display count for marketing purposes
   // Actual count: 291 (as of 2026-01-19)
@@ -19,7 +26,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "AllSkills.cn",
-    description: "探索全部 Anthropic Skills，中文聚合导航站",
+    description: seoDescription,
     url: "https://allskills.cn",
     potentialAction: {
       "@type": "SearchAction",
@@ -120,18 +127,73 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
 
   const categoryOrder = locale === "zh" ? categoryOrderZh : categoryOrderEn;
   const categoryMap = new Map(categories.map((category) => [category.name, category]));
+  const heroDescriptionParts = t(locale, "heroDescription").split("\n\n");
 
-  const isZh = locale === "zh";
+  const coreBlocks = isZh
+    ? [
+        {
+          title: "发现 Claude Skills",
+          desc: "浏览持续增长的 Anthropic Skills 集合，包括社区示例、官方参考与实验工具。"
+        },
+        {
+          title: "理解 Claude Skills 的工作方式",
+          desc: "了解 Anthropic skills 是什么、与 MCP 的差异，以及在实际项目中如何选择。"
+        },
+        {
+          title: "构建并使用 Claude Skills",
+          desc: "从入门到进阶的创建与使用指南，帮助你快速落地工作流。"
+        }
+      ]
+    : [
+        {
+          title: "Discover Claude Skills",
+          desc: "Browse a growing collection of Anthropic skills, including community-built examples, official references, and experimental tools."
+        },
+        {
+          title: "Understand How Claude Skills Work",
+          desc: "Learn what Anthropic skills are, how they differ from MCP, and when to use each in practice."
+        },
+        {
+          title: "Build and Use Claude Skills",
+          desc: "Step-by-step guides on how to create, configure, and use Claude skills - from simple examples to advanced workflows."
+        }
+      ];
+
+  const coreLinks = isZh
+    ? [
+        {
+          label: "Skills vs MCP：有什么区别？",
+          href: "/landing/skills-vs-mcp"
+        },
+        {
+          label: "如何使用 Claude Skills",
+          href: "/landing/how-to-use-claude-skills"
+        },
+        {
+          label: "探索 Anthropic Skills Library",
+          href: "/landing/anthropic-skills-library"
+        }
+      ]
+    : [
+        {
+          label: "Skills vs MCP: What's the Difference?",
+          href: "/en/landing/skills-vs-mcp"
+        },
+        {
+          label: "How to Use Claude Skills",
+          href: "/en/landing/how-to-use-claude-skills"
+        },
+        {
+          label: "Explore the Anthropic Skills Library",
+          href: "/en/landing/anthropic-skills-library"
+        }
+      ];
 
   return (
     <>
       <SeoHead
-        title={isZh ? "Anthropic Skills 完整目录" : "Anthropic Skills Directory"}
-        description={
-          isZh
-            ? `探索 ${skillCountDisplay}+ 个 Anthropic 官方 Claude Skills，覆盖设计、开发、内容创作。一键复制，免费使用。`
-            : "Explore Anthropic Skills with categories, guides, and copy-ready prompts."
-        }
+        title={seoTitle}
+        description={seoDescription}
         path={isZh ? "/" : "/en"}
         keywords={isZh ? keywordList : undefined}
         jsonLd={isZh ? [seoJsonLd, itemListJsonLd, faqJsonLd] : undefined}
@@ -142,11 +204,10 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
           <div className="home-shell">
             <div className="home-hero__inner">
               <h1>{t(locale, "heroTitle")}</h1>
-              <p className="home-hero__subtitle">
-                {isZh
-                  ? `${skillCountDisplay}+ 个 Claude AI 官方技能，覆盖设计、开发、内容创作场景。`
-                  : `${skillCountDisplay}+ official Claude AI skills for design, development, and content creation.`}
-              </p>
+              <p className="home-hero__subtitle">{t(locale, "heroSubtitle")}</p>
+              {heroDescriptionParts.map((text) => (
+                <p key={text} className="home-hero__desc">{text}</p>
+              ))}
               <div className="home-hero__stats">
                 <div className="stat-card">
                   <strong>{skillCountDisplay}+</strong>
@@ -174,6 +235,27 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
         </section>
 
         <div className="home-shell">
+          <section className="section">
+            <div className="section__header">
+              <h2>{isZh ? "核心功能" : "Core Features"}</h2>
+            </div>
+            <div className="scenario-grid">
+              {coreBlocks.map((item) => (
+                <div key={item.title} className="scenario-card">
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </div>
+              ))}
+            </div>
+            <div className="home-hero__cta">
+              {coreLinks.map((item) => (
+                <Link key={item.href} href={item.href} className="btn btn--ghost">
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </section>
+
           <section className="section doc-section">
             <div className="section__header">
               <h2>{isZh ? "什么是 Anthropic Skills？" : "What are Anthropic Skills?"}</h2>

@@ -103,6 +103,14 @@ body {
   font-size: 1.05rem;
 }
 
+.home-hero__desc {
+  margin: 0 auto 14px;
+  max-width: 760px;
+  color: #c9d6ff;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
 .home-hero__stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
