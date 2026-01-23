@@ -1,18 +1,19 @@
 import SeoHead from "../components/SeoHead";
 import { useRouter } from "next/router";
-import { getLocaleFromPath } from "../lib/paths";
+import { getLocaleFromPath, withLocale } from "../lib/paths";
 import { t } from "../lib/i18n";
 
 export default function About({ forcedLocale }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
+  const isDe = locale === "de";
 
   return (
     <>
       <SeoHead
         title={t(locale, "aboutTitle")}
         description={t(locale, "aboutSubtitle")}
-        path={locale === "zh" ? "/about" : "/en/about"}
+        path={withLocale("/about", locale)}
       />
       <section className="page-hero">
         <div>
@@ -59,6 +60,53 @@ export default function About({ forcedLocale }) {
               <li>
                 <a href="https://www.anthropic.com" target="_blank" rel="noopener">
                   Anthropic 官网
+                </a>
+              </li>
+              <li>
+                <a href="https://claude.ai" target="_blank" rel="noopener">
+                  Claude AI
+                </a>
+              </li>
+            </ul>
+          </div>
+        ) : isDe ? (
+          <div className="about-content">
+            <p>
+              <strong>AllSkills.cn</strong> ist ein kuratiertes Verzeichnis für Anthropic/Claude Skills,
+              das internationale Nutzer beim Finden, Verstehen und Nutzen von Skills unterstützt.
+            </p>
+
+            <h2>Was wir bieten</h2>
+            <ul>
+              <li>Synchronisierte Skills aus offiziellen und Community-Repos</li>
+              <li>Mehrsprachige UI mit klaren Nutzungshinweisen</li>
+              <li>Struktur nach Kategorien, Suche und Filter</li>
+              <li>Mobile-optimierte Oberfläche</li>
+              <li>Guides und Beispiele für schnellen Einstieg</li>
+            </ul>
+
+            <h2>Lizenzen</h2>
+            <p>
+              Skills stammen aus offiziellen und Community-Repositories und folgen den jeweils angegebenen
+              Open-Source-Lizenzen (z. B. Apache 2.0 oder Source-available).
+            </p>
+            <p>
+              Wir respektieren die Lizenzbedingungen und bieten ausschließlich Anzeige und Übersetzung an.
+              Bei Fragen kontaktiere uns unter
+              <a href="mailto:contact@allskills.cn"> contact@allskills.cn</a>.
+            </p>
+
+            <h2>Nützliche Links</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">
+                  Anthropic Skills Repository
+                </a>
+              </li>
+              <li>Community-Mirrors / Forks</li>
+              <li>
+                <a href="https://www.anthropic.com" target="_blank" rel="noopener">
+                  Anthropic
                 </a>
               </li>
               <li>

@@ -1,9 +1,9 @@
-import SeoHead from "../../components/SeoHead";
-import { getAllPosts } from "../../lib/blog";
+import SeoHead from "../../../components/SeoHead";
+import { getAllPosts } from "../../../lib/blog";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { t } from "../../lib/i18n";
-import { getLocaleFromPath, withLocale } from "../../lib/paths";
+import { t } from "../../../lib/i18n";
+import { getLocaleFromPath, withLocale } from "../../../lib/paths";
 
 export default function BlogPage({ posts, forcedLocale }) {
   const router = useRouter();
@@ -14,11 +14,11 @@ export default function BlogPage({ posts, forcedLocale }) {
       <SeoHead
         title={t(locale, "blogTitle")}
         description={t(locale, "blogSubtitle")}
-        path={withLocale("/blog", locale)}
+        path="/de/blog"
       />
       <section className="page-hero">
         <div>
-          <h1>{t(locale, "blogH1")}</h1>
+          <h1>{t(locale, "blogTitle")}</h1>
           <p>{t(locale, "blogSubtitle")}</p>
         </div>
       </section>
@@ -37,12 +37,13 @@ export default function BlogPage({ posts, forcedLocale }) {
   );
 }
 
-export async function getStaticProps({ params }) {
-  const posts = getAllPosts("zh");
+export async function getStaticProps() {
+  const posts = getAllPosts("en");
 
   return {
     props: {
-      posts
+      posts,
+      forcedLocale: "de"
     }
   };
 }

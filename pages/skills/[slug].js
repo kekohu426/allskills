@@ -12,13 +12,14 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
   const [copied, setCopied] = useState(false);
   const isZh = locale === "zh";
+  const isDe = locale === "de";
 
   const displayName = isZh && skill.nameZh ? skill.nameZh : skill.name;
   const displayDesc = isZh && skill.descriptionZh ? skill.descriptionZh : skill.description;
   const displayUseCases = isZh && skill.useCasesZh && skill.useCasesZh.length > 0
     ? skill.useCasesZh
     : skill.useCases;
-  const canonicalPath = locale === "zh" ? `/skills/${skill.slug}` : `/en/skills/${skill.slug}`;
+  const canonicalPath = isZh ? `/skills/${skill.slug}` : (isDe ? `/de/skills/${skill.slug}` : `/en/skills/${skill.slug}`);
   const canonicalUrl = `${site.domain}${canonicalPath}`;
   const keywords = Array.from(
     new Set([skill.category, ...(skill.tags || [])].filter(Boolean))
@@ -32,7 +33,7 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
       description: displayDesc,
       applicationCategory: "AIApplication",
       operatingSystem: "Web",
-      inLanguage: locale === "zh" ? "zh-CN" : "en",
+      inLanguage: isZh ? "zh-CN" : (isDe ? "de-DE" : "en"),
       keywords,
       url: canonicalUrl,
       offers: {
@@ -54,14 +55,14 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
         {
           "@type": "ListItem",
           position: 1,
-          name: isZh ? "首页" : "Home",
-          item: site.domain
+          name: isZh ? "首页" : (isDe ? "Start" : "Home"),
+          item: `${site.domain}${isZh ? "/" : (isDe ? "/de" : "/en")}`
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Skills",
-          item: `${site.domain}${isZh ? "/skills" : "/en/skills"}`
+          item: `${site.domain}${isZh ? "/skills" : (isDe ? "/de/skills" : "/en/skills")}`
         },
         {
           "@type": "ListItem",

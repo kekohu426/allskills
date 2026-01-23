@@ -9,12 +9,18 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
   const isZh = locale === "zh";
+  const isDe = locale === "de";
+  const localePrefix = isZh ? "" : `/${locale}`;
   const seoTitle = isZh
     ? "Anthropic Skills Directory - 发现、浏览与创建 Claude Skills"
-    : "Anthropic Skills Directory - Discover, Browse & Create Claude Skills";
+    : isDe
+      ? "Anthropic Skills Directory - Entdecken, durchsuchen & Claude Skills erstellen"
+      : "Anthropic Skills Directory - Discover, Browse & Create Claude Skills";
   const seoDescription = isZh
     ? "精选的 Anthropic Skills directory，帮助你发现、浏览并创建 Claude skills。探索真实案例、社区工具与实用指南。"
-    : "A curated Anthropic Skills directory to discover, browse, and create Claude skills. Explore real-world examples, community tools, and practical guides.";
+    : isDe
+      ? "Ein kuratiertes Anthropic Skills Verzeichnis, um Claude Skills zu entdecken, zu durchsuchen und zu erstellen. Entdecke Praxisbeispiele, Community-Tools und Guides."
+      : "A curated Anthropic Skills directory to discover, browse, and create Claude skills. Explore real-world examples, community tools, and practical guides.";
   const keywordList =
     "Anthropic Skills Directory, Anthropic Skills Library, Claude Skills, Claude Skills Directory, Claude Skills Library, Anthropic Skills, Claude AI, AI Skills, Prompt Engineering, Skills vs MCP, how to use Claude Skills, Anthropic Skills 目录, Claude Skills 目录, Claude Skills Library";
 
@@ -125,7 +131,18 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
     { key: "Media", label: "Media", desc: "Image processing, metadata" }
   ];
 
-  const categoryOrder = locale === "zh" ? categoryOrderZh : categoryOrderEn;
+  const categoryOrderDe = [
+    { key: "Design Ops", label: "Design", desc: "Poster, Branding, UI-Design" },
+    { key: "Dev Tools", label: "Dev Tools", desc: "Code-Tests, Git-Logs" },
+    { key: "Docs & Writing", label: "Schreiben", desc: "Technische Doku, Zusammenarbeit" },
+    { key: "Creative Coding", label: "Kreativ", desc: "p5.js, Generative Art" },
+    { key: "General", label: "Allgemein", desc: "Analyse, Forschung, Produktivität" },
+    { key: "Comms", label: "Kommunikation", desc: "E-Mail, Kommunikation" },
+    { key: "Testing", label: "Testing", desc: "Automatisiertes Testing" },
+    { key: "Media", label: "Medien", desc: "Bildverarbeitung, Metadaten" }
+  ];
+
+  const categoryOrder = isZh ? categoryOrderZh : (isDe ? categoryOrderDe : categoryOrderEn);
   const categoryMap = new Map(categories.map((category) => [category.name, category]));
   const heroDescriptionParts = t(locale, "heroDescription").split("\n\n");
 
@@ -144,20 +161,35 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
           desc: "从入门到进阶的创建与使用指南，帮助你快速落地工作流。"
         }
       ]
-    : [
-        {
-          title: "Discover Claude Skills",
-          desc: "Browse a growing collection of Anthropic skills, including community-built examples, official references, and experimental tools."
-        },
-        {
-          title: "Understand How Claude Skills Work",
-          desc: "Learn what Anthropic skills are, how they differ from MCP, and when to use each in practice."
-        },
-        {
-          title: "Build and Use Claude Skills",
-          desc: "Step-by-step guides on how to create, configure, and use Claude skills - from simple examples to advanced workflows."
-        }
-      ];
+    : isDe
+      ? [
+          {
+            title: "Claude Skills entdecken",
+            desc: "Entdecke eine wachsende Sammlung von Anthropic Skills mit Community-Beispielen, offiziellen Referenzen und Experimenten."
+          },
+          {
+            title: "Verstehen, wie Claude Skills funktionieren",
+            desc: "Lerne, was Anthropic Skills sind, wie sie sich von MCP unterscheiden und wann welche Option sinnvoll ist."
+          },
+          {
+            title: "Claude Skills bauen und nutzen",
+            desc: "Schritt-für-Schritt-Anleitungen zum Erstellen, Konfigurieren und Anwenden von Claude Skills - vom Einstieg bis zu fortgeschrittenen Workflows."
+          }
+        ]
+      : [
+          {
+            title: "Discover Claude Skills",
+            desc: "Browse a growing collection of Anthropic skills, including community-built examples, official references, and experimental tools."
+          },
+          {
+            title: "Understand How Claude Skills Work",
+            desc: "Learn what Anthropic skills are, how they differ from MCP, and when to use each in practice."
+          },
+          {
+            title: "Build and Use Claude Skills",
+            desc: "Step-by-step guides on how to create, configure, and use Claude skills - from simple examples to advanced workflows."
+          }
+        ];
 
   const coreLinks = isZh
     ? [
@@ -174,27 +206,42 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
           href: "/landing/anthropic-skills-library"
         }
       ]
-    : [
-        {
-          label: "Skills vs MCP: What's the Difference?",
-          href: "/en/landing/skills-vs-mcp"
-        },
-        {
-          label: "How to Use Claude Skills",
-          href: "/en/landing/how-to-use-claude-skills"
-        },
-        {
-          label: "Explore the Anthropic Skills Library",
-          href: "/en/landing/anthropic-skills-library"
-        }
-      ];
+    : isDe
+      ? [
+          {
+            label: "Skills vs MCP: Was ist der Unterschied?",
+            href: "/en/landing/skills-vs-mcp"
+          },
+          {
+            label: "Claude Skills nutzen",
+            href: "/en/landing/how-to-use-claude-skills"
+          },
+          {
+            label: "Anthropic Skills Library entdecken",
+            href: "/en/landing/anthropic-skills-library"
+          }
+        ]
+      : [
+          {
+            label: "Skills vs MCP: What's the Difference?",
+            href: "/en/landing/skills-vs-mcp"
+          },
+          {
+            label: "How to Use Claude Skills",
+            href: "/en/landing/how-to-use-claude-skills"
+          },
+          {
+            label: "Explore the Anthropic Skills Library",
+            href: "/en/landing/anthropic-skills-library"
+          }
+        ];
 
   return (
     <>
       <SeoHead
         title={seoTitle}
         description={seoDescription}
-        path={isZh ? "/" : "/en"}
+        path={localePrefix || "/"}
         keywords={isZh ? keywordList : undefined}
         jsonLd={isZh ? [seoJsonLd, itemListJsonLd, faqJsonLd] : undefined}
       />
@@ -211,23 +258,23 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
               <div className="home-hero__stats">
                 <div className="stat-card">
                   <strong>{skillCountDisplay}+</strong>
-                  <span>{isZh ? "官方 Skills" : "Official Skills"}</span>
+                  <span>{isZh ? "官方 Skills" : (isDe ? "Offizielle Skills" : "Official Skills")}</span>
                 </div>
                 <div className="stat-card">
                   <strong>8</strong>
-                  <span>{isZh ? "分类" : "Categories"}</span>
+                  <span>{isZh ? "分类" : (isDe ? "Kategorien" : "Categories")}</span>
                 </div>
                 <div className="stat-card">
                   <strong>100%</strong>
-                  <span>{isZh ? "免费开源" : "Free & Open"}</span>
+                  <span>{isZh ? "免费开源" : (isDe ? "Kostenlos & Open" : "Free & Open")}</span>
                 </div>
               </div>
               <div className="home-hero__cta">
                 <Link href={withLocale("/skills", locale)} className="btn btn--primary">
-                  {isZh ? "浏览全部 Skills" : "Browse All Skills"}
+                  {isZh ? "浏览全部 Skills" : (isDe ? "Alle Skills ansehen" : "Browse All Skills")}
                 </Link>
                 <Link href={withLocale("/collections", locale)} className="btn btn--ghost">
-                  {isZh ? "按分类浏览" : "Browse by Category"}
+                  {isZh ? "按分类浏览" : (isDe ? "Nach Kategorie" : "Browse by Category")}
                 </Link>
               </div>
             </div>
@@ -237,7 +284,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
         <div className="home-shell">
           <section className="section">
             <div className="section__header">
-              <h2>{isZh ? "核心功能" : "Core Features"}</h2>
+              <h2>{isZh ? "核心功能" : (isDe ? "Kernfunktionen" : "Core Features")}</h2>
             </div>
             <div className="scenario-grid">
               {coreBlocks.map((item) => (
@@ -258,7 +305,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
 
           <section className="section doc-section">
             <div className="section__header">
-              <h2>{isZh ? "什么是 Anthropic Skills？" : "What are Anthropic Skills?"}</h2>
+              <h2>{isZh ? "什么是 Anthropic Skills？" : (isDe ? "Was sind Anthropic Skills?" : "What are Anthropic Skills?")}</h2>
             </div>
             <div className="doc-columns">
               <div className="doc-card">
@@ -280,6 +327,25 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
                       创作者：博客写作、SEO 优化、文案润色
                     </p>
                     <Link href={withLocale("/blog", locale)}>了解更多关于 Prompt Engineering</Link>
+                  </>
+                ) : isDe ? (
+                  <>
+                    <p>
+                      Anthropic Skills ist die offizielle Skill-Library für Claude AI mit {skillCountDisplay}+ Prompt-Vorlagen und System-Instruktionen.
+                      Jeder Skill ist eine spezialisierte Fähigkeit, damit Claude in bestimmten Domänen bessere Ergebnisse liefert.
+                    </p>
+                    <p>
+                      Diese Skills werden vom Anthropic-Team gepflegt und basieren auf Nutzerfeedback und Praxis.
+                      Im Vergleich zu einfachen Prompts sind sie strukturierter und liefern konsistentere Ergebnisse.
+                    </p>
+                    <p>
+                      Designer: Generative Art, Brand-Visuals, UI-Komponenten
+                      <br />
+                      Entwickler: Code-Generierung, automatisiertes Testing, Dokumentation
+                      <br />
+                      Creators: Blog-Writing, SEO, Copywriting
+                    </p>
+                    <Link href={withLocale("/blog", locale)}>Mehr zu Prompt Engineering</Link>
                   </>
                 ) : (
                   <>
@@ -305,7 +371,9 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
               <div className="doc-card doc-card--grid">
                 {(isZh
                   ? ["设计", "开发", "写作", "创意", "分析", "通讯", "测试", "媒体"]
-                  : ["Design", "Dev", "Writing", "Creative", "Analysis", "Comms", "Testing", "Media"]
+                  : isDe
+                    ? ["Design", "Dev", "Schreiben", "Kreativ", "Analyse", "Comms", "Testing", "Medien"]
+                    : ["Design", "Dev", "Writing", "Creative", "Analysis", "Comms", "Testing", "Media"]
                 ).map((label) => (
                   <div className="icon-tile" key={label}>
                     {label}
@@ -317,24 +385,24 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
 
           <section className="section">
             <div className="section__header">
-              <h2>{isZh ? "Skills 能做什么？" : "What can Skills do?"}</h2>
+              <h2>{isZh ? "Skills 能做什么？" : (isDe ? "Was können Skills?" : "What can Skills do?")}</h2>
             </div>
             <div className="scenario-grid">
               <div className="scenario-card">
-                <p className="eyebrow">{isZh ? "设计" : "DESIGN"}</p>
-                <h3>{isZh ? "设计辅助" : "Design Assistant"}</h3>
-                <p>{isZh ? "生成配色方案、Logo 灵感和宣传海报。" : "Generate color schemes, logo ideas, and promotional posters."}</p>
-                <div>{isZh ? "推荐 Skills：" : "Recommended:"}</div>
+                <p className="eyebrow">{isZh ? "设计" : (isDe ? "DESIGN" : "DESIGN")}</p>
+                <h3>{isZh ? "设计辅助" : (isDe ? "Design-Assistent" : "Design Assistant")}</h3>
+                <p>{isZh ? "生成配色方案、Logo 灵感和宣传海报。" : (isDe ? "Erstelle Farbschemata, Logo-Ideen und Werbeplakate." : "Generate color schemes, logo ideas, and promotional posters.")}</p>
+                <div>{isZh ? "推荐 Skills：" : (isDe ? "Empfohlen:" : "Recommended:")}</div>
                 <div>
                   <Link href={withLocale("/skills/canvas-design", locale)}>Canvas Design</Link> ·{" "}
                   <Link href={withLocale("/skills/brand-guidelines", locale)}>Brand Guidelines</Link>
                 </div>
               </div>
               <div className="scenario-card">
-                <p className="eyebrow">{isZh ? "开发" : "DEV"}</p>
-                <h3>{isZh ? "开发工具" : "Dev Tools"}</h3>
-                <p>{isZh ? "代码审查、生成测试用例和发布日志。" : "Code review, test case generation, and release notes."}</p>
-                <div>{isZh ? "推荐 Skills：" : "Recommended:"}</div>
+                <p className="eyebrow">{isZh ? "开发" : (isDe ? "DEV" : "DEV")}</p>
+                <h3>{isZh ? "开发工具" : (isDe ? "Dev-Tools" : "Dev Tools")}</h3>
+                <p>{isZh ? "代码审查、生成测试用例和发布日志。" : (isDe ? "Code-Review, Testfall-Generierung und Release Notes." : "Code review, test case generation, and release notes.")}</p>
+                <div>{isZh ? "推荐 Skills：" : (isDe ? "Empfohlen:" : "Recommended:")}</div>
                 <div>
                   <Link href={withLocale("/skills/awesome-changelog-generator", locale)}>
                     Changelog Generator
@@ -343,10 +411,10 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
                 </div>
               </div>
               <div className="scenario-card">
-                <p className="eyebrow">{isZh ? "写作" : "WRITING"}</p>
-                <h3>{isZh ? "内容创作" : "Content Creation"}</h3>
-                <p>{isZh ? "调研、文章润色和 SEO 结构优化。" : "Research, article editing, and SEO structure optimization."}</p>
-                <div>{isZh ? "推荐 Skills：" : "Recommended:"}</div>
+                <p className="eyebrow">{isZh ? "写作" : (isDe ? "WRITING" : "WRITING")}</p>
+                <h3>{isZh ? "内容创作" : (isDe ? "Content-Erstellung" : "Content Creation")}</h3>
+                <p>{isZh ? "调研、文章润色和 SEO 结构优化。" : (isDe ? "Recherche, Text-Editing und SEO-Struktur-Optimierung." : "Research, article editing, and SEO structure optimization.")}</p>
+                <div>{isZh ? "推荐 Skills：" : (isDe ? "Empfohlen:" : "Recommended:")}</div>
                 <div>
                   <Link href={withLocale("/skills/awesome-content-research-writer", locale)}>
                     Content Researcher
@@ -359,62 +427,62 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
 
           <section className="section section-muted">
             <div className="section__header">
-              <h2>{isZh ? "如何使用？" : "How to use?"}</h2>
+              <h2>{isZh ? "如何使用？" : (isDe ? "So nutzt du Skills" : "How to use?")}</h2>
             </div>
             <div className="steps-grid">
               <div className="step-card">
                 <div className="step-num">1</div>
-                <h3>{isZh ? "选择 Skill" : "Choose a Skill"}</h3>
-                <p>{isZh ? `浏览 ${skillCountDisplay}+ 官方 Skills，通过分类或搜索找到适合的技能。` : `Browse ${skillCountDisplay}+ official Skills, find what you need by category or search.`}</p>
+                <h3>{isZh ? "选择 Skill" : (isDe ? "Skill auswählen" : "Choose a Skill")}</h3>
+                <p>{isZh ? `浏览 ${skillCountDisplay}+ 官方 Skills，通过分类或搜索找到适合的技能。` : (isDe ? `Durchsuche ${skillCountDisplay}+ offizielle Skills per Kategorie oder Suche.` : `Browse ${skillCountDisplay}+ official Skills, find what you need by category or search.`)}</p>
               </div>
               <div className="step-card">
                 <div className="step-num">2</div>
-                <h3>{isZh ? "一键复制" : "Copy"}</h3>
-                <p>{isZh ? "打开 Skill 详情，点击复制按钮，系统指令会复制到剪贴板。" : "Open Skill details, click copy, and the system prompt is in your clipboard."}</p>
+                <h3>{isZh ? "一键复制" : (isDe ? "Kopieren" : "Copy")}</h3>
+                <p>{isZh ? "打开 Skill 详情，点击复制按钮，系统指令会复制到剪贴板。" : (isDe ? "Öffne den Skill, klicke Kopieren - der Prompt ist in der Zwischenablage." : "Open Skill details, click copy, and the system prompt is in your clipboard.")}</p>
               </div>
               <div className="step-card">
                 <div className="step-num">3</div>
-                <h3>{isZh ? "在 Claude 中使用" : "Use in Claude"}</h3>
-                <p>{isZh ? "在 Claude.ai 粘贴指令到对话框或 Project System Prompt。" : "Paste the prompt into Claude.ai chat or Project System Prompt."}</p>
+                <h3>{isZh ? "在 Claude 中使用" : (isDe ? "In Claude nutzen" : "Use in Claude")}</h3>
+                <p>{isZh ? "在 Claude.ai 粘贴指令到对话框或 Project System Prompt。" : (isDe ? "Füge den Prompt in Claude.ai oder Project System Prompt ein." : "Paste the prompt into Claude.ai chat or Project System Prompt.")}</p>
               </div>
             </div>
           </section>
 
           <section className="section">
             <div className="section__header">
-              <h2>{isZh ? "为什么选择 AllSkills.cn？" : "Why AllSkills.cn?"}</h2>
+              <h2>{isZh ? "为什么选择 AllSkills.cn？" : (isDe ? "Warum AllSkills.cn?" : "Why AllSkills.cn?")}</h2>
             </div>
             <div className="value-grid">
               <div className="value-card">
-                <strong>{isZh ? "中文优化" : "Chinese Optimized"}</strong>
-                <div>{isZh ? "完整的中文翻译和使用说明。" : "Full Chinese translation and usage guides."}</div>
+                <strong>{isZh ? "中文优化" : (isDe ? "Mehrsprachig" : "Chinese Optimized")}</strong>
+                <div>{isZh ? "完整的中文翻译和使用说明。" : (isDe ? "Strukturierte Übersetzungen und klare Nutzungshinweise." : "Full Chinese translation and usage guides.")}</div>
               </div>
               <div className="value-card">
-                <strong>{isZh ? "搜索" : "Search"}</strong>
-                <div>{isZh ? "按名称、场景、关键词查找。" : "Find by name, scenario, or keyword."}</div>
+                <strong>{isZh ? "搜索" : (isDe ? "Suche" : "Search")}</strong>
+                <div>{isZh ? "按名称、场景、关键词查找。" : (isDe ? "Finde Skills per Name, Szenario oder Keyword." : "Find by name, scenario, or keyword.")}</div>
               </div>
               <div className="value-card">
-                <strong>{isZh ? "移动端适配" : "Mobile Friendly"}</strong>
-                <div>{isZh ? "手机上也能查找和复制 Prompt。" : "Browse and copy prompts on mobile."}</div>
+                <strong>{isZh ? "移动端适配" : (isDe ? "Mobile Friendly" : "Mobile Friendly")}</strong>
+                <div>{isZh ? "手机上也能查找和复制 Prompt。" : (isDe ? "Prompts auch mobil bequem finden und kopieren." : "Browse and copy prompts on mobile.")}</div>
               </div>
               <div className="value-card">
-                <strong>{isZh ? "一键复制" : "One-Click Copy"}</strong>
-                <div>{isZh ? "无需注册，点击即用。" : "No signup required, click to use."}</div>
+                <strong>{isZh ? "一键复制" : (isDe ? "1-Klick-Kopie" : "One-Click Copy")}</strong>
+                <div>{isZh ? "无需注册，点击即用。" : (isDe ? "Ohne Registrierung - direkt kopieren." : "No signup required, click to use.")}</div>
               </div>
               <div className="value-card">
-                <strong>{isZh ? "同步更新" : "Synced Updates"}</strong>
-                <div>{isZh ? "跟进 Anthropic 官方仓库更新。" : "Synced with official Anthropic repo."}</div>
+                <strong>{isZh ? "同步更新" : (isDe ? "Aktuelle Updates" : "Synced Updates")}</strong>
+                <div>{isZh ? "跟进 Anthropic 官方仓库更新。" : (isDe ? "Synchronisiert mit offiziellen Repos." : "Synced with official Anthropic repo.")}</div>
               </div>
               <div className="value-card">
-                <strong>{isZh ? "免费" : "Free"}</strong>
-                <div>{isZh ? "基于开源协议免费开放。" : "Free under open source license."}</div>
+                <strong>{isZh ? "免费" : (isDe ? "Kostenlos" : "Free")}</strong>
+                <div>{isZh ? "基于开源协议免费开放。" : (isDe ? "Kostenlos unter Open-Source-Lizenzen." : "Free under open source license.")}</div>
               </div>
             </div>
           </section>
 
           <section className="section">
             <div className="section__header">
-              <h2>{isZh ? "按分类浏览" : "Browse by Category"}</h2>
+              <h2>{isZh ? "按分类浏览" : (isDe ? "Nach Kategorie" : "Browse by Category")}</h2>
             </div>
             <div className="category-grid">
               {categoryOrder.map((entry) => {
@@ -441,8 +509,8 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
 
           <section className="section">
             <div className="section__header">
-              <h2>{isZh ? "热门 Skills" : "Popular Skills"}</h2>
-              <Link href={withLocale("/skills", locale)}>{isZh ? "查看更多" : "View all"}</Link>
+              <h2>{isZh ? "热门 Skills" : (isDe ? "Beliebte Skills" : "Popular Skills")}</h2>
+              <Link href={withLocale("/skills", locale)}>{isZh ? "查看更多" : (isDe ? "Alle ansehen" : "View all")}</Link>
             </div>
             <div className="featured-grid">
               {featuredSkills.map((skill) => {
@@ -459,14 +527,18 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
                     </div>
                     <p>{displayDesc}</p>
                     <div className="featured-card__uses">
-                      <strong>{isZh ? "适用场景：" : "Use cases:"}</strong>
+                      <strong>{isZh ? "适用场景：" : (isDe ? "Einsatzfälle:" : "Use cases:")}</strong>
                       {displayUseCases.slice(0, 3).map((useCase) => (
                         <span key={useCase}>{useCase}</span>
                       ))}
                     </div>
                     <div className="featured-card__actions">
-                      <Link href={withLocale(`/skills/${skill.slug}`, locale)}>{isZh ? "查看详情" : "Details"}</Link>
-                      <Link href={withLocale(`/skills/${skill.slug}`, locale)}>{isZh ? "复制" : "Copy"}</Link>
+                      <Link href={withLocale(`/skills/${skill.slug}`, locale)}>
+                        {isZh ? "查看详情" : (isDe ? "Details" : "Details")}
+                      </Link>
+                      <Link href={withLocale(`/skills/${skill.slug}`, locale)}>
+                        {isZh ? "复制" : (isDe ? "Kopieren" : "Copy")}
+                      </Link>
                     </div>
                   </div>
                 );

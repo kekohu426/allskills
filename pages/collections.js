@@ -6,12 +6,13 @@ import SkillCard from "../components/SkillCard";
 import { compactSkill, getAllSkills, getCategories } from "../lib/skills";
 import { useRouter } from "next/router";
 import { t } from "../lib/i18n";
-import { getLocaleFromPath, toAnchorId } from "../lib/paths";
+import { getLocaleFromPath, toAnchorId, withLocale } from "../lib/paths";
 import site from "../data/site.json";
 
 export default function CollectionsPage({ categories, forcedLocale, totalCount }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
+  const isDe = locale === "de";
   const sorted = [...categories].sort((a, b) => b.items.length - a.items.length);
   const INITIAL_VISIBLE = 12;
   const [visible, setVisible] = React.useState(INITIAL_VISIBLE);
@@ -23,7 +24,7 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
   });
   const keywords = Array.from(keywordSet).join(", ");
 
-  const basePath = locale === "zh" ? "/collections" : "/en/collections";
+  const basePath = withLocale("/collections", locale);
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -40,7 +41,7 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
       <SeoHead
         title={t(locale, "collectionsTitle")}
         description={t(locale, "collectionsSubtitle")}
-        path={locale === "zh" ? "/collections" : "/en/collections"}
+        path={basePath}
         keywords={keywords}
         jsonLd={itemListJsonLd}
       />
@@ -55,7 +56,13 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
           <div key={category.name} className="collection" id={toAnchorId(category.name)}>
             <div className="collection__header">
               <h2>{category.name}</h2>
-              <span>{category.items.length} skills</span>
+              <span>
+                {locale === "zh"
+                  ? `${category.items.length} 个 Skills`
+                  : isDe
+                    ? `${category.items.length} Skills`
+                    : `${category.items.length} skills`}
+              </span>
             </div>
             <div className="grid">
               {category.items.map((skill) => (
@@ -67,7 +74,7 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
         {visible < sorted.length && (
           <div className="load-more">
             <button className="btn" type="button" onClick={() => setVisible(sorted.length)}>
-              {locale === "zh" ? "加载更多分类" : "Show more categories"}
+              {locale === "zh" ? "加载更多分类" : (isDe ? "Mehr Kategorien anzeigen" : "Show more categories")}
             </button>
           </div>
         )}

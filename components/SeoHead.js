@@ -5,11 +5,13 @@ export default function SeoHead({ title, description, path, keywords, jsonLd, og
   const pageTitle = title ? `${title} | ${site.siteName}` : site.siteName;
   const pageDescription = description || site.description;
   const url = path ? `${site.domain}${path}` : site.domain;
-  const isEn = path && path.startsWith("/en");
-  const zhPath = isEn ? path.replace(/^\/en/, "") || "/" : path || "/";
-  const enPath = isEn ? path : path === "/" ? "/en" : `/en${path || ""}`;
+  const basePath = path ? path.replace(/^\/(en|de)/, "") || "/" : "/";
+  const zhPath = basePath;
+  const enPath = basePath === "/" ? "/en" : `/en${basePath}`;
+  const dePath = basePath === "/" ? "/de" : `/de${basePath}`;
   const zhUrl = `${site.domain}${zhPath}`;
   const enUrl = `${site.domain}${enPath}`;
+  const deUrl = `${site.domain}${dePath}`;
   const imageUrl = ogImage || `${site.domain}/og-default.png`;
 
   return (
@@ -23,6 +25,7 @@ export default function SeoHead({ title, description, path, keywords, jsonLd, og
       <link rel="canonical" href={url} />
       <link rel="alternate" hrefLang="zh" href={zhUrl} />
       <link rel="alternate" hrefLang="en" href={enUrl} />
+      <link rel="alternate" hrefLang="de" href={deUrl} />
       <link rel="alternate" hrefLang="x-default" href={zhUrl} />
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={pageDescription} />
