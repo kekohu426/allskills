@@ -16,6 +16,7 @@ const LANDING_PAGES = [
   "/landing/skills-vs-mcp",
   "/landing/how-to-use-claude-skills",
   "/landing/claude-skills-pricing",
+  "/landing/marketing-skills",
   "/landing/claude-prompts",
   "/landing/brand-guidelines",
   "/landing/canvas-design",

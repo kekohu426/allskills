@@ -1,6 +1,6 @@
 # Skill Sources Tracking
 
-Last Updated: 2026-01-22
+Last Updated: 2026-01-23
 
 ## Currently Integrated Sources
 
@@ -110,6 +110,18 @@ Last Updated: 2026-01-22
   - Practical action-oriented skills (send emails, create issues, post to Slack)
 - **Notes**: High-quality curated collection with unique integration capabilities
 
+### ? Marketing Skills (Corey Haines) ? NEW
+- **Repository**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **Status**: ? Integrated
+- **Skills Count**: 23 skills
+- **Last Sync**: 2026-01-23
+- **Categories**: Marketing, CRO, SEO, Copywriting, Analytics, Growth
+- **Unique Features**:
+  - Conversion optimization and growth-focused workflows
+  - Practical CRO and copywriting playbooks for landing pages
+  - SEO, analytics, and programmatic growth skills
+- **Notes**: Curated marketing skill collection for technical marketers and founders
+
 ### ✅ Vercel Next.js Cache Components ⭐ NEW
 - **Repository**: [vercel/next.js](https://github.com/vercel/next.js/tree/canary/.claude-plugin/plugins/cache-components/skills/cache-components)
 - **Status**: ✅ Integrated
@@ -159,11 +171,11 @@ Last Updated: 2026-01-22
 
 ## 📊 Statistics
 
-- **Total Integrated Sources**: 15
-- **Total Skills**: 464
+- **Total Integrated Sources**: 16
+- **Total Skills**: 487
 - **Pending Review**: 2 repositories
-- **Last Integration**: Wshobson Agents (2026-01-22, +129 skills)
-- **Last Updated**: 2026-01-22
+- **Last Integration**: Marketing Skills (2026-01-23, +23 skills)
+- **Last Updated**: 2026-01-23
 
 ---
 

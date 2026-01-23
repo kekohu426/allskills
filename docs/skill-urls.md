@@ -1,9 +1,9 @@
-﻿# AllSkills.cn Skill URLs
+# AllSkills.cn Skill URLs
 
-Last Updated: 2026-01-22
+Last Updated: 2026-01-23
 Published: 2026-01-22
 
-Total Skills: 464
+Total Skills: 487
 
 ## URLs
 
@@ -29,9 +29,9 @@ Total Skills: 464
 - https://allskills.cn/skills/agents-context-driven-development
 - https://allskills.cn/skills/agents-cost-optimization
 - https://allskills.cn/skills/agents-cqrs-implementation
-- https://allskills.cn/skills/agents-database-migration
 - https://allskills.cn/skills/agents-data-quality-frameworks
 - https://allskills.cn/skills/agents-data-storytelling
+- https://allskills.cn/skills/agents-database-migration
 - https://allskills.cn/skills/agents-dbt-transformation-patterns
 - https://allskills.cn/skills/agents-debugging-strategies
 - https://allskills.cn/skills/agents-defi-protocol-templates
@@ -132,8 +132,8 @@ Total Skills: 464
 - https://allskills.cn/skills/agents-vector-index-tuning
 - https://allskills.cn/skills/agents-visual-design-foundations
 - https://allskills.cn/skills/agents-wcag-audit-patterns
-- https://allskills.cn/skills/agents-web3-testing
 - https://allskills.cn/skills/agents-web-component-design
+- https://allskills.cn/skills/agents-web3-testing
 - https://allskills.cn/skills/agents-workflow-orchestration-patterns
 - https://allskills.cn/skills/agents-workflow-patterns
 - https://allskills.cn/skills/ai-hotspot-dailyreport-skill
@@ -235,6 +235,29 @@ Total Skills: 464
 - https://allskills.cn/skills/loki-checkpoint-mode
 - https://allskills.cn/skills/loki-mode
 - https://allskills.cn/skills/loki-prompt-optimization
+- https://allskills.cn/skills/marketingskills-ab-test-setup
+- https://allskills.cn/skills/marketingskills-analytics-tracking
+- https://allskills.cn/skills/marketingskills-competitor-alternatives
+- https://allskills.cn/skills/marketingskills-copy-editing
+- https://allskills.cn/skills/marketingskills-copywriting
+- https://allskills.cn/skills/marketingskills-email-sequence
+- https://allskills.cn/skills/marketingskills-form-cro
+- https://allskills.cn/skills/marketingskills-free-tool-strategy
+- https://allskills.cn/skills/marketingskills-launch-strategy
+- https://allskills.cn/skills/marketingskills-marketing-ideas
+- https://allskills.cn/skills/marketingskills-marketing-psychology
+- https://allskills.cn/skills/marketingskills-onboarding-cro
+- https://allskills.cn/skills/marketingskills-page-cro
+- https://allskills.cn/skills/marketingskills-paid-ads
+- https://allskills.cn/skills/marketingskills-paywall-upgrade-cro
+- https://allskills.cn/skills/marketingskills-popup-cro
+- https://allskills.cn/skills/marketingskills-pricing-strategy
+- https://allskills.cn/skills/marketingskills-programmatic-seo
+- https://allskills.cn/skills/marketingskills-referral-program
+- https://allskills.cn/skills/marketingskills-schema-markup
+- https://allskills.cn/skills/marketingskills-seo-audit
+- https://allskills.cn/skills/marketingskills-signup-flow-cro
+- https://allskills.cn/skills/marketingskills-social-content
 - https://allskills.cn/skills/mcp-builder
 - https://allskills.cn/skills/obsidian-bases
 - https://allskills.cn/skills/obsidian-markdown
@@ -372,8 +395,8 @@ Total Skills: 464
 - https://allskills.cn/skills/scientific-statsmodels
 - https://allskills.cn/skills/scientific-string-database
 - https://allskills.cn/skills/scientific-sympy
-- https://allskills.cn/skills/scientific-torchdrug
 - https://allskills.cn/skills/scientific-torch-geometric
+- https://allskills.cn/skills/scientific-torchdrug
 - https://allskills.cn/skills/scientific-transformers
 - https://allskills.cn/skills/scientific-treatment-plans
 - https://allskills.cn/skills/scientific-umap-learn
@@ -441,8 +464,8 @@ Total Skills: 464
 - https://allskills.cn/skills/skills-main-skill-creator
 - https://allskills.cn/skills/skills-main-slack-gif-creator
 - https://allskills.cn/skills/skills-main-theme-factory
-- https://allskills.cn/skills/skills-main-webapp-testing
 - https://allskills.cn/skills/skills-main-web-artifacts-builder
+- https://allskills.cn/skills/skills-main-webapp-testing
 - https://allskills.cn/skills/skills-main-xlsx
 - https://allskills.cn/skills/slack-gif-creator
 - https://allskills.cn/skills/superpowers-brainstorming
@@ -466,8 +489,8 @@ Total Skills: 464
 - https://allskills.cn/skills/vercel-deploy
 - https://allskills.cn/skills/vercel-nextjs-cache-components
 - https://allskills.cn/skills/vercel-react-best-practices
-- https://allskills.cn/skills/webapp-testing
 - https://allskills.cn/skills/web-artifacts-builder
 - https://allskills.cn/skills/web-asset-generator
 - https://allskills.cn/skills/web-design-guidelines
+- https://allskills.cn/skills/webapp-testing
 - https://allskills.cn/skills/xlsx
