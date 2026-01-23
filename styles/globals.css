@@ -394,8 +394,30 @@ main {
   color: var(--ink);
   padding: 6px 12px;
   border-radius: 999px;
-  cursor: pointer;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.locale-switch select {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding-right: 14px;
+}
+
+.locale-switch select:focus {
+  outline: none;
+}
+
+.locale-switch::after {
+  content: "▾";
+  font-size: 0.7rem;
+  color: var(--ink-soft);
 }
 
 .hero {
