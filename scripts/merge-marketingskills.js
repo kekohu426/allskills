@@ -8,14 +8,14 @@ const SOURCE_URL = "https://github.com/coreyhaines31/marketingskills";
 const PREFIX = "marketingskills";
 
 function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (!match) return { data: {}, content };
 
   const frontmatter = match[1];
   const body = match[2];
   const data = {};
 
-  const lines = frontmatter.split("\n");
+  const lines = frontmatter.split(/\r?\n/);
   for (const line of lines) {
     const colonIndex = line.indexOf(":");
     if (colonIndex > 0) {
@@ -79,7 +79,12 @@ function main() {
       const base = path.basename(path.dirname(filePath));
       const slug = `${PREFIX}-${base}`;
 
-      if (!existingSkills[slug]) {
+      const existing = existingSkills[slug];
+      const shouldUpdate = existing
+        ? (!existing.description || existing.body.startsWith("---"))
+        : true;
+
+      if (shouldUpdate) {
         existingSkills[slug] = {
           name: parsed.data.name || base,
           description: parsed.data.description || "",
@@ -88,8 +93,12 @@ function main() {
           sourceUrl: SOURCE_URL,
           license: "MIT"
         };
+        if (existing) {
+          console.log(`↻ Updated: ${slug}`);
+        } else {
+          console.log(`✓ Added: ${slug}`);
+        }
         added++;
-        console.log(`✓ Added: ${slug}`);
       } else {
         skipped++;
         console.log(`• Skipped (exists): ${slug}`);

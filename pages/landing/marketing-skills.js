@@ -48,6 +48,24 @@ const FAQ = [
   }
 ];
 
+const NEXT_STEPS = [
+  {
+    title: "如何使用 Claude Skills",
+    desc: "查看快速上手指南，理解技能结构与使用流程。",
+    href: "/landing/how-to-use-claude-skills"
+  },
+  {
+    title: "Skills vs MCP",
+    desc: "了解 Skills 与 MCP 的区别，选择合适的工作流。",
+    href: "/landing/skills-vs-mcp"
+  },
+  {
+    title: "生成你的技能",
+    desc: "用生成器创建专属 Skill，快速补齐团队流程。",
+    href: "/tools/skill-generator"
+  }
+];
+
 export default function MarketingSkillsLanding({ skills }) {
   const jsonLd = [
     {
@@ -127,6 +145,18 @@ export default function MarketingSkillsLanding({ skills }) {
       </section>
 
       <section className="section">
+        <h2>继续探索</h2>
+        <div className="features-grid">
+          {NEXT_STEPS.map((item) => (
+            <a key={item.title} className="feature-item feature-link" href={item.href}>
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="section">
         <h2>常见问题</h2>
         <ul className="faq-list">
           {FAQ.map((item) => (
@@ -153,6 +183,17 @@ export default function MarketingSkillsLanding({ skills }) {
         }
         .feature-item h3 {
           margin-bottom: 0.5rem;
+        }
+        .feature-link {
+          border: 1px solid rgba(92, 125, 180, 0.25);
+          border-radius: 12px;
+          padding: 1.25rem;
+          background: var(--bg-secondary, #0f1422);
+          transition: border-color 0.2s ease, transform 0.2s ease;
+        }
+        .feature-link:hover {
+          border-color: rgba(92, 125, 180, 0.6);
+          transform: translateY(-2px);
         }
         .hero-cta {
           display: flex;

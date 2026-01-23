@@ -48,6 +48,24 @@ const FAQ = [
   }
 ];
 
+const NEXT_STEPS = [
+  {
+    title: "How to use Claude skills",
+    desc: "Learn the structure and workflow for using skills effectively.",
+    href: "/en/landing/how-to-use-claude-skills"
+  },
+  {
+    title: "Skills vs MCP",
+    desc: "Decide when to use skills and when to use MCP.",
+    href: "/en/landing/skills-vs-mcp"
+  },
+  {
+    title: "Generate your own skill",
+    desc: "Create a custom skill in minutes with the generator.",
+    href: "/en/tools/skill-generator"
+  }
+];
+
 export default function MarketingSkillsLandingEn({ skills }) {
   const jsonLd = [
     {
@@ -127,6 +145,18 @@ export default function MarketingSkillsLandingEn({ skills }) {
       </section>
 
       <section className="section">
+        <h2>Next steps</h2>
+        <div className="features-grid">
+          {NEXT_STEPS.map((item) => (
+            <a key={item.title} className="feature-item feature-link" href={item.href}>
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="section">
         <h2>FAQ</h2>
         <ul className="faq-list">
           {FAQ.map((item) => (
@@ -153,6 +183,17 @@ export default function MarketingSkillsLandingEn({ skills }) {
         }
         .feature-item h3 {
           margin-bottom: 0.5rem;
+        }
+        .feature-link {
+          border: 1px solid rgba(92, 125, 180, 0.25);
+          border-radius: 12px;
+          padding: 1.25rem;
+          background: var(--bg-secondary, #0f1422);
+          transition: border-color 0.2s ease, transform 0.2s ease;
+        }
+        .feature-link:hover {
+          border-color: rgba(92, 125, 180, 0.6);
+          transform: translateY(-2px);
         }
         .hero-cta {
           display: flex;
