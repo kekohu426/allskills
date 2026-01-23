@@ -6253,6 +6253,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/blog/anthropic-skills-library-marketing-guide</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/blog/cowork-skills-guide</loc>
     <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -6284,6 +6290,12 @@
   </url>
   <url>
     <loc>https://allskills.cn/blog/hello-skills</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/en/blog/anthropic-skills-library-marketing-guide</loc>
     <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
