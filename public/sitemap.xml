@@ -445,6 +445,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://allskills.cn/de/landing/skills-vs-mcp</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/de/landing/how-to-use-claude-skills</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allskills.cn/de/landing/anthropic-skills-library</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://allskills.cn/tools/skill-generator</loc>
     <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>

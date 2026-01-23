@@ -39,7 +39,12 @@ const LANDING_PAGES = [
   "/landing/anthropic-skills-algorithmic-art-javascript-library-package-json"
 ];
 
-const LANDING_PAGES_DE = ["/landing/claude-skills-explained"];
+const LANDING_PAGES_DE = [
+  "/landing/claude-skills-explained",
+  "/landing/skills-vs-mcp",
+  "/landing/how-to-use-claude-skills",
+  "/landing/anthropic-skills-library"
+];
 
 const TOOL_PAGES = ["/tools/skill-generator"];
 

@@ -7,6 +7,7 @@ import { compactSkill, getAllSkills, getCategories } from "../lib/skills";
 import { useRouter } from "next/router";
 import { t } from "../lib/i18n";
 import { getLocaleFromPath, toAnchorId, withLocale } from "../lib/paths";
+import { getCategoryLabel } from "../lib/categories";
 import site from "../data/site.json";
 
 export default function CollectionsPage({ categories, forcedLocale, totalCount }) {
@@ -55,7 +56,7 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
         {sorted.slice(0, visible).map((category) => (
           <div key={category.name} className="collection" id={toAnchorId(category.name)}>
             <div className="collection__header">
-              <h2>{category.name}</h2>
+              <h2>{getCategoryLabel(category.name, locale)}</h2>
               <span>
                 {locale === "zh"
                   ? `${category.items.length} 个 Skills`

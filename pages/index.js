@@ -19,7 +19,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
   const seoDescription = isZh
     ? "精选的 Anthropic Skills directory，帮助你发现、浏览并创建 Claude skills。探索真实案例、社区工具与实用指南。"
     : isDe
-      ? "Ein kuratiertes Anthropic Skills Verzeichnis, um Claude Skills zu entdecken, zu durchsuchen und zu erstellen. Entdecke Praxisbeispiele, Community-Tools und Guides."
+      ? "Ein kuratiertes Anthropic Skills Verzeichnis, um Claude Skills zu entdecken, zu durchsuchen und zu erstellen. Entdecke Praxisbeispiele, Community-Werkzeuge und Leitfäden."
       : "A curated Anthropic Skills directory to discover, browse, and create Claude skills. Explore real-world examples, community tools, and practical guides.";
   const keywordList =
     "Anthropic Skills Directory, Anthropic Skills Library, Claude Skills, Claude Skills Directory, Claude Skills Library, Anthropic Skills, Claude AI, AI Skills, Prompt Engineering, Skills vs MCP, how to use Claude Skills, Anthropic Skills 目录, Claude Skills 目录, Claude Skills Library";
@@ -133,7 +133,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
 
   const categoryOrderDe = [
     { key: "Design Ops", label: "Design", desc: "Poster, Branding, UI-Design" },
-    { key: "Dev Tools", label: "Dev Tools", desc: "Code-Tests, Git-Logs" },
+    { key: "Dev Tools", label: "Entwicklung", desc: "Code-Tests, Git-Logs" },
     { key: "Docs & Writing", label: "Schreiben", desc: "Technische Doku, Zusammenarbeit" },
     { key: "Creative Coding", label: "Kreativ", desc: "p5.js, Generative Art" },
     { key: "General", label: "Allgemein", desc: "Analyse, Forschung, Produktivität" },
@@ -210,15 +210,15 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
       ? [
           {
             label: "Skills vs MCP: Was ist der Unterschied?",
-            href: "/en/landing/skills-vs-mcp"
+            href: "/de/landing/skills-vs-mcp"
           },
           {
             label: "Claude Skills nutzen",
-            href: "/en/landing/how-to-use-claude-skills"
+            href: "/de/landing/how-to-use-claude-skills"
           },
           {
-            label: "Anthropic Skills Library entdecken",
-            href: "/en/landing/anthropic-skills-library"
+            label: "Anthropic Skills Bibliothek entdecken",
+            href: "/de/landing/anthropic-skills-library"
           }
         ]
       : [
@@ -331,7 +331,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
                 ) : isDe ? (
                   <>
                     <p>
-                      Anthropic Skills ist die offizielle Skill-Library für Claude AI mit {skillCountDisplay}+ Prompt-Vorlagen und System-Instruktionen.
+                      Anthropic Skills ist die offizielle Skill-Bibliothek für Claude AI mit {skillCountDisplay}+ Prompt-Vorlagen und System-Instruktionen.
                       Jeder Skill ist eine spezialisierte Fähigkeit, damit Claude in bestimmten Domänen bessere Ergebnisse liefert.
                     </p>
                     <p>
@@ -343,7 +343,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
                       <br />
                       Entwickler: Code-Generierung, automatisiertes Testing, Dokumentation
                       <br />
-                      Creators: Blog-Writing, SEO, Copywriting
+                      Creator:innen: Blog-Artikel, SEO, Werbetexte
                     </p>
                     <Link href={withLocale("/blog", locale)}>Mehr zu Prompt Engineering</Link>
                   </>
@@ -399,7 +399,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
                 </div>
               </div>
               <div className="scenario-card">
-                <p className="eyebrow">{isZh ? "开发" : (isDe ? "DEV" : "DEV")}</p>
+                <p className="eyebrow">{isZh ? "开发" : (isDe ? "ENTWICKLUNG" : "DEV")}</p>
                 <h3>{isZh ? "开发工具" : (isDe ? "Dev-Tools" : "Dev Tools")}</h3>
                 <p>{isZh ? "代码审查、生成测试用例和发布日志。" : (isDe ? "Code-Review, Testfall-Generierung und Release Notes." : "Code review, test case generation, and release notes.")}</p>
                 <div>{isZh ? "推荐 Skills：" : (isDe ? "Empfohlen:" : "Recommended:")}</div>

@@ -7,6 +7,7 @@ export default function Footer() {
   const router = useRouter();
   const locale = getLocaleFromPath(router.pathname || "/");
   const isZh = locale === "zh";
+  const isDe = locale === "de";
 
   const navLinksZh = [
     { label: "首页", href: withLocale("/", locale) },
@@ -22,14 +23,21 @@ export default function Footer() {
     { label: "Blog", href: withLocale("/blog", locale) }
   ];
 
-  const navLinks = isZh ? navLinksZh : navLinksEn;
+  const navLinksDe = [
+    { label: "Start", href: withLocale("/", locale) },
+    { label: "Alle Skills", href: withLocale("/skills", locale) },
+    { label: "Kategorien", href: withLocale("/collections", locale) },
+    { label: "Blog", href: withLocale("/blog", locale) }
+  ];
+
+  const navLinks = isZh ? navLinksZh : (isDe ? navLinksDe : navLinksEn);
 
   return (
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__grid">
           <div className="footer__column">
-            <div className="footer__title">{isZh ? "快速导航" : "Navigation"}</div>
+            <div className="footer__title">{isZh ? "快速导航" : (isDe ? "Navigation" : "Navigation")}</div>
             {navLinks.map((item) => (
               <Link key={item.href} href={item.href} className="footer__link">
                 {item.label}
@@ -37,7 +45,7 @@ export default function Footer() {
             ))}
           </div>
           <div className="footer__column">
-            <div className="footer__title">{isZh ? "友情链接" : "Links"}</div>
+            <div className="footer__title">{isZh ? "友情链接" : (isDe ? "Links" : "Links")}</div>
             <a
               href="https://www.anthropic.com/"
               target="_blank"
@@ -59,11 +67,13 @@ export default function Footer() {
             </a>
           </div>
           <div className="footer__column">
-            <div className="footer__title">{isZh ? "数据声明" : "Data Notice"}</div>
+            <div className="footer__title">{isZh ? "数据声明" : (isDe ? "Datenhinweis" : "Data Notice")}</div>
             <div className="footer__meta">
               {isZh
                 ? "内容整理自 GitHub 开源仓库。"
-                : "Content curated from GitHub open source repos."}
+                : isDe
+                  ? "Inhalte stammen aus Open-Source-Repositories auf GitHub."
+                  : "Content curated from GitHub open source repos."}
             </div>
           </div>
         </div>

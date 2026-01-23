@@ -119,11 +119,11 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
         )}
         <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
         <details className="skill-raw" open>
-          <summary>Raw SKILL.md</summary>
+          <summary>{isZh ? "SKILL.md 原文" : (isDe ? "SKILL.md (Original)" : "Raw SKILL.md")}</summary>
           <pre>{`---\nname: ${skill.name}\ndescription: ${skill.description}\n---\n\n${skill.body}`}</pre>
         </details>
         <div className="source-note">
-          Source:{" "}
+          {isZh ? "来源：" : (isDe ? "Quelle:" : "Source:")}{" "}
           {skill.sourceUrl ? (
             <a href={skill.sourceUrl} target="_blank" rel="noopener">
               {skill.sourceLabel}
@@ -131,7 +131,7 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
           ) : (
             <span>{skill.sourceLabel}</span>
           )}{" "}
-          | License: {skill.license}
+          | {isZh ? "协议" : (isDe ? "Lizenz" : "License")}: {skill.license}
         </div>
       </section>
     </>

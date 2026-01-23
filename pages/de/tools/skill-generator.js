@@ -87,8 +87,8 @@ export default function SkillGeneratorDe() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "Claude Code Skill Generator",
-    description: "Erstelle Claude Code SKILL.md mit Qualitäts-Score und One-Click-Download.",
+    name: "Claude Code Skill-Generator",
+    description: "Erstelle Claude Code SKILL.md mit Qualitäts-Score und Ein-Klick-Download.",
     url: `${site.domain}/de/tools/skill-generator`,
     applicationCategory: "DeveloperApplication",
     operatingSystem: "Web",
@@ -100,18 +100,18 @@ export default function SkillGeneratorDe() {
   return (
     <>
       <SeoHead
-        title="Skill Generator - Claude Code Skills erstellen"
+        title="Skill-Generator - Claude Code Skills erstellen"
         description="Erstelle Claude Code SKILL.md online. Beschreibe den Bedarf, erhalte eine komplette Skill-Datei mit Qualitäts-Score und Download."
         path="/de/tools/skill-generator"
-        keywords="Skill Generator, Claude Code, SKILL.md, AI skill, prompt"
+        keywords="Skill-Generator, Claude Code, SKILL.md, KI-Skill, Prompt"
         jsonLd={jsonLd}
       />
 
       <section className="page-hero">
         <div>
           <p className="eyebrow">Kostenloses Tool</p>
-          <h1>Skill Generator</h1>
-          <p>Beschreibe den Skill - die AI erstellt eine vollständige SKILL.md Datei.</p>
+          <h1>Skill-Generator</h1>
+          <p>Beschreibe den Skill - die KI erstellt eine vollständige SKILL.md Datei.</p>
         </div>
       </section>
 
@@ -184,12 +184,12 @@ export default function SkillGeneratorDe() {
             <div className="generator-step">
               <span className="generator-step__num">02</span>
               <h4>Generieren</h4>
-              <p>Die AI erstellt eine komplette SKILL.md mit Qualitäts-Score.</p>
+              <p>Die KI erstellt eine komplette SKILL.md mit Qualitäts-Score.</p>
             </div>
             <div className="generator-step">
               <span className="generator-step__num">03</span>
               <h4>Nutzen</h4>
-              <p>Downloaden und in dein Skills-Verzeichnis legen.</p>
+              <p>Herunterladen und in dein Skills-Verzeichnis legen.</p>
             </div>
           </div>
         </div>
