@@ -993,6 +993,45 @@ main {
   max-width: 720px;
 }
 
+.content-landing {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content-landing .page-hero {
+  margin: 22px auto 20px;
+  padding: 36px 28px;
+  max-width: 980px;
+}
+
+.content-landing .section {
+  max-width: 880px;
+  padding: 36px 0;
+}
+
+.content-landing .section + .section {
+  padding-top: 20px;
+}
+
+.content-landing .lead {
+  max-width: 760px;
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 0 0 14px;
+}
+
+.content-landing .step-list {
+  margin: 12px 0 16px;
+  padding-left: 22px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+
+.content-landing .cta-section {
+  padding-bottom: 48px;
+}
+
 .pill-row {
   display: flex;
   flex-wrap: wrap;
