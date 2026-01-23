@@ -9,25 +9,26 @@ const path = require("path");
 const ROOT = process.cwd();
 const CONTENT_PATH = path.join(ROOT, "data", "skills-content.json");
 const EXTERNAL_ROOT = path.join(ROOT, "external");
+const TMP_ROOT = path.join(ROOT, "_tmp_repo_scan");
 
 const SOURCES = [
   {
     key: "claude-code",
-    root: path.join(ROOT, "_tmp_repo_scan", "claude-code"),
+    root: path.join(TMP_ROOT, "claude-code"),
     prefix: "claude-code",
     sourceLabel: "anthropics/claude-code",
     sourceUrl: "https://github.com/anthropics/claude-code"
   },
   {
     key: "claude-cookbooks",
-    root: path.join(ROOT, "_tmp_repo_scan", "claude-cookbooks"),
+    root: path.join(TMP_ROOT, "claude-cookbooks"),
     prefix: "claude-cookbooks",
     sourceLabel: "anthropics/claude-cookbooks",
     sourceUrl: "https://github.com/anthropics/claude-cookbooks"
   },
   {
     key: "agents",
-    root: path.join(ROOT, "_tmp_repo_scan", "agents"),
+    root: path.join(TMP_ROOT, "agents"),
     prefix: "agents",
     sourceLabel: "wshobson/agents",
     sourceUrl: "https://github.com/wshobson/agents"
@@ -93,6 +94,24 @@ function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
+function shouldKeepTemp() {
+  return process.argv.includes("--keep-temp");
+}
+
+function cleanupTemp() {
+  if (shouldKeepTemp()) {
+    console.log("Keep temp repos: --keep-temp detected");
+    return;
+  }
+  if (!fs.existsSync(TMP_ROOT)) return;
+  const resolved = path.resolve(TMP_ROOT);
+  if (!resolved.endsWith(`${path.sep}_tmp_repo_scan`)) {
+    throw new Error(`Refuse to delete unexpected path: ${resolved}`);
+  }
+  fs.rmSync(resolved, { recursive: true, force: true });
+  console.log(`Cleaned temp repos: ${resolved}`);
+}
+
 function importSource(source, contentMap) {
   const skillFiles = [];
   findSkillFiles(source.root, skillFiles);
@@ -149,6 +168,8 @@ function main() {
   for (const item of summary) {
     console.log(`${item.source}: total=${item.total}, added=${item.added.length}, skipped=${item.skipped.length}`);
   }
+
+  cleanupTemp();
 }
 
 main();
