@@ -13,13 +13,14 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
   const [copied, setCopied] = useState(false);
   const isZh = locale === "zh";
   const isDe = locale === "de";
+  const isHi = locale === "hi";
 
   const displayName = isZh && skill.nameZh ? skill.nameZh : skill.name;
   const displayDesc = isZh && skill.descriptionZh ? skill.descriptionZh : skill.description;
   const displayUseCases = isZh && skill.useCasesZh && skill.useCasesZh.length > 0
     ? skill.useCasesZh
     : skill.useCases;
-  const canonicalPath = isZh ? `/skills/${skill.slug}` : (isDe ? `/de/skills/${skill.slug}` : `/en/skills/${skill.slug}`);
+  const canonicalPath = isZh ? `/skills/${skill.slug}` : (isDe ? `/de/skills/${skill.slug}` : (isHi ? `/hi/skills/${skill.slug}` : `/en/skills/${skill.slug}`));
   const canonicalUrl = `${site.domain}${canonicalPath}`;
   const keywords = Array.from(
     new Set([skill.category, ...(skill.tags || [])].filter(Boolean))
@@ -33,7 +34,7 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
       description: displayDesc,
       applicationCategory: "AIApplication",
       operatingSystem: "Web",
-      inLanguage: isZh ? "zh-CN" : (isDe ? "de-DE" : "en"),
+      inLanguage: isZh ? "zh-CN" : (isDe ? "de-DE" : (isHi ? "hi-IN" : "en")),
       keywords,
       url: canonicalUrl,
       offers: {
@@ -55,14 +56,14 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
         {
           "@type": "ListItem",
           position: 1,
-          name: isZh ? "首页" : (isDe ? "Start" : "Home"),
-          item: `${site.domain}${isZh ? "/" : (isDe ? "/de" : "/en")}`
+          name: isZh ? "首页" : (isDe ? "Start" : (isHi ? "होम" : "Home")),
+          item: `${site.domain}${isZh ? "/" : (isDe ? "/de" : (isHi ? "/hi" : "/en"))}`
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Skills",
-          item: `${site.domain}${isZh ? "/skills" : (isDe ? "/de/skills" : "/en/skills")}`
+          name: isHi ? "स्किल्स" : "Skills",
+          item: `${site.domain}${isZh ? "/skills" : (isDe ? "/de/skills" : (isHi ? "/hi/skills" : "/en/skills"))}`
         },
         {
           "@type": "ListItem",
@@ -119,11 +120,11 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
         )}
         <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
         <details className="skill-raw" open>
-          <summary>{isZh ? "SKILL.md 原文" : (isDe ? "SKILL.md (Original)" : "Raw SKILL.md")}</summary>
+          <summary>{isZh ? "SKILL.md 原文" : (isDe ? "SKILL.md (Original)" : (isHi ? "SKILL.md (मूल)" : "Raw SKILL.md"))}</summary>
           <pre>{`---\nname: ${skill.name}\ndescription: ${skill.description}\n---\n\n${skill.body}`}</pre>
         </details>
         <div className="source-note">
-          {isZh ? "来源：" : (isDe ? "Quelle:" : "Source:")}{" "}
+          {isZh ? "来源：" : (isDe ? "Quelle:" : (isHi ? "स्रोत:" : "Source:"))}{" "}
           {skill.sourceUrl ? (
             <a href={skill.sourceUrl} target="_blank" rel="noopener">
               {skill.sourceLabel}
@@ -131,7 +132,7 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
           ) : (
             <span>{skill.sourceLabel}</span>
           )}{" "}
-          | {isZh ? "协议" : (isDe ? "Lizenz" : "License")}: {skill.license}
+          | {isZh ? "协议" : (isDe ? "Lizenz" : (isHi ? "लाइसेंस" : "License"))}: {skill.license}
         </div>
       </section>
     </>

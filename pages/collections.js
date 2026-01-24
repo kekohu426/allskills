@@ -14,6 +14,7 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
   const isDe = locale === "de";
+  const isHi = locale === "hi";
   const sorted = [...categories].sort((a, b) => b.items.length - a.items.length);
   const INITIAL_VISIBLE = 12;
   const [visible, setVisible] = React.useState(INITIAL_VISIBLE);
@@ -62,7 +63,9 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
                   ? `${category.items.length} 个 Skills`
                   : isDe
                     ? `${category.items.length} Skills`
-                    : `${category.items.length} skills`}
+                    : isHi
+                      ? `${category.items.length} स्किल्स`
+                      : `${category.items.length} skills`}
               </span>
             </div>
             <div className="grid">
@@ -75,7 +78,7 @@ export default function CollectionsPage({ categories, forcedLocale, totalCount }
         {visible < sorted.length && (
           <div className="load-more">
             <button className="btn" type="button" onClick={() => setVisible(sorted.length)}>
-              {locale === "zh" ? "加载更多分类" : (isDe ? "Mehr Kategorien anzeigen" : "Show more categories")}
+              {locale === "zh" ? "加载更多分类" : (isDe ? "Mehr Kategorien anzeigen" : (isHi ? "और श्रेणियाँ दिखाएं" : "Show more categories"))}
             </button>
           </div>
         )}

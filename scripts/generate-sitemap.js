@@ -46,6 +46,13 @@ const LANDING_PAGES_DE = [
   "/landing/anthropic-skills-library"
 ];
 
+const LANDING_PAGES_HI = [
+  "/landing/claude-skills-explained",
+  "/landing/skills-vs-mcp",
+  "/landing/how-to-use-claude-skills",
+  "/landing/anthropic-skills-library"
+];
+
 const TOOL_PAGES = ["/tools/skill-generator"];
 
 // Priority config
@@ -78,26 +85,31 @@ function build() {
   urls.push(urlEntry(`${base}/`, PRIORITY.home, "daily"));
   urls.push(urlEntry(`${base}/en`, PRIORITY.home, "daily"));
   urls.push(urlEntry(`${base}/de`, PRIORITY.home, "daily"));
+  urls.push(urlEntry(`${base}/hi`, PRIORITY.home, "daily"));
 
   // Skills list
   urls.push(urlEntry(`${base}/skills`, PRIORITY.skills, "daily"));
   urls.push(urlEntry(`${base}/en/skills`, PRIORITY.skills, "daily"));
   urls.push(urlEntry(`${base}/de/skills`, PRIORITY.skills, "daily"));
+  urls.push(urlEntry(`${base}/hi/skills`, PRIORITY.skills, "daily"));
 
   // Collections
   urls.push(urlEntry(`${base}/collections`, PRIORITY.collections, "weekly"));
   urls.push(urlEntry(`${base}/en/collections`, PRIORITY.collections, "weekly"));
   urls.push(urlEntry(`${base}/de/collections`, PRIORITY.collections, "weekly"));
+  urls.push(urlEntry(`${base}/hi/collections`, PRIORITY.collections, "weekly"));
 
   // Blog index
   urls.push(urlEntry(`${base}/blog`, PRIORITY.blog, "weekly"));
   urls.push(urlEntry(`${base}/en/blog`, PRIORITY.blog, "weekly"));
   urls.push(urlEntry(`${base}/de/blog`, PRIORITY.blog, "weekly"));
+  urls.push(urlEntry(`${base}/hi/blog`, PRIORITY.blog, "weekly"));
 
   // About
   urls.push(urlEntry(`${base}/about`, PRIORITY.about, "monthly"));
   urls.push(urlEntry(`${base}/en/about`, PRIORITY.about, "monthly"));
   urls.push(urlEntry(`${base}/de/about`, PRIORITY.about, "monthly"));
+  urls.push(urlEntry(`${base}/hi/about`, PRIORITY.about, "monthly"));
 
   // Landing pages
   LANDING_PAGES.forEach((p) => {
@@ -107,12 +119,16 @@ function build() {
   LANDING_PAGES_DE.forEach((p) => {
     urls.push(urlEntry(`${base}/de${p}`, PRIORITY.landing, "weekly"));
   });
+  LANDING_PAGES_HI.forEach((p) => {
+    urls.push(urlEntry(`${base}/hi${p}`, PRIORITY.landing, "weekly"));
+  });
 
   // Tool pages
   TOOL_PAGES.forEach((p) => {
     urls.push(urlEntry(`${base}${p}`, PRIORITY.tools, "weekly"));
     urls.push(urlEntry(`${base}/en${p}`, PRIORITY.tools, "weekly"));
     urls.push(urlEntry(`${base}/de${p}`, PRIORITY.tools, "weekly"));
+    urls.push(urlEntry(`${base}/hi${p}`, PRIORITY.tools, "weekly"));
   });
 
   // Skill detail pages
@@ -121,6 +137,7 @@ function build() {
     urls.push(urlEntry(`${base}/skills/${skill.slug}`, PRIORITY.skillDetail, "weekly"));
     urls.push(urlEntry(`${base}/en/skills/${skill.slug}`, PRIORITY.skillDetail, "weekly"));
     urls.push(urlEntry(`${base}/de/skills/${skill.slug}`, PRIORITY.skillDetail, "weekly"));
+    urls.push(urlEntry(`${base}/hi/skills/${skill.slug}`, PRIORITY.skillDetail, "weekly"));
   });
 
   // Blog posts
@@ -132,6 +149,7 @@ function build() {
   postsEn.forEach((post) => {
     urls.push(urlEntry(`${base}/en/blog/${post.slug}`, PRIORITY.blogPost, "monthly"));
     urls.push(urlEntry(`${base}/de/blog/${post.slug}`, PRIORITY.blogPost, "monthly"));
+    urls.push(urlEntry(`${base}/hi/blog/${post.slug}`, PRIORITY.blogPost, "monthly"));
   });
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

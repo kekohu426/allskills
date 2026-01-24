@@ -6,6 +6,7 @@ export default function CategoryCard({ category }) {
   const router = useRouter();
   const locale = getLocaleFromPath(router.pathname || "/");
   const isDe = locale === "de";
+  const isHi = locale === "hi";
 
   return (
     <Link
@@ -18,7 +19,9 @@ export default function CategoryCard({ category }) {
           ? `${category.items.length} 个 Skills`
           : isDe
             ? `${category.items.length} Skills`
-            : `${category.items.length} skills`}
+            : isHi
+              ? `${category.items.length} स्किल्स`
+              : `${category.items.length} skills`}
       </div>
     </Link>
   );

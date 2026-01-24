@@ -7,6 +7,7 @@ export default function About({ forcedLocale }) {
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
   const isDe = locale === "de";
+  const isHi = locale === "hi";
 
   return (
     <>
@@ -104,6 +105,53 @@ export default function About({ forcedLocale }) {
                 </a>
               </li>
               <li>Community-Mirrors / Forks</li>
+              <li>
+                <a href="https://www.anthropic.com" target="_blank" rel="noopener">
+                  Anthropic
+                </a>
+              </li>
+              <li>
+                <a href="https://claude.ai" target="_blank" rel="noopener">
+                  Claude AI
+                </a>
+              </li>
+            </ul>
+          </div>
+        ) : isHi ? (
+          <div className="about-content">
+            <p>
+              <strong>AllSkills.cn</strong> Claude/Anthropic Skills के लिए एक क्यूरेटेड डायरेक्टरी है,
+              जो स्किल्स खोजने, समझने और उपयोग करने में मदद करती है।
+            </p>
+
+            <h2>हम क्या करते हैं</h2>
+            <ul>
+              <li>ऑफिशियल और कम्युनिटी रिपॉज़िटरीज़ से स्किल्स सिंक करते हैं</li>
+              <li>स्पष्ट उपयोग निर्देश और बहुभाषी UI</li>
+              <li>श्रेणियों के अनुसार व्यवस्थित सर्च और फ़िल्टर</li>
+              <li>मोबाइल-फ्रेंडली अनुभव</li>
+              <li>गाइड्स और उदाहरण ताकि शुरुआत आसान हो</li>
+            </ul>
+
+            <h2>लाइसेंस</h2>
+            <p>
+              Skills ऑफिशियल और कम्युनिटी रिपॉज़िटरीज़ से लिए जाते हैं और उनके घोषित
+              ओपन-सोर्स लाइसेंस (जैसे Apache 2.0 या Source-available) का पालन करते हैं।
+            </p>
+            <p>
+              हम लाइसेंस शर्तों का सम्मान करते हैं और केवल प्रदर्शन/अनुवाद प्रदान करते हैं।
+              किसी प्रश्न के लिए संपर्क करें:
+              <a href="mailto:contact@allskills.cn"> contact@allskills.cn</a>.
+            </p>
+
+            <h2>उपयोगी लिंक</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">
+                  Anthropic Skills रिपॉज़िटरी
+                </a>
+              </li>
+              <li>Community मिरर / फोर्क्स</li>
               <li>
                 <a href="https://www.anthropic.com" target="_blank" rel="noopener">
                   Anthropic

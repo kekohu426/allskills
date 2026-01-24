@@ -6,8 +6,8 @@ export default function LocaleSwitch() {
   const router = useRouter();
   const { pathname, asPath } = router;
   const locale = getLocaleFromPath(pathname);
-  const locales = ["zh", "en", "de"];
-  const labels = { zh: "中文", en: "English", de: "Deutsch" };
+  const locales = ["zh", "en", "de", "hi"];
+  const labels = { zh: "中文", en: "English", de: "Deutsch", hi: "हिन्दी" };
   const basePath = stripLocale(asPath.split("?")[0]);
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);

@@ -14,6 +14,7 @@ export default function SkillsPage({ skills, categories, forcedLocale, totalCoun
   const router = useRouter();
   const locale = forcedLocale || getLocaleFromPath(router.pathname || "/");
   const isDe = locale === "de";
+  const isHi = locale === "hi";
   const INITIAL_VISIBLE = 24;
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
   const [allSkills, setAllSkills] = useState(skills);
@@ -92,7 +93,9 @@ export default function SkillsPage({ skills, categories, forcedLocale, totalCoun
               ? `搜索关键词 “${query}” 共 ${filtered.length} 个结果`
               : isDe
                 ? `Suchbegriff “${query}” · ${filtered.length} Treffer`
-                : `Search “${query}” · ${filtered.length} results`}
+                : isHi
+                  ? `खोज “${query}” · ${filtered.length} परिणाम`
+                  : `Search “${query}” · ${filtered.length} results`}
           </div>
         )}
         <div className="pill-row">
@@ -115,7 +118,7 @@ export default function SkillsPage({ skills, categories, forcedLocale, totalCoun
         {hasMore && (
           <div className="load-more">
             <button className="btn" type="button" onClick={() => setVisibleCount(filtered.length)}>
-              {locale === "zh" ? "加载更多" : (isDe ? "Mehr anzeigen" : "Show more")}
+              {locale === "zh" ? "加载更多" : (isDe ? "Mehr anzeigen" : (isHi ? "और दिखाएं" : "Show more"))}
             </button>
           </div>
         )}
