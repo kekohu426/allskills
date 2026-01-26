@@ -32,6 +32,13 @@ const SOURCES = [
     prefix: "agents",
     sourceLabel: "wshobson/agents",
     sourceUrl: "https://github.com/wshobson/agents"
+  },
+  {
+    key: "everything-claude-code",
+    root: path.join(TMP_ROOT, "everything-claude-code", "skills"),
+    prefix: "everything-claude-code",
+    sourceLabel: "affaan-m/everything-claude-code",
+    sourceUrl: "https://github.com/affaan-m/everything-claude-code"
   }
 ];
 

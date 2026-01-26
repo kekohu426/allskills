@@ -5,6 +5,7 @@ import { getAllSkills, getSkillBySlug } from "../../lib/skills";
 import { markdownToHtml } from "../../lib/markdown";
 import { t } from "../../lib/i18n";
 import { getLocaleFromPath } from "../../lib/paths";
+import { getCategoryLabel } from "../../lib/categories";
 import site from "../../data/site.json";
 
 export default function SkillDetail({ skill, html, forcedLocale }) {
@@ -15,15 +16,30 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
   const isDe = locale === "de";
   const isHi = locale === "hi";
 
-  const displayName = isZh && skill.nameZh ? skill.nameZh : skill.name;
-  const displayDesc = isZh && skill.descriptionZh ? skill.descriptionZh : skill.description;
+  const displayName =
+    isZh && skill.nameZh
+      ? skill.nameZh
+      : isDe && skill.nameDe
+        ? skill.nameDe
+        : isHi && skill.nameHi
+          ? skill.nameHi
+          : skill.name;
+  const displayDesc =
+    isZh && skill.descriptionZh
+      ? skill.descriptionZh
+      : isDe && skill.descriptionDe
+        ? skill.descriptionDe
+        : isHi && skill.descriptionHi
+          ? skill.descriptionHi
+          : skill.description;
   const displayUseCases = isZh && skill.useCasesZh && skill.useCasesZh.length > 0
     ? skill.useCasesZh
     : skill.useCases;
+  const displayCategory = getCategoryLabel(skill.category, locale);
   const canonicalPath = isZh ? `/skills/${skill.slug}` : (isDe ? `/de/skills/${skill.slug}` : (isHi ? `/hi/skills/${skill.slug}` : `/en/skills/${skill.slug}`));
   const canonicalUrl = `${site.domain}${canonicalPath}`;
   const keywords = Array.from(
-    new Set([skill.category, ...(skill.tags || [])].filter(Boolean))
+    new Set([displayCategory, ...(skill.tags || [])].filter(Boolean))
   ).join(", ");
 
   const rawJsonLd = [
@@ -77,7 +93,7 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
   const jsonLd = JSON.parse(JSON.stringify(rawJsonLd));
 
   const handleCopy = async () => {
-    const text = `# ${skill.name}\n\n${skill.description}\n\n${skill.body}`;
+    const text = `# ${displayName}\n\n${displayDesc}\n\n${skill.body}`;
     await navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 1200);
@@ -95,7 +111,7 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
       />
       <section className="detail-hero">
         <div>
-          <p className="eyebrow">{skill.category}</p>
+          <p className="eyebrow">{displayCategory}</p>
           <h1>{displayName}</h1>
           <p className="lead">{displayDesc}</p>
           <div className="detail-actions">

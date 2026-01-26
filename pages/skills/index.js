@@ -37,7 +37,13 @@ export default function SkillsPage({ skills, categories, forcedLocale, totalCoun
     return allSkills.filter((skill) => {
       const haystack = [
         skill.name,
+        skill.nameZh,
+        skill.nameDe,
+        skill.nameHi,
         skill.description,
+        skill.descriptionZh,
+        skill.descriptionDe,
+        skill.descriptionHi,
         skill.category,
         ...(skill.tags || [])
       ]
@@ -68,7 +74,14 @@ export default function SkillsPage({ skills, categories, forcedLocale, totalCoun
     itemListElement: filtered.slice(0, 50).map((skill, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      name: locale === "zh" && skill.nameZh ? skill.nameZh : skill.name,
+      name:
+        locale === "zh" && skill.nameZh
+          ? skill.nameZh
+          : locale === "de" && skill.nameDe
+            ? skill.nameDe
+            : locale === "hi" && skill.nameHi
+              ? skill.nameHi
+              : skill.name,
       url: `${site.domain}${basePath}/${skill.slug}`
     }))
   };

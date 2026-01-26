@@ -24,6 +24,9 @@ export default function Nav() {
         <Link href={withLocale("/tools/skill-generator", locale)}>
           {t(locale, "navTools") || "工具"}
         </Link>
+        <Link href={withLocale("/trending", locale)} className="nav__trending">
+          {t(locale, "navTrending") || "🔥 热门"}
+        </Link>
       </div>
       <LocaleSwitch />
     </nav>

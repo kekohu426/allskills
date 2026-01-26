@@ -8,3 +8,5 @@ out/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+_tmp_repo_scan/
+.claude/settings.local.json

@@ -20,6 +20,7 @@
 - [ ] 确定所属分类（Design, Dev Tools, Writing, etc.）
 - [ ] 添加适当的标签
 - [ ] 确认中英文名称和描述
+- [ ] 确认多语言覆盖（nameZh/descriptionZh, nameDe/descriptionDe, nameHi/descriptionHi）
 
 ---
 
@@ -448,4 +449,4 @@ console.log('Total skills:', Object.keys(existingSkills).length);
 
 ---
 
-最后更新：2026-01-20
+最后更新：2026-01-24

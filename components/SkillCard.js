@@ -6,10 +6,23 @@ import { getCategoryLabel } from "../lib/categories";
 export default function SkillCard({ skill }) {
   const router = useRouter();
   const locale = getLocaleFromPath(router.pathname || "/");
-  const isZh = locale === "zh";
 
-  const displayName = isZh && skill.nameZh ? skill.nameZh : skill.name;
-  const displayDesc = isZh && skill.descriptionZh ? skill.descriptionZh : skill.description;
+  const displayName =
+    locale === "zh" && skill.nameZh
+      ? skill.nameZh
+      : locale === "de" && skill.nameDe
+        ? skill.nameDe
+        : locale === "hi" && skill.nameHi
+          ? skill.nameHi
+          : skill.name;
+  const displayDesc =
+    locale === "zh" && skill.descriptionZh
+      ? skill.descriptionZh
+      : locale === "de" && skill.descriptionDe
+        ? skill.descriptionDe
+        : locale === "hi" && skill.descriptionHi
+          ? skill.descriptionHi
+          : skill.description;
   const displayCategory = getCategoryLabel(skill.category, locale);
 
   return (

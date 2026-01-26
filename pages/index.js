@@ -12,6 +12,26 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
   const isDe = locale === "de";
   const isHi = locale === "hi";
   const localePrefix = isZh ? "" : `/${locale}`;
+  const getLocalizedName = (skill) =>
+    isZh && skill.nameZh
+      ? skill.nameZh
+      : isDe && skill.nameDe
+        ? skill.nameDe
+        : isHi && skill.nameHi
+          ? skill.nameHi
+          : skill.name;
+  const getLocalizedDescription = (skill) =>
+    isZh && skill.descriptionZh
+      ? skill.descriptionZh
+      : isDe && skill.descriptionDe
+        ? skill.descriptionDe
+        : isHi && skill.descriptionHi
+          ? skill.descriptionHi
+          : skill.description;
+  const getLocalizedUseCases = (skill) =>
+    isZh && skill.useCasesZh && skill.useCasesZh.length > 0
+      ? skill.useCasesZh
+      : (skill.useCases || []);
   const seoTitle = isZh
     ? "Anthropic Skills Directory - 发现、浏览与创建 Claude Skills"
     : isDe
@@ -52,7 +72,7 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
     itemListElement: skills.slice(0, 50).map((skill, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      name: skill.name,
+      name: getLocalizedName(skill),
       url: `https://allskills.cn/skills/${skill.slug}`
     }))
   };
@@ -581,11 +601,9 @@ export default function Home({ skills, categories, skillCount, forcedLocale }) {
             </div>
             <div className="featured-grid">
               {featuredSkills.map((skill) => {
-                const displayName = isZh && skill.nameZh ? skill.nameZh : skill.name;
-                const displayDesc = isZh && skill.descriptionZh ? skill.descriptionZh : skill.description;
-                const displayUseCases = isZh && skill.useCasesZh && skill.useCasesZh.length > 0
-                  ? skill.useCasesZh
-                  : (skill.useCases || []);
+                const displayName = getLocalizedName(skill);
+                const displayDesc = getLocalizedDescription(skill);
+                const displayUseCases = getLocalizedUseCases(skill);
                 return (
                   <div key={skill.slug} className="featured-card">
                     <div className="featured-card__title">
