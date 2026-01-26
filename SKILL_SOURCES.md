@@ -1,6 +1,6 @@
 # Skill Sources Tracking
 
-Last Updated: 2026-01-23
+Last Updated: 2026-01-24
 
 ## Currently Integrated Sources
 
@@ -110,6 +110,18 @@ Last Updated: 2026-01-23
   - Practical action-oriented skills (send emails, create issues, post to Slack)
 - **Notes**: High-quality curated collection with unique integration capabilities
 
+### ✅ Everything Claude Code ⭐ NEW
+- **Repository**: [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+- **Status**: ✅ Integrated
+- **Skills Count**: 11 skills
+- **Last Sync**: 2026-01-24
+- **Categories**: Dev Tools, Testing, Analytics, Productivity
+- **Unique Features**:
+  - Claude Code 使用最佳实践与工作流指南
+  - 覆盖前后端模式、TDD、验证循环与安全审查
+  - 包含 ClickHouse/评测框架等高实用技能
+- **Notes**: Claude Code 生态的实战型技能集合
+
 ### ? Marketing Skills (Corey Haines) ? NEW
 - **Repository**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - **Status**: ? Integrated
@@ -133,6 +145,18 @@ Last Updated: 2026-01-23
   - Includes patterns, API reference, and troubleshooting
   - Auto-activation for projects with cacheComponents enabled
 - **Notes**: Official Vercel skill for Next.js caching optimization
+
+### ✅ Prompts.chat Skill Lookup ⭐ NEW
+- **Repository**: [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts/tree/main/plugins/claude/prompts.chat/skills/skill-lookup)
+- **Status**: ✅ Integrated
+- **Skills Count**: 1 skill
+- **Last Sync**: 2026-01-26
+- **Categories**: Dev Tools, Productivity
+- **Unique Features**:
+  - 通过 prompts.chat MCP 服务器发现和安装 Agent Skills
+  - 支持按关键词、分类、标签搜索技能
+  - 提供技能安装和管理的完整工作流
+- **Notes**: 来自 awesome-chatgpt-prompts 仓库的 Claude 插件技能
 
 ---
 
@@ -171,11 +195,11 @@ Last Updated: 2026-01-23
 
 ## 📊 Statistics
 
-- **Total Integrated Sources**: 16
-- **Total Skills**: 487
+- **Total Integrated Sources**: 18
+- **Total Skills**: 499
 - **Pending Review**: 2 repositories
-- **Last Integration**: Marketing Skills (2026-01-23, +23 skills)
-- **Last Updated**: 2026-01-23
+- **Last Integration**: Prompts.chat Skill Lookup (2026-01-26, +1 skill)
+- **Last Updated**: 2026-01-26
 
 ---
 

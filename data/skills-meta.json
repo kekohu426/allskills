@@ -3436,5 +3436,176 @@
       "automation",
       "agent"
     ]
+  },
+  "everything-claude-code-backend-patterns": {
+    "nameZh": "后端开发模式",
+    "descriptionZh": "Node.js/Express/Next.js API 的后端架构模式、API 设计、数据库优化与服务端最佳实践",
+    "category": "Dev Tools",
+    "tags": [
+      "backend",
+      "api",
+      "database",
+      "architecture"
+    ],
+    "nameDe": "Backend-Patterns",
+    "descriptionDe": "Backend-Architektur, API-Design, Datenbank-Optimierung und Best Practices für Node.js, Express und Next.js API-Routen.",
+    "nameHi": "बैकएंड पैटर्न",
+    "descriptionHi": "Node.js/Express/Next.js API के लिए बैकएंड आर्किटेक्चर, API डिज़ाइन, DB ऑप्टिमाइज़ेशन और सर्वर-साइड बेस्ट प्रैक्टिस।"
+  },
+  "everything-claude-code-clickhouse-io": {
+    "nameZh": "ClickHouse 数据库模式",
+    "descriptionZh": "ClickHouse 的建表、查询优化、分析与数据工程最佳实践，适用于高性能分析场景",
+    "category": "Analytics",
+    "tags": [
+      "clickhouse",
+      "database",
+      "analytics"
+    ],
+    "nameDe": "ClickHouse-Patterns",
+    "descriptionDe": "ClickHouse-Tabellendesign, Query-Optimierung, Analytics und Data-Engineering Best Practices für High-Performance-Analysen.",
+    "nameHi": "ClickHouse पैटर्न",
+    "descriptionHi": "ClickHouse के टेबल डिज़ाइन, क्वेरी ऑप्टिमाइज़ेशन, एनालिटिक्स और हाई-परफॉर्मेंस डेटा इंजीनियरिंग के बेस्ट प्रैक्टिस।"
+  },
+  "everything-claude-code-coding-standards": {
+    "nameZh": "编码规范",
+    "descriptionZh": "TypeScript/JavaScript/React/Node.js 的通用编码规范与最佳实践",
+    "category": "Dev Tools",
+    "tags": [
+      "standards",
+      "best-practices",
+      "typescript"
+    ],
+    "nameDe": "Coding-Standards",
+    "descriptionDe": "Allgemeine Coding-Standards und Best Practices für TypeScript, JavaScript, React und Node.js.",
+    "nameHi": "कोडिंग स्टैंडर्ड्स",
+    "descriptionHi": "TypeScript, JavaScript, React और Node.js के लिए सामान्य कोडिंग स्टैंडर्ड्स और बेस्ट प्रैक्टिस।"
+  },
+  "everything-claude-code-continuous-learning": {
+    "nameZh": "持续学习",
+    "descriptionZh": "从 Claude Code 会话中提取可复用模式并保存为学习技能，持续改进",
+    "category": "Productivity",
+    "tags": [
+      "learning",
+      "patterns"
+    ],
+    "nameDe": "Kontinuierliches Lernen",
+    "descriptionDe": "Extrahiert wiederverwendbare Muster aus Claude Code Sessions und speichert sie als Lern-Skills.",
+    "nameHi": "निरंतर सीखना",
+    "descriptionHi": "Claude Code सत्रों से पुन: उपयोग योग्य पैटर्न निकालकर उन्हें लर्निंग स्किल्स के रूप में सहेजता है।"
+  },
+  "everything-claude-code-eval-harness": {
+    "nameZh": "评测框架",
+    "descriptionZh": "为 Claude Code 设定评测与回归验证的 EDD 框架，持续跟踪能力与可靠性",
+    "category": "Testing",
+    "tags": [
+      "eval",
+      "testing",
+      "edd"
+    ],
+    "nameDe": "Eval-Harness",
+    "descriptionDe": "Formales Evaluations-Framework (EDD) für Claude Code mit Capability- und Regression-Evals.",
+    "nameHi": "Eval Harness",
+    "descriptionHi": "Claude Code के लिए EDD आधारित मूल्यांकन फ्रेमवर्क, क्षमता और रिग्रेशन टेस्ट के साथ।"
+  },
+  "everything-claude-code-frontend-patterns": {
+    "nameZh": "前端开发模式",
+    "descriptionZh": "React/Next.js 的状态管理、性能优化与 UI 最佳实践",
+    "category": "Dev Tools",
+    "tags": [
+      "frontend",
+      "react",
+      "nextjs"
+    ],
+    "nameDe": "Frontend-Patterns",
+    "descriptionDe": "React/Next.js Patterns für State-Management, Performance-Optimierung und UI Best Practices.",
+    "nameHi": "फ्रंटएंड पैटर्न",
+    "descriptionHi": "React/Next.js के स्टेट मैनेजमेंट, परफॉर्मेंस ऑप्टिमाइज़ेशन और UI बेस्ट प्रैक्टिस।"
+  },
+  "everything-claude-code-project-guidelines-example": {
+    "nameZh": "项目指南示例",
+    "descriptionZh": "项目级技能模板示例，包含架构、文件结构、测试与部署规范",
+    "category": "Dev Tools",
+    "tags": [
+      "project",
+      "guidelines",
+      "architecture"
+    ],
+    "nameDe": "Projektleitfaden (Beispiel)",
+    "descriptionDe": "Beispiel für projekt-spezifische Guidelines mit Architektur, Struktur, Tests und Deployment.",
+    "nameHi": "प्रोजेक्ट गाइडलाइन उदाहरण",
+    "descriptionHi": "आर्किटेक्चर, फ़ाइल स्ट्रक्चर, टेस्टिंग और डिप्लॉयमेंट सहित प्रोजेक्ट-विशिष्ट गाइडलाइन का उदाहरण।"
+  },
+  "everything-claude-code-security-review": {
+    "nameZh": "安全审查",
+    "descriptionZh": "进行鉴权、输入处理、密钥管理、API 实现等安全审查时使用",
+    "category": "Dev Tools",
+    "tags": [
+      "security",
+      "review",
+      "auth"
+    ],
+    "nameDe": "Security-Review",
+    "descriptionDe": "Sicherheits-Checks für Auth, Input-Handling, Secrets und API-Implementierung.",
+    "nameHi": "सुरक्षा समीक्षा",
+    "descriptionHi": "ऑथ, इनपुट हैंडलिंग, सीक्रेट्स और API इम्प्लीमेंटेशन के लिए सुरक्षा समीक्षा।"
+  },
+  "everything-claude-code-strategic-compact": {
+    "nameZh": "策略性压缩",
+    "descriptionZh": "在关键阶段进行上下文压缩的策略与节奏建议，保持长任务的清晰度",
+    "category": "Productivity",
+    "tags": [
+      "context",
+      "planning"
+    ],
+    "nameDe": "Strategische Kontextkomprimierung",
+    "descriptionDe": "Empfiehlt manuelle Kontext-Komprimierung in logischen Phasen für lange Tasks.",
+    "nameHi": "रणनीतिक कॉम्पैक्ट",
+    "descriptionHi": "लंबे कार्यों में संदर्भ बनाए रखने के लिए चरणों पर मैन्युअल कॉम्पैक्शन सुझाव।"
+  },
+  "everything-claude-code-tdd-workflow": {
+    "nameZh": "测试驱动开发",
+    "descriptionZh": "执行 TDD 工作流，要求先写测试、覆盖率 80%+，用于新功能与重构",
+    "category": "Testing",
+    "tags": [
+      "tdd",
+      "testing"
+    ],
+    "nameDe": "TDD-Workflow",
+    "descriptionDe": "Test-Driven Development mit 80%+ Coverage: Tests vor Implementierung.",
+    "nameHi": "TDD वर्कफ़्लो",
+    "descriptionHi": "टेस्ट-ड्रिवन डेवलपमेंट: पहले टेस्ट लिखें, 80%+ कवरेज लक्षित।"
+  },
+  "everything-claude-code-verification-loop": {
+    "nameZh": "验证循环",
+    "descriptionZh": "完成关键改动后进行构建、类型、lint、测试与安全检查的完整验证流程",
+    "category": "Testing",
+    "tags": [
+      "verification",
+      "quality"
+    ],
+    "nameDe": "Verifikations-Loop",
+    "descriptionDe": "Umfassender Prüfprozess: Build, Types, Lint, Tests und Security Checks.",
+    "nameHi": "वेरिफिकेशन लूप",
+    "descriptionHi": "कम्प्रीहेंसिव चेक: बिल्ड, टाइप, लिंट, टेस्ट और सुरक्षा जाँच।"
+  },
+  "skill-lookup": {
+    "nameZh": "技能查找",
+    "descriptionZh": "通过 prompts.chat MCP 服务器发现、获取和安装 Agent Skills",
+    "useCases": [
+      "Search for skills by keyword or category",
+      "Install skills to extend Claude capabilities",
+      "Discover reusable AI agent components"
+    ],
+    "useCasesZh": [
+      "按关键词或分类搜索技能",
+      "安装技能以扩展 Claude 能力",
+      "发现可复用的 AI 代理组件"
+    ],
+    "tags": [
+      "skills",
+      "mcp",
+      "discovery",
+      "installation"
+    ]
   }
 }

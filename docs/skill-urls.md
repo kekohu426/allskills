@@ -1,9 +1,9 @@
 # AllSkills.cn Skill URLs
 
-Last Updated: 2026-01-23
-Published: 2026-01-22
+Last Updated: 2026-01-26
+Published: 2026-01-26
 
-Total Skills: 487
+Total Skills: 499
 
 ## URLs
 
@@ -228,6 +228,17 @@ Total Skills: 487
 - https://allskills.cn/skills/doc-coauthoring
 - https://allskills.cn/skills/document-driven-development
 - https://allskills.cn/skills/docx
+- https://allskills.cn/skills/everything-claude-code-backend-patterns
+- https://allskills.cn/skills/everything-claude-code-clickhouse-io
+- https://allskills.cn/skills/everything-claude-code-coding-standards
+- https://allskills.cn/skills/everything-claude-code-continuous-learning
+- https://allskills.cn/skills/everything-claude-code-eval-harness
+- https://allskills.cn/skills/everything-claude-code-frontend-patterns
+- https://allskills.cn/skills/everything-claude-code-project-guidelines-example
+- https://allskills.cn/skills/everything-claude-code-security-review
+- https://allskills.cn/skills/everything-claude-code-strategic-compact
+- https://allskills.cn/skills/everything-claude-code-tdd-workflow
+- https://allskills.cn/skills/everything-claude-code-verification-loop
 - https://allskills.cn/skills/frontend-design
 - https://allskills.cn/skills/internal-comms
 - https://allskills.cn/skills/ios-simulator
@@ -451,6 +462,7 @@ Total Skills: 487
 - https://allskills.cn/skills/security-variant-analysis
 - https://allskills.cn/skills/security-wycheproof
 - https://allskills.cn/skills/skill-creator
+- https://allskills.cn/skills/skill-lookup
 - https://allskills.cn/skills/skills-main-algorithmic-art
 - https://allskills.cn/skills/skills-main-brand-guidelines
 - https://allskills.cn/skills/skills-main-canvas-design

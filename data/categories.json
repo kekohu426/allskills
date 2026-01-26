@@ -75,5 +75,6 @@
   "codex-notion-spec-to-implementation": "Dev Tools",
   "codex-langsmith-fetch": "Dev Tools",
   "openai-skill-creator": "Dev Tools",
-  "openai-skill-installer": "Dev Tools"
+  "openai-skill-installer": "Dev Tools",
+  "skill-lookup": "Dev Tools"
 }
