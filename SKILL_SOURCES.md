@@ -158,6 +158,19 @@ Last Updated: 2026-01-24
   - 提供技能安装和管理的完整工作流
 - **Notes**: 来自 awesome-chatgpt-prompts 仓库的 Claude 插件技能
 
+### ✅ Dify Skill Creator ⭐ NEW
+- **Repository**: [langgenius/dify](https://github.com/langgenius/dify/tree/main/.agents/skills/skill-creator)
+- **Status**: ✅ Integrated
+- **Skills Count**: 1 skill
+- **Last Sync**: 2026-01-26
+- **Categories**: Dev Tools
+- **Unique Features**:
+  - 完整的技能创建指南，包括核心原则和设计模式
+  - 渐进式披露设计原则（三级加载系统）
+  - 6 步技能创建流程（理解、规划、初始化、编辑、打包、迭代）
+  - 涵盖 scripts、references、assets 资源组织
+- **Notes**: 来自 Dify 开源 LLM 应用平台的官方技能创建指南
+
 ---
 
 ## 🔍 Discovered - Pending Review
@@ -195,10 +208,10 @@ Last Updated: 2026-01-24
 
 ## 📊 Statistics
 
-- **Total Integrated Sources**: 18
-- **Total Skills**: 499
+- **Total Integrated Sources**: 19
+- **Total Skills**: 500
 - **Pending Review**: 2 repositories
-- **Last Integration**: Prompts.chat Skill Lookup (2026-01-26, +1 skill)
+- **Last Integration**: Dify Skill Creator (2026-01-26, +1 skill)
 - **Last Updated**: 2026-01-26
 
 ---

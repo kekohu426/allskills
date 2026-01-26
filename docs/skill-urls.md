@@ -3,7 +3,7 @@
 Last Updated: 2026-01-26
 Published: 2026-01-26
 
-Total Skills: 499
+Total Skills: 500
 
 ## URLs
 
@@ -225,6 +225,7 @@ Total Skills: 499
 - https://allskills.cn/skills/composio-video-downloader
 - https://allskills.cn/skills/composio-webapp-testing
 - https://allskills.cn/skills/composio-xlsx
+- https://allskills.cn/skills/dify-skill-creator
 - https://allskills.cn/skills/doc-coauthoring
 - https://allskills.cn/skills/document-driven-development
 - https://allskills.cn/skills/docx

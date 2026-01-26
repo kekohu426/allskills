@@ -76,5 +76,6 @@
   "codex-langsmith-fetch": "Dev Tools",
   "openai-skill-creator": "Dev Tools",
   "openai-skill-installer": "Dev Tools",
-  "skill-lookup": "Dev Tools"
+  "skill-lookup": "Dev Tools",
+  "dify-skill-creator": "Dev Tools"
 }

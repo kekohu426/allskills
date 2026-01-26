@@ -3607,5 +3607,25 @@
       "discovery",
       "installation"
     ]
+  },
+  "dify-skill-creator": {
+    "nameZh": "技能创建器 (Dify)",
+    "descriptionZh": "创建高效技能的指南，包括技能结构、设计原则、渐进式披露模式和创建流程",
+    "useCases": [
+      "Create new skills with proper structure",
+      "Design progressive disclosure patterns",
+      "Package skills for distribution"
+    ],
+    "useCasesZh": [
+      "创建具有正确结构的新技能",
+      "设计渐进式披露模式",
+      "打包技能以便分发"
+    ],
+    "tags": [
+      "skill-creation",
+      "development",
+      "workflow",
+      "dify"
+    ]
   }
 }
