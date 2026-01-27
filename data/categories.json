@@ -77,5 +77,7 @@
   "openai-skill-creator": "Dev Tools",
   "openai-skill-installer": "Dev Tools",
   "skill-lookup": "Dev Tools",
-  "dify-skill-creator": "Dev Tools"
+  "dify-skill-creator": "Dev Tools",
+  "xiaohongshu-cover-generator": "Content Creation",
+  "ai-daily-news": "Content Creation"
 }

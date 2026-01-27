@@ -118,6 +118,11 @@ export default function SkillDetail({ skill, html, forcedLocale }) {
             <button className="btn" type="button" onClick={handleCopy}>
               {copied ? t(locale, "detailCopied") : t(locale, "detailCopy")}
             </button>
+            {skill.downloadUrl && (
+              <a className="btn btn-download" href={skill.downloadUrl} download>
+                {isZh ? "下载安装包" : (isDe ? "Paket herunterladen" : (isHi ? "पैकेज डाउनलोड करें" : "Download Package"))}
+              </a>
+            )}
             <span className="detail-path">{skill.path}</span>
           </div>
         </div>

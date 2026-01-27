@@ -3627,5 +3627,56 @@
       "workflow",
       "dify"
     ]
+  },
+  "xiaohongshu-cover-generator": {
+    "nameZh": "小红书封面生成器",
+    "nameDe": "Xiaohongshu Cover Generator",
+    "nameHi": "शियाओहोंगशू कवर जनरेटर",
+    "descriptionZh": "根据用户主题生成小红书风格的封面图片。当用户想要创建小红书风格的社交媒体封面图片时使用。",
+    "descriptionDe": "Generiert Xiaohongshu-Stil Coverbilder basierend auf Benutzerthemen.",
+    "descriptionHi": "उपयोगकर्ता विषयों के आधार पर Xiaohongshu शैली कवर चित्र बनाएं।",
+    "category": "Content Creation",
+    "tags": [
+      "xiaohongshu",
+      "cover",
+      "image-generation",
+      "social-media",
+      "小红书",
+      "chinese"
+    ],
+    "useCases": [
+      "Generate cover images for Xiaohongshu posts",
+      "Create social media graphics in Chinese style"
+    ],
+    "useCasesZh": [
+      "为小红书帖子生成封面图片",
+      "创建中国风格的社交媒体图形"
+    ]
+  },
+  "ai-daily-news": {
+    "nameZh": "AI日报生成器",
+    "nameDe": "AI-Tägliche Nachrichten Generator",
+    "nameHi": "AI दैनिक समाचार जनरेटर",
+    "descriptionZh": "生成全面的AI行业日报，汇总和分析人工智能领域的最新发展动态。",
+    "descriptionDe": "Generiert umfassende tägliche Berichte über KI-Branchenneuigkeiten.",
+    "descriptionHi": "कृत्रिम बुद्धिमत्ता उद्योग की व्यापक दैनिक समाचार रिपोर्ट तैयार करें।",
+    "category": "Content Creation",
+    "tags": [
+      "ai-news",
+      "daily-report",
+      "news-aggregation",
+      "content-generation",
+      "research"
+    ],
+    "useCases": [
+      "Create AI news digests",
+      "Track AI industry trends",
+      "Generate structured news summaries"
+    ],
+    "useCasesZh": [
+      "创建AI新闻摘要",
+      "追踪AI行业趋势",
+      "生成结构化新闻总结"
+    ]
   }
 }
